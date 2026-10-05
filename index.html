@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NTS Biology B-01 Quiz Poll</title>
+<style>
+  :root{
+    --bg:#f5f7fb;
+    --card:#ffffff;
+    --primary:#1e5eff;
+    --correct:#0a8f4b;
+    --wrong:#d62828;
+    --muted:#5b6472;
+    --border:#dde3ee;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background:var(--bg);
+    color:#1c2430;
+    line-height:1.5;
+  }
+  header{
+    background:linear-gradient(135deg,#1e5eff,#0b2e8a);
+    color:#fff;
+    padding:28px 16px;
+    text-align:center;
+  }
+  header h1{margin:0 0 8px;font-size:26px}
+  header p{margin:0;opacity:.95}
+  main{
+    max-width:980px;
+    margin:0 auto;
+    padding:20px 14px 60px;
+  }
+  .toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:16px;
+  }
+  .btn{
+    border:0;
+    background:var(--primary);
+    color:#fff;
+    padding:12px 20px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:700;
+    cursor:pointer;
+    box-shadow:0 4px 12px rgba(30,94,255,.25);
+  }
+  .btn.secondary{
+    background:#fff;
+    color:var(--primary);
+    border:1px solid var(--primary);
+    box-shadow:none;
+  }
+  .btn:disabled{opacity:.6;cursor:not-allowed}
+  .score{
+    font-weight:800;
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:10px 16px;
+  }
+  .question{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:18px;
+    margin:14px 0;
+    box-shadow:0 2px 8px rgba(20,30,60,.04);
+  }
+  .question h3{
+    font-size:17px;
+    margin:0 0 12px;
+    line-height:1.45;
+  }
+  .options label{
+    display:block;
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:10px 12px;
+    margin:8px 0;
+    cursor:pointer;
+    background:#fbfcff;
+    transition:.15s;
+  }
+  .options label:hover{
+    border-color:#9bb6ff;
+    background:#f3f7ff;
+  }
+  .options input{margin-right:8px}
+  .feedback{
+    margin-top:12px;
+    padding:12px;
+    border-radius:10px;
+    display:none;
+    font-size:15px;
+  }
+  .feedback.correct{
+    display:block;
+    background:#e9f9f0;
+    border:1px solid #b8e7cd;
+    color:#075c31;
+  }
+  .feedback.wrong{
+    display:block;
+    background:#fff1f1;
+    border:1px solid #ffc9c9;
+    color:#8a1c1c;
+  }
+  .feedback .ans{
+    font-weight:800;
+    margin-bottom:6px;
+  }
+  .feedback .exp{
+    margin-top:6px;
+  }
+  .badge{
+    display:inline-block;
+    font-size:12px;
+    font-weight:700;
+    padding:2px 8px;
+    border-radius:999px;
+    background:#e9efff;
+    color:#1e5eff;
+    margin-right:6px;
+  }
+  .footer-note{
+    font-size:13px;
+    color:var(--muted);
+    text-align:center;
+    margin-top:24px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>NTS Biology (B-01) — Quiz Poll</h1>
+  <p>90 MCQs • AI Answer • AI Explanation</p>
+</header>
+
+<main>
+  <div class="toolbar">
+    <div>
+      <button class="btn" id="submitBtn" type="button">Submit Quiz</button>
+      <button class="btn secondary" id="resetBtn" type="button">Reset</button>
+    </div>
+    <div class="score" id="scoreBox">Score: -- / 90</div>
+  </div>
+
+  <form id="quizForm"></form>
+
+  <div class="footer-note">
+    AI-generated answers and explanations. Please verify with your textbook/teacher before final use.
+  </div>
+</main>
+<script>
+const quizData = [
+  {q:"Which amongst the following does not belong to order Primata?", options:["Gibbons","Apes","Humans","Cats"], ans:3, exp:"Cats belong to order Carnivora; gibbons, apes and humans are primates."},
+  {q:"What is a common feature between protonema of mosses, filamentous algae and fungal hyphae?", options:["Mode of nutrition","Method of vegetative reproduction","Method of sexual reproduction","Habitat"], ans:1, exp:"They commonly reproduce vegetatively by fragmentation; other features differ."},
+  {q:"Match: (a) Biodiversity (i) Systema Naturae; (b) Systematics (ii) Polynomiales; (c) Order (iii) 1.7-1.8 millions; (d) Chordata (iv) Dorsal hollow neural system", options:["a-iv; b-ii; c-iii; d-i","a-iii; b-i; c-ii; d-iv","a-i; b-iii; c-ii; d-iv","a-ii; b-iii; c-iv; d-i"], ans:1, exp:"Biodiversity ~1.7-1.8 million species; Systematics linked to Systema Naturae; Order example Polymoniales; Chordata has dorsal hollow neural system."},
+  {q:"Which statement is NOT true regarding taxonomic categories?", options:["Genus comprises related species with more common characters than species of other genera.","Family has related genera with fewer similarities than genus and species.","Order being highest category has most specific characteristics.","Kingdom is the highest category in hierarchy."], ans:2, exp:"Order is not the highest; species has the most specific characters, kingdom is highest and least specific."},
+  {q:"Features: non-cellulosic cell wall, cellular body organisation, large nutritional diversity, naked genetic material. Which kingdom?", options:["Monera","Protista","Fungi","Inadequate information"], ans:0, exp:"Naked genetic material and non-cellulosic wall indicate prokaryotic Monera."},
+  {q:"Which statements are correct? 1 Archaebacteria survive highly saline environments... 2 Slime moulds aggregate to form plasmodium... 3 Diatoms silica wall... 4 Mycoplasma smallest free-living lacking cell wall... 5 Cyanobacteria heterocysts provide anaerobic conditions...", options:["1,2,3 and 5 only","2,3,4 and 5 only","1,3 and 5 only","All of the above"], ans:3, exp:"All given statements are correct as per standard biology."},
+  {q:"Statement I: Chemosynthetic autotrophic bacteria oxidise inorganic substances and use energy for ATP. Statement II: They recycle nutrients but make soil less fertile. Which is correct?", options:["Both correct","I correct, II incorrect","I incorrect, II correct","Both incorrect"], ans:1, exp:"Chemosynthetic autotrophs help recycle nutrients and generally improve soil fertility, so II is false."},
+  {q:"A microscopic organism lacks true nucleus, rigid non-cellulose wall, survives pH<3 at 90°C, binary fission, branched-chain membrane lipids. Which classification statements are correct? 1 Linnaeus Two-Kingdom: Plantae. 2 Haeckel Three-Kingdom: Animals. 3 Whittaker Five-Kingdom: Monera.", options:["1 and 3 only","2 and 3 only","1 and 2 only","All of the above"], ans:0, exp:"It is an archaebacterium. In two-kingdom it would be with plants; in five-kingdom it is Monera. Haeckel's animals is wrong."},
+  {q:"Match viruses: A TMV, B Bacteriophage, C Viroids, D Influenza virus with characteristics...", options:["A-(ii), B-(i), C-(iv), D-(iii)","A-(i), B-(ii), C-(iii), D-(iv)","A-(iii), B-(iv), C-(ii), D-(i)","A-(iv), B-(iii), C-(i), D-(ii)"], ans:1, exp:"TMV first virus RNA; bacteriophage DNA tail fibres; viroids naked infectious RNA; influenza enveloped RNA virus."},
+  {q:"Which correctly differentiates Chrysophytes from Dinoflagellates?", options:["Chrysophytes mostly marine with stiff cellulose plates; dinoflagellates freshwater with silica walls.","Chrysophytes include diatoms and desmids with silica walls; dinoflagellates mostly marine with cellulose plates.","Chrysophytes bioluminescent; dinoflagellates golden-brown non-photosynthetic.","Chrysophytes one flagellum; dinoflagellates no flagella."], ans:1, exp:"Chrysophytes include diatoms/desmids with silica walls; dinoflagellates are mostly marine with cellulose plates."},
+  {q:"Statement: Euglenoids are primarily heterotrophic but can behave like autotrophs in absence of light. Correct?", options:["True, mainly heterotrophs switch to autotrophy in darkness","False, strictly heterotrophic","False, primarily autotrophic but behave heterotrophic in absence of sunlight","False, possess chitinous wall preventing photosynthesis"], ans:2, exp:"Euglenoids are primarily photosynthetic/autotrophic in light and become heterotrophic in darkness."},
+  {q:"Choose incorrect statements: (1) Plantae multicellular eukaryotes cellulose wall photosynthesis. (2) Animalia heterotrophic eukaryotic multicellular. (3) Animal cells have cell wall and most locomote. (4) Both Plantae and Animalia show tissue organisation.", options:["1","2","3","4"], ans:2, exp:"Animal cells lack a cell wall; statement 3 is incorrect."},
+  {q:"Match algae: A Gelidium, Gracilaria; B Brown algae; C Red algae Porphyra; D Blue green algae with uses...", options:["A-(i), B-(ii), C-(iii), D-(iv)","A-(ii), B-(i), C-(iii), D-(iv)","A-(iii), B-(iv), C-(ii), D-(i)","A-(iv), B-(iii), C-(i), D-(ii)"], ans:0, exp:"Gelidium/Gracilaria yield agar; brown algae yield algin; Porphyra is edible; Nostoc/Anabaena are biofertilisers."},
+  {q:"Protonema stage in mosses is best described as:", options:["Diploid leaf-like structure from zygote forming sporophyte","Haploid creeping green filamentous stage from spore bearing buds giving gametophytes","Dormant structure helping sporophyte survive","Specialized root-like structure anchoring gametophyte"], ans:1, exp:"Protonema is the haploid, filamentous juvenile gametophyte of mosses."},
+  {q:"Statement I: Pteridophytes are first terrestrial plants with vascular tissues. Statement II: In pteridophytes dominant phase is gametophyte; sporophyte dependent. Correct?", options:["Both correct","I correct, II incorrect","I incorrect, II correct","Both incorrect"], ans:1, exp:"Pteridophytes have vascular tissues, but sporophyte is dominant; gametophyte is small and independent."},
+  {q:"Statement I: Heterospory first observed in Selaginella and Salvinia. Statement II: Female gametophyte inside megaspore and retained in megasporangium is step toward seed habit. Correct?", options:["Both correct","I correct, II incorrect","I incorrect, II correct","Both incorrect"], ans:0, exp:"Both statements are correct and describe heterospory and seed-habit precursors."},
+  {q:"Which statement about gymnosperm vegetative organs is correct?", options:["Cycas roots show coralloid structures associated with nitrogen-fixing cyanobacteria.","Stem always unbranched as in Pinus and Cedrus.","Cycas leaves needle-like; Pinus leaves pinnate and large.","Gymnosperm leaves generally short-lived and herbaceous like angiosperms."], ans:0, exp:"Cycas coralloid roots contain nitrogen-fixing cyanobacteria; others are false."},
+  {q:"Match: A Psilopsida; B Lycopsida; C Sphenopsida; D Pteropsida with examples.", options:["A-(ii), B-(i), C-(iii), D-(iv)","A-(iii), B-(ii), C-(iv), D-(i)","A-(i), B-(iv), C-(ii), D-(iii)","A-(iv), B-(iii), C-(i), D-(ii)"], ans:0, exp:"Psilotum in Psilopsida; Selaginella in Lycopsida; Equisetum in Sphenopsida; true ferns in Pteropsida."},
+  {q:"In pteridophytes, main plant body is sporophyte differentiated into roots, stem, leaves with vascular tissues. Correct?", options:["The statement is true","False because main body is gametophyte","False because vascular tissues absent","False because sporophyte not differentiated"], ans:0, exp:"The statement is true; pteridophyte sporophyte is the dominant vascular plant body."},
+  {q:"Match: A Edible delicious; B Experimental genetics; C Source of antibiotics; D Smut disease with Penicillium, Ustilago, Neurospora, Morchella.", options:["A-(ii), B-(iii), C-(i), D-(iv)","A-(iv), B-(iii), C-(i), D-(ii)","A-(ii), B-(iv), C-(i), D-(iii)","A-(ii), B-(iv), C-(iii), D-(i)"], ans:1, exp:"Morchella edible; Neurospora used in genetics; Penicillium antibiotic source; Ustilago causes smut."},
+  {q:"Ascospores are produced A in B and basidiospores C produced on D. A,B,C,D?", options:["endogeneously, basidium, exogenously, ascus","endogenously, ascus, exogenously, basidium","exogenously, ascus, endogenously, basidium","exogenously, basidium, endogenously, ascus"], ans:1, exp:"Ascospores form endogenously in ascus; basidiospores form exogenously on basidium."},
+  {q:"Identify figures A-C.", options:["Salvinia, Dictyota, Selaginella","Salvinia, Fucus, Sphagnum","Selaginella, Fucus, Funaria","Sphagnum, Laminaria, Salvinia"], ans:1, exp:"A is Salvinia, B is Fucus, C is Sphagnum (as per typical diagrams)."},
+  {q:"Statement I: In bryophytes main plant body is sporophyte differentiated into foot, seta, capsule. Statement II: Sporophyte in mosses is more elaborate than liverworts. Correct?", options:["Both incorrect","I correct, II incorrect","I incorrect, II correct","Both correct"], ans:2, exp:"Main plant body in bryophytes is gametophyte, not sporophyte; moss sporophyte is more elaborate than liverwort."},
+  {q:"Gymnosperms: I male and female gametophytes independent. II multicellular female gametophyte retained in megasporangium. III heterosporous. Which true?", options:["I and II true, III false","I and III true, II false","II and III false, I true","II and III true, I false"], ans:3, exp:"Gymnosperm gametophytes are not independent; female gametophyte is retained and they are heterosporous."},
+  {q:"Correct statements about Mycoplasma: (i) no cell wall (ii) smallest living organism (iii) cannot survive without O2 (iv) pathogenic in animals and plants.", options:["Only (iii)","Only (i) and (iii)","Only (i), (ii) and (iv)","All"], ans:2, exp:"Mycoplasma lack cell wall, are smallest living cells and can be pathogenic; many can survive without O2."},
+  {q:"Identify class of fungi: unicellular and multicellular; septate branched mycelium; conidia exogenous in chain; sexual spores endogenous; fruiting body ascocarp.", options:["Phycomycetes","Sac fungi","Club fungi","Imperfecti fungi"], ans:1, exp:"These are features of Ascomycetes (sac fungi)."},
+  {q:"Assertion: Euglena can be placed in plant kingdom due chlorophyll. Reason: Euglena is not classified on basis of two kingdom system. Correct?", options:["Both true and reason explains assertion","Both true but reason does not explain assertion","Assertion true, reason false","Assertion false, reason true"], ans:1, exp:"Both are true, but the reason does not explain why chlorophyll would place it in Plantae."},
+  {q:"Once sexual stage of deuteromycetes discovered, they were moved to X and Y. X,Y?", options:["Monera, Protista","Basidiomycetes, Phycomycetes","Ascomycetes, Basidiomycetes","Phycomycetes, Archaebacteria"], ans:2, exp:"Deuteromycetes are often reassigned to Ascomycetes or Basidiomycetes when sexual stages are found."},
+  {q:"In Phaeophyceae, plant body attached by A, stalk B, leaf-like photosynthetic organ C.", options:["A holdfast, B stipe, C frond","A stipe, B holdfast, C frond","A frond, B stipe, C holdfast","A stipe, B frond, C holdfast"], ans:0, exp:"Holdfast attaches, stipe is stalk, frond is leaf-like photosynthetic organ."},
+  {q:"Correct fruit statement(s): (i) fruit is ripened ovary developed before fertilization; (ii) has pericarp and seeds; (iii) pericarp differentiated into outer mesocarp, middle epicarp, inner endocarp; (iv) mango and coconut fruit is berry.", options:["Only (i)","Both (ii) and (iii)","Only (ii)","All"], ans:2, exp:"Fruit develops after fertilization; pericarp layers are epicarp, mesocarp, endocarp; mango/coconut are drupes. Only (ii) is correct."},
+  {q:"Assertion: Simple leaf has undivided lamina. Reason: Leaves showing pinnate and palmate structures have various incisions. Correct?", options:["Both true and reason explains assertion","Both true but reason does not explain assertion","Assertion true, reason false","Assertion false, reason true"], ans:1, exp:"Both are true, but the reason is not the explanation of simple leaf definition."},
+  {q:"Identify A,B,C,D,E in monocot seed.", options:["A-Endosperm, B-Embryo, C-Scuttellum, D-Coleorrhiza, E-Coleopile","A-Embryo, B-Endosperm, C-Scuttellum, D-Coleopile, E-Coleorrhiza","A-Endosperm, B-Embryo, C-Scuttellum, D-Coleopile, E-Coleorrhiza","A-Embryo, B-Endosperm, C-Scuttellum, D-Coleorrhiza, E-Coleopile"], ans:2, exp:"Maize seed: A endosperm, B embryo, C scutellum, D coleoptile, E coleorhiza."},
+  {q:"Floral formula % K(5) C1+2+(2) A(9)+1 G1 correct explanation?", options:["Zygomorphic, unisexual, sepals five gamosepalous, petals five papilionaceous, stamens ten monoadelphous, ovary superior monocarpellary.","Zygomorphic, unisexual, sepals five gamosepalous, petals five polypetalous, stamens nine united one free, ovary inferior monocarpellary.","Zygomorphic, bisexual, sepals five gamosepalous, petals five papilionaceous, stamens ten diadelphous, ovary superior monocarpellary.","Zygomorphic, bisexual, sepals five united, petals five united, stamens ten diadelphous, ovary superior bicarpellary."], ans:2, exp:"It is Fabaceae: zygomorphic bisexual, gamosepalous 5, papilionaceous 5, stamens 10 diadelphous (9+1), superior monocarpellary ovary."},
+  {q:"Proteinous layer and outer covering of endosperm of maize separating embryo is:", options:["Tegmen","Scutellum","Testa layer","Aleurone layer"], ans:3, exp:"Aleurone layer is proteinaceous outer layer of endosperm in maize."},
+  {q:"Taxon differs from Taxa due to:", options:["higher taxonomic category than taxa","lower taxonomic category than taxa","singular of taxa","plural of taxa"], ans:2, exp:"Taxon is singular; taxa is plural."},
+  {q:"Assertion: Wheat belongs to family Poaceae. Reason: Wheat is member of order Poales. Correct?", options:["Both true and reason explains assertion","Both true but reason not correct explanation","Assertion true, reason false","Assertion false, reason true"], ans:1, exp:"Both true, but order membership does not explain family classification."},
+  {q:"Match: A Dikaryon; B Motile; C Deuteromycetes; D Non-motile with Zoospores, (n+n), Aplanospores, Conidia.", options:["A-(iv), B-(i), C-(ii), D-(iii)","A-(ii), B-(i), C-(iv), D-(iii)","A-(ii), B-(iii), C-(iv), D-(i)","A-(iv), B-(ii), C-(iii), D-(i)"], ans:1, exp:"Dikaryon is (n+n); motile spores are zoospores; deuteromycetes conidia; non-motile aplanospores."},
+  {q:"Match disease/pathogen: A BSE, B Mad cow disease, C Potato spindle tuber, D Mumps.", options:["A-(iv), B-(i), C-(ii), D-(iii)","A-(iii), B-(ii), C-(i), D-(iv)","A-(iii), B-(iii), C-(ii), D-(i)","A-(iv), B-(iii), C-(ii), D-(i)"], ans:2, exp:"BSE and mad cow disease are prion diseases; potato spindle tuber is viroid; mumps is viral."},
+  {q:"Correct regarding organism shown (dinoflagellate):", options:["Cell wall made of protein pellicle","Flagellated protozoan","Both phototrophic and heterotrophic","Toxins released may kill marine animals such as fish"], ans:3, exp:"The organism is a dinoflagellate; certain species release toxins that can kill fish."},
+  {q:"Archegoniophore is found in:", options:["Funaria","Marchantia","Adiantum","Cycas"], ans:1, exp:"Marchantia (liverwort) has archegoniophore."},
+  {q:"Related families belong to same:", options:["Species","Variety","Order","Genus"], ans:2, exp:"Related families are grouped into the same order."},
+  {q:"Select mismatched pair:", options:["Panthera - Mammalia","Musca - Muscidae","Triticum - Poales","Solanum - Anacardiaceae"], ans:3, exp:"Solanum belongs to Solanaceae, not Anacardiaceae."},
+  {q:"Petunia and Datura have common:", options:["Class","Order","Family","Genus"], ans:2, exp:"Both belong to family Solanaceae."},
+  {q:"Which is included in systematics?", options:["Identification and nomenclature","Nomenclature and classification","Classification and evolutionary relationship","All of the above"], ans:3, exp:"Systematics includes identification, nomenclature, classification and evolutionary relationships."},
+  {q:"Mark wrongly matched:", options:["Sapindales - Anacardiaceae","Polymoniales - Solanaceae","Liliales - Convolvulaceae","Diptera - Muscidae"], ans:2, exp:"Convolvulaceae belongs to Solanales, not Liliales."},
+  {q:"Mark wrongly matched:", options:["Ernst Mayr - Darwin of 20th century","Carolus Linnaeus - Systema naturae","Dog - taxon","Datura - Poaceae"], ans:3, exp:"Datura belongs to Solanaceae, not Poaceae."},
+  {q:"Statement I: Both autotrophic and heterotrophic nutrition present in Monera. Statement II: Cyanobacteria is oxygenic. Correct?", options:["Only I","Only II","Both I & II","Both incorrect"], ans:2, exp:"Monera shows both nutrition types; cyanobacteria perform oxygenic photosynthesis."},
+  {q:"Structure absent in Monera:", options:["Pili","Fimbriae","Nucleoid","Plastid"], ans:3, exp:"Plastids are absent in prokaryotic Monera."},
+  {q:"Plant disease caused by bacteria:", options:["Rust","Smut","Citrus canker","Mosaic disease"], ans:2, exp:"Citrus canker is bacterial; rust/smut fungal, mosaic viral."},
+  {q:"Statement I: All autotrophic bacteria have pigments. Statement II: All autotrophic plants have pigments. Correct?", options:["Only I","Only II","Both","Both incorrect"], ans:1, exp:"Chemosynthetic autotrophic bacteria may lack pigments; autotrophic plants have photosynthetic pigments."},
+  {q:"Statement I: Cyanobacteria form bloom in water. Statement II: Rhizobium fix N2 in legumes. Correct?", options:["Only I","Only II","Both","Both incorrect"], ans:2, exp:"Both statements are correct."},
+  {q:"Saprophytic nutrition is present in:", options:["Diatoms","Dinoflagellates","Slime moulds","Nostoc"], ans:2, exp:"Slime moulds are saprophytic protists."},
+  {q:"Cell wall is absent in:", options:["Diatoms","Cyanobacteria","Protozoans","Dinoflagellates"], ans:2, exp:"Protozoans generally lack a cell wall."},
+  {q:"White rust is caused by:", options:["Monera","Fungus","Plantae","Diatoms"], ans:1, exp:"White rust is caused by the fungus Albugo."},
+  {q:"Heterotrophic nutrition can be present in:", options:["Diatoms","Dinoflagellates","Desmids","Euglenoids"], ans:3, exp:"Euglenoids can be heterotrophic in absence of light."},
+  {q:"Saprophytic protist is:", options:["Slime mould","Diatom","Dinoflagellate","Euglenoid"], ans:0, exp:"Slime moulds are saprophytic protists."},
+  {q:"Mark incorrectly matched:", options:["Diatoms - Chief producer of ocean","Dinoflagellates - With silica cell wall","Euglena - With contractile vacuole","Slime mould - Plasmodium"], ans:1, exp:"Dinoflagellates have cellulose plates, not silica walls; diatoms have silica walls."},
+  {q:"Dikaryon stage is visible in:", options:["Albugo","Puccinia","Mucor","Rhizopus"], ans:1, exp:"Puccinia (basidiomycete) has a dikaryotic stage."},
+  {q:"Mark wrong match:", options:["Cyanobacteria - BGA","Rhizopus - Bread Mould","Saccharomyces - Yeast","Mushroom - Parasitic"], ans:3, exp:"Mushrooms are generally saprophytic, not parasitic."},
+  {q:"Which is absent in phycomycetes?", options:["Dikaryon stage","Karyogamy","Meiosis","None of the above"], ans:0, exp:"Phycomycetes lack a dikaryon stage."},
+  {q:"Which is diploid?", options:["Conidia","Zygospore","Zoospore","Ascospore"], ans:1, exp:"Zygospore is diploid; others are haploid."},
+  {q:"Budding occurs in:", options:["All Ascomycetes","Yeast","Deuteromycetes","All of the above"], ans:1, exp:"Budding is typical in yeast."},
+  {q:"Fragmentation occurs in:", options:["Albugo","Puccinia","Yeast","Both 1 & 2"], ans:3, exp:"Fragmentation occurs in Albugo and Puccinia (vegetative reproduction)."},
+  {q:"Not true for fungi:", options:["Loose tissue","Heterotrophic","Mostly unicellular","Filamentous"], ans:2, exp:"Fungi are mostly multicellular/filamentous, not mostly unicellular."},
+  {q:"Aseptate fungi is:", options:["Albugo and Neurospora","Aspergillus and Mucor","Mucor and Rhizopus","Alternaria and Colletotrichum"], ans:2, exp:"Mucor and Rhizopus have coenocytic (aseptate) hyphae."},
+  {q:"Sexual reproduction is absent in:", options:["Alternaria","Colletotrichum","Both 1 & 2","Mucor"], ans:2, exp:"Deuteromycetes (Alternaria, Colletotrichum) lack sexual reproduction."},
+  {q:"Parasite on mustard plant is:", options:["Mucor","Claviceps","Albugo","Ustilago"], ans:2, exp:"Albugo causes white rust on mustard."},
+  {q:"First discovered virus is:", options:["TMV","Hepatitis virus","Lambda phage","HIV"], ans:0, exp:"Tobacco mosaic virus (TMV) was first discovered."},
+  {q:"Select wrong statement:", options:["Walls of diatoms are indestructible","Diatomaceous earth is formed by diatom cell walls","Diatoms are chief producers in oceans","Diatoms are microscopic and float actively in water"], ans:3, exp:"Diatoms float passively; they are not active swimmers."},
+  {q:"Which statement is wrong for viroids?", options:["They cause infections","Their RNA is of low molecular weight","They lack a protein coat","They are larger than viruses"], ans:3, exp:"Viroids are smaller than viruses."},
+  {q:"Basal placentation is present in:", options:["Potato","Pea","Marigold","China rose"], ans:2, exp:"Marigold (Asteraceae) shows basal placentation."},
+  {q:"Pentamerous, zygomorphic flower is found in:", options:["Wheat","Maize","Sweet pea","All of the above"], ans:2, exp:"Sweet pea has pentamerous zygomorphic flowers."},
+  {q:"Trimerous flowers are present in:", options:["Poaceae","Solanaceae","Liliaceae","Both 1 and 3"], ans:2, exp:"Liliaceae typically has trimerous flowers."},
+  {q:"Perianth (tepals) are present in flower of:", options:["Sunflower","Pea","Wheat","Mustard"], ans:2, exp:"In wheat (Poaceae), perianth is represented by lodicules."},
+  {q:"Caryopsis fruit is present in:", options:["Fabaceae","Brassicaceae","Poaceae","Solanaceae"], ans:2, exp:"Caryopsis is characteristic of Poaceae (grasses)."},
+  {q:"Mark incorrect:", options:["Epipetalous - Bean","Epiphyllous - Asparagus","Diadelphous - Sweet pea","Bicarpellary - Makoi"], ans:0, exp:"Bean has diadelphous stamens, not epipetalous."},
+  {q:"Dry fruit is present in:", options:["Pea","Groundnut","Mustard","All of the above"], ans:3, exp:"Pea, groundnut and mustard all produce dry fruits."},
+  {q:"Sunflower is not having feature:", options:["Epigynous","Basal placentation","Hypogynous","Ray floret & disc floret"], ans:2, exp:"Sunflower flowers are epigynous, not hypogynous."},
+  {q:"Assertion: Reproductive characters should be given more weightage than vegetative. Reason: Vegetative characters change with environment. Correct?", options:["Both true and reason explains assertion","Both true but reason not explanation","Assertion true, reason false","Assertion false, reason true"], ans:0, exp:"Reproductive characters are more stable; vegetative characters vary with environment, so reason explains."},
+  {q:"Mark incorrect:", options:["Non-motile - Chlorella","Colonial - Volvox","Filamentous - Spirogyra","Non-Filamentous - Ulothrix"], ans:3, exp:"Ulothrix is filamentous."},
+  {q:"Structure which is not haploid in Marchantia:", options:["Foot","Rhizoids","Gametophyte","Archegonium"], ans:0, exp:"Foot is part of diploid sporophyte; others are haploid."},
+  {q:"Difference in antheridium of Chara and Marchantia is:", options:["Haploid","Male sex organ","Part of gametophytic generation","Non-jacketed in algae Chara"], ans:3, exp:"Antheridium is non-jacketed in Chara (algae) but jacketed in Marchantia."},
+  {q:"Which is not having haploid plant body?", options:["Marchantia","Ulothrix","Pteris","Sphagnum"], ans:2, exp:"Pteris main plant body is diploid sporophyte."},
+  {q:"Motile male gametes are absent in:", options:["Lycopodium","Solanum","Marchantia","Pteris"], ans:1, exp:"Solanum is an angiosperm; male gametes are non-motile and delivered by pollen tube."},
+  {q:"Not true about prothallus in Pteridophyte:", options:["Haploid and green","Inconspicuous and small","Free living gametophyte","Dependent structure"], ans:3, exp:"Prothallus is free-living, not dependent."},
+  {q:"Statement I: Pteridophyte distribution limited due to shade for prothallus and water for fertilization. Statement II: Cone present in Horse tail and Selaginella. Correct?", options:["Only I","Only II","Both I & II","Both incorrect"], ans:2, exp:"Both statements are correct."},
+  {q:"Double fertilization is present in:", options:["Pinus","Pteris","Eucalyptus","Fucus"], ans:2, exp:"Double fertilization is characteristic of angiosperms, e.g. Eucalyptus."},
+  {q:"Which is not a feature of Pinus?", options:["Branched stem","Needle shaped leaf","Coralloid roots","Plant body sporophytic"], ans:2, exp:"Coralloid roots occur in Cycas, not Pinus."},
+  {q:"Mark wrongly matched pair:", options:["Pinus - Fungal association with roots","Banyan - Seeds covered in fruit","Ginkgo - Naked seeds","Pinus - Pollination by water"], ans:3, exp:"Pinus is wind-pollinated, not water-pollinated."},
+  {q:"Twisted aestivation of corolla is found in:", options:["Malvaceae","Solanaceae","Poaceae","Brassicae"], ans:0, exp:"Malvaceae shows twisted aestivation."}
+];
+const form = document.getElementById("quizForm");
+const submitBtn = document.getElementById("submitBtn");
+const resetBtn = document.getElementById("resetBtn");
+const scoreBox = document.getElementById("scoreBox");
+
+function renderQuiz(){
+  form.innerHTML = "";
+  quizData.forEach((item, qIndex) => {
+    const card = document.createElement("div");
+    card.className = "question";
+    card.id = "qcard-" + qIndex;
+
+    const h3 = document.createElement("h3");
+    h3.textContent = `Q${qIndex + 1}. ${item.q}`;
+    card.appendChild(h3);
+
+    const optionsDiv = document.createElement("div");
+    optionsDiv.className = "options";
+
+    item.options.forEach((opt, oIndex) => {
+      const label = document.createElement("label");
+      const input = document.createElement("input");
+      input.type = "radio";
+      input.name = "q" + qIndex;
+      input.value = oIndex;
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(`${String.fromCharCode(65 + oIndex)}. ${opt}`));
+      optionsDiv.appendChild(label);
+    });
+
+    card.appendChild(optionsDiv);
+
+    const feedback = document.createElement("div");
+    feedback.className = "feedback";
+    feedback.id = "fb-" + qIndex;
+    card.appendChild(feedback);
+
+    form.appendChild(card);
+  });
+}
+
+function submitQuiz(e){
+  if(e) e.preventDefault();
+  let score = 0;
+
+  quizData.forEach((item, qIndex) => {
+    const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
+    const feedback = document.getElementById("fb-" + qIndex);
+    const card = document.getElementById("qcard-" + qIndex);
+
+    card.querySelectorAll("label").forEach(l => {
+      l.style.borderColor = "#dde3ee";
+      l.style.background = "#fbfcff";
+    });
+
+    const correctLetter = String.fromCharCode(65 + item.ans);
+    const correctText = item.options[item.ans];
+
+    if (!selected) {
+      feedback.className = "feedback wrong";
+      feedback.innerHTML = `<div class="ans">AI Answer: ${correctLetter}. ${correctText}</div>
+      <div class="exp"><b>AI Explanation:</b> ${item.exp}</div>
+      <div class="exp" style="margin-top:6px;color:#8a1c1c;">You did not select any option.</div>`;
+      return;
+    }
+
+    const chosen = Number(selected.value);
+    if (chosen === item.ans) {
+      score++;
+      feedback.className = "feedback correct";
+      feedback.innerHTML = `<div class="ans">AI Answer: ${correctLetter}. ${correctText}</div>
+      <div class="exp"><b>AI Explanation:</b> ${item.exp}</div>`;
+      selected.parentElement.style.borderColor = "#0a8f4b";
+      selected.parentElement.style.background = "#e9f9f0";
+    } else {
+      feedback.className = "feedback wrong";
+      feedback.innerHTML = `<div class="ans">AI Answer: ${correctLetter}. ${correctText}</div>
+      <div class="exp"><b>AI Explanation:</b> ${item.exp}</div>
+      <div class="exp" style="margin-top:6px;color:#8a1c1c;">Your answer: ${String.fromCharCode(65 + chosen)}. ${item.options[chosen]}</div>`;
+      selected.parentElement.style.borderColor = "#d62828";
+      selected.parentElement.style.background = "#fff1f1";
+    }
+  });
+
+  scoreBox.textContent = `Score: ${score} / ${quizData.length}`;
+  window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+function resetQuiz(){
+  form.reset();
+  scoreBox.textContent = "Score: -- / 90";
+  quizData.forEach((_, qIndex) => {
+    const feedback = document.getElementById("fb-" + qIndex);
+    feedback.className = "feedback";
+    feedback.innerHTML = "";
+    const card = document.getElementById("qcard-" + qIndex);
+    card.querySelectorAll("label").forEach(l => {
+      l.style.borderColor = "#dde3ee";
+      l.style.background = "#fbfcff";
+    });
+  });
+  window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+renderQuiz();
+submitBtn.addEventListener("click", submitQuiz);
+resetBtn.addEventListener("click", resetQuiz);
+</script>
+</body>
+</html>
+

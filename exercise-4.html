@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 4 - The Living World</h1>
+        
+    <div class="question" data-answer="1">
+        <div class="qtext">Q1. Nomenclature is governed by certain               4.      Select the correctly written scientific name universal rules. Which one of the following is            of Mango which was first described by contrary to the rules of nomenclature?                    Carolus Linnaeus:               [NEET–2019] [NEET-I – 2016]               (1) Mangifera indica</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Biological names can be written in any                (2) Mangifera Indica</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) Every species should have a generic</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Scientific names are in Latin and should</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) When written by hand, the names are to name and a specific epithet. be underlined</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Biological names can be written in any                (2) Mangifera Indica</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q2. Match Column I with Column II for housefly                    be italicized. classification and select the correct option              (4) Generic and specific names should be using the codes given below:                                  written starting with small letters. [NEET-I – 2016]    6.      Which one of the following belongs to the Column-I                Column-II                         family muscidae?              [NEET–2021] (a) Family              (i) Dipetera                      (1) Fire fly          (2) Grasshopper (b) Order               (ii) Arthropoda                   (3) Cockroach         (4) House fly (c) Class               (iii) Muscidae            7.      In the taxonomic categories which (d) Phylum              (iv) Insecta                      hierarchical arrangement in ascending order Codes:                                                    is correct in case of animals? (a) (b) (c) (d)                                                                      [NEET–2022]</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) (iii) (ii) (iv) (i)                                   (1) Kingdom  Phylum  Class  Order </label>
+<label class="option"><input type="radio" name="q2" value="2"> (2) (iv) (iii) (ii) (i)                                       Family  Genus  Species</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Kingdom  Order  Class  Phylum </label>
+<label class="option"><input type="radio" name="q2" value="4"> (4) (iii) (i)   (iv) (ii)                                     Order  Genus  Species</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) (iii) (i)   (iv) (ii)                                     Order  Genus  Species</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q3. Study the four statements (A-D) given below Family  Genus  Species and select the two correct ones out of them:</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) C and D             (2) A and D                       (4) X-Generic name, Y-Specific epithet, Z-</label>
+<label class="option"><input type="radio" name="q3" value="2"> (2) X-Specific epithet, Y-Generic name, Z- (D) In unicellular organisms, reproduction is                 R.H. Whittaker synonymous with growth                                (3) X-Specific epithet, Y-Generic name, Z- The two correct statement are:                                Carolus Linnaeus</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) A and B             (4) B and C                           R.H. Whittaker 18                                              Sarvam Career Institute ANSWER KEYS</label>
+<label class="option"><input type="radio" name="q3" value="4"> (4) Kingdom  Order  Phylum  Class  [NEET–2019] Family  Genus  Species (A) Definition of biological species was given by Ernst Mayr                                 8.      'X' and 'Y' are the components of Binomial (B) Photoperiod does not affect reproduction in           nomenclature. This naming system was proposed by 'Z': [NEET–2023] (MANIPUR) plant</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) X-Specific epithet, Y-Generic name, Z- (D) In unicellular organisms, reproduction is                 R.H. Whittaker synonymous with growth                                (3) X-Specific epithet, Y-Generic name, Z- The two correct statement are:                                Carolus Linnaeus</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-3.html">← Exercise 3</a><a href="index.html">🏠 Home</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

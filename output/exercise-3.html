@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 3 - The Living World</h1>
+        
+    <div class="question" data-answer="1">
+        <div class="qtext">Q1. Assertion :- Binomial names are latinised or    4.      Assertion:- Genera are aggregates of closely derived from Latin irrespective of their                related species. origin.                                                 Reason:- Genus comprises a group of related Reason :- Latin is a dead language, so used             species which has more characters in by scholars.                                            common in comparison to species of other</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) If both assertion and reason are true and           genera. reason is the correct explanation of                (1) If both assertion and reason are true and assertion.                                              reason is the correct explanation of</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) If both assertion and reason are true but               assertion. reason is not the correct explanation of            (2) If both assertion and reason are true but assertion.                                              reason is not the correct explanation of</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) If assertion is true but reason is false.               assertion.</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) If both assertion and reason are false              (3) If assertion is true but reason is false.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) If both assertion and reason are true and           genera. reason is the correct explanation of                (1) If both assertion and reason are true and assertion.                                              reason is the correct explanation of</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. Assertion:- Modern taxonomic studies                    (4) If both assertion and reason are false. provide more accurate grouping of various</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q5. Assertion:- In higher category there is great organisms. difficulty of determining the relationship to Reason:- Modern taxonomic studies are other taxa at the same level. based on external and internal structures Reason:- In higher taxa there are less along with the structure of cell development characteristics that the members within the process and ecological informations. taxa share</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) If both assertion and reason are true and reason is the correct explanation of reason is the correct explanation of assertion. assertion.</label>
+<label class="option"><input type="radio" name="q5" value="2"> (2) If both assertion and reason are true but reason is not the correct explanation of assertion.                                               reason is not the correct explanation of</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) If assertion is true but reason is false.                assertion.</label>
+<label class="option"><input type="radio" name="q5" value="4"> (4) If both assertion and reason are false.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) If both assertion and reason are true and reason is the correct explanation of reason is the correct explanation of assertion. assertion.</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q3. Assertion:- Family has a group of related orders and classes.                             6.      Assertion:- Biological concept of species is Reason:- Families are characterised on the              based on reproductive isolation. basis of only vegetative characters not by              Reason:- Biological concept of species is reproductive characters.                                universal</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) If both assertion and reason are true and           (1) If both assertion and reason are true and reason is the correct explanation of                    reason is the correct explanation of assertion.                                              assertion.</label>
+<label class="option"><input type="radio" name="q3" value="2"> (2) If both assertion and reason are true but           (2) If both assertion and reason are true but reason is not the correct explanation of                reason is not the correct explanation of assertion.                                              assertion</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) If assertion is true but reason is false.           (3) If assertion is true but reason is false.</label>
+<label class="option"><input type="radio" name="q3" value="4"> (4) If both assertion and reason are false.             (4) If both assertion and reason are false. Sarvam Career Institute                                             15</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) If both assertion and reason are false.             (4) If both assertion and reason are false. Sarvam Career Institute                                             15</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q7. Assertion:- Classification of Linnaeus is          10.    Assertion (A): Species is the most fundamental artificial.                                               unit of taxonomy. Reason (R): In taxonomic hierarchy, species Reason:- It is based on one or two characters. shows minimum common features.</div>
+        <label class="option"><input type="radio" name="q7" value="1"> (1) If both assertion and reason are true and             (1) Both (A) & (R) are true and the (R) is the reason is the correct explanation of                      correct explanation of the (A) assertion.                                            (2) Both (A) & (R) are true but the (R) is not the correct explanation of the (A)</label>
+<label class="option"><input type="radio" name="q7" value="2"> (2) If both assertion and reason are true but</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) If assertion is true but reason is false.             the basis of both vegetative and reproductive</label>
+<label class="option"><input type="radio" name="q7" value="4"> (4) If both assertion and reason are false.               features of species. Reason (R): Members of family can show</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) If both assertion and reason are true and             (1) Both (A) & (R) are true and the (R) is the reason is the correct explanation of                      correct explanation of the (A) assertion.                                            (2) Both (A) & (R) are true but the (R) is not the correct explanation of the (A)</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q8. Assertion (A): For plants scientific names                morphological similarities, but unexceptionally none of the genera of same family can are based on agreed principles and criteria interbreed with each other. which are provided in ICNB.                               (1) Both (A) & (R) are true and the (R) is the Reason (R): The scientific names ensure that                  correct explanation of the (A) each organism has only one name, but this                 (2) Both (A) & (R) are true but the (R) is not the correct explanation of the (A) name can be repeated for other organism of</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) Both (A) & (R) are true and the (R) is the the correct explanation of the (A) correct explanation of the (A)</label>
+<label class="option"><input type="radio" name="q8" value="2"> (2) Both (A) & (R) are true but the (R) is not            Reason (R): It is based on artificial characters.</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) (A) is true but (R) is false</label>
+<label class="option"><input type="radio" name="q8" value="4"> (4) Both (A) and (R) are false                                the correct explanation of the (A)</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Both (A) and (R) are false                                the correct explanation of the (A)</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q9. Assertion (A): Binomial naming system given               (4) Both (A) and (R) are false by Carolus Linnaeus is being practiced by</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q13. Assertion (A): The species is a group of biologists all over the world.                            interbreeding individuals reproductively Reason (R): This naming system using a two                isolated from the other species populations. Reason (R): Prokaryotes cannot be kept word format was found convenient. under different species on the basis of</div>
+        <label class="option"><input type="radio" name="q13" value="1"> (1) Both (A) & (R) are true and the (R) is the            reproductive isolation. correct explanation of the (A)                        (1) Both (A) & (R) are true and the (R) is the</label>
+<label class="option"><input type="radio" name="q13" value="2"> (2) Both (A) & (R) are true but the (R) is not the correct explanation of the (A) the correct explanation of the (A)</label>
+<label class="option"><input type="radio" name="q13" value="3"> (3) (A) is true but (R) is false                          (3) (A) is true but (R) is false</label>
+<label class="option"><input type="radio" name="q13" value="4"> (4) Both (A) and (R) are false                            (4) Both (A) and (R) are false 16                                               Sarvam Career Institute</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Both (A) & (R) are true but the (R) is not the correct explanation of the (A) the correct explanation of the (A)</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q14. Assertion (A): Most of the species are               17.       Fill in the blanks and choose the correct identified on the basis biological species                     option:– concept. Category           Mango             Housefly     Man Reason (R): Interbreeding can be practically           (i)    Class        Dicotyledonae             A       Mammalia used as routine criterion for identification.         (ii)    Order                 B             Diptera       C</div>
+        <label class="option"><input type="radio" name="q14" value="1"> (1) Insecta             Sapindales           Primata     Muscidae the correct explanation of the (A)                (2) Arthropoda Polymoniales Primata                      Muscidae</label>
+<label class="option"><input type="radio" name="q14" value="2"> (2) Both (A) & (R) are true but the (R) is not</label>
+<label class="option"><input type="radio" name="q14" value="3"> (3) (A) is true but (R) is false                      (3) Insecta             Sapindales           Mammalia Canidae</label>
+<label class="option"><input type="radio" name="q14" value="4"> (4) Both (A) and (R) are false                        (4) Arthropoda Poales                        Mammalia Felidae</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Insecta             Sapindales           Primata     Muscidae the correct explanation of the (A)                (2) Arthropoda Polymoniales Primata                      Muscidae</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q15. Assertion (A): Higher the taxonomic category,</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q18. Select the incorrect match:– greater is the difficulty of determining the Rank            Suffix relationship to other taxa at the same level. Reason (R): The higher taxonomic categories                    (1) Division              – phyta are more exclusive and the lower taxonomic                     (2) Family                – phyceae categories are more inclusive in nature.</div>
+        <label class="option"><input type="radio" name="q18" value="1"> (1) Both (A) & (R) are true and the (R) is the</label>
+<label class="option"><input type="radio" name="q18" value="2"> (2) Both (A) & (R) are true but the (R) is not</label>
+<label class="option"><input type="radio" name="q18" value="3"> (3) Order                 – ales</label>
+<label class="option"><input type="radio" name="q18" value="4"> (4) Class                 – opsida correct explanation of the (A)</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Both (A) & (R) are true but the (R) is not</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q19. Mach column-I with column-II. the correct explanation of the (A) Column I               Column II</div>
+        <label class="option"><input type="radio" name="q19" value="3"> (3) (A) is true but (R) is false</label>
+<label class="option"><input type="radio" name="q19" value="4"> (4) Both (A) and (R) are false                                 (a)       Phylum         (i)     Hominidae</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Both (A) and (R) are false                                 (a)       Phylum         (i)     Hominidae</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q16. What do A, B and C represent in the given (b)        Order         (ii)       Homo scientific name ?                                              (c)        Class         (iii)     Chordata Mangifera            Indica        Linn                        (d)        Genus         (iv)      Primata A                 B            C (e)        Family        (v)     Mammalia</div>
+        <label class="option"><input type="radio" name="q16" value="1"> (1) Author’s name, specific name and generic name                                                       (1) a–(ii), b–(iv), c–(v), d–(iii), e–(i)</label>
+<label class="option"><input type="radio" name="q16" value="2"> (2) a–(iii), b–(v), c–(ii), d–(i), e–(iv) name</label>
+<label class="option"><input type="radio" name="q16" value="3"> (3) Generic name, specific name and author's name                                                       (4) a–(iii), b–(iv), c–(v), d–(ii), e–(i)</label>
+<label class="option"><input type="radio" name="q16" value="4"> (4) Generic name, author's name and specific name Sarvam Career Institute                                                            17</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Generic name, specific name and author's name                                                       (4) a–(iii), b–(iv), c–(v), d–(ii), e–(i)</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-2.html">← Exercise 2</a><a href="index.html">🏠 Home</a><a href="exercise-4.html">Exercise 4 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 4 - The Living World</h1>
+        
+    <div class="question" data-answer="2">
+        <div class="qtext">Q1. Single-celled eukaryotes are included in :-         9.     Ethanol is commercially produced through a [AIPMT – 2010]                 particular species of :       [AIPMT – 2011]</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Monera            (2) Protista                         (1) Saccharomyces       (2) Clostridium</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Fungi             (4) Archaea                          (3) Trichoderma         (4) Aspergillus</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q2. Ringworm in humans is caused by:                    10.    An organism used as a bio-fertilizer for [AIPMT – 2010]                  raising soyabean crops is :- [AIPMT – 2011]</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Azotobacter       (2) Azospirillum</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Rhizobium         (4) Nostoc</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Rhizobium         (4) Nostoc</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q3. The common nitrogen-fixer in paddy fields is [AIPMT – 2010]         11.    Nitrifying bacteria :-       [AIPMT – 2011]</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Frankia           (2) Rhizobium                        (1) Oxidize ammonia to nitrates</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Azospirillum      (4) Oscillatoria                     (2) Convert free nitrogen to nitrogen compounds</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q4. Some hyperthermophilic organisms that</div>
+        <label class="option"><input type="radio" name="q4" value="1"> (1) Liverwort and Yeast                             12.    Which one of the following is a wrong</label>
+<label class="option"><input type="radio" name="q4" value="2"> (2) Eubacteria and Archaea                                 matching of a microbe and its industrial</label>
+<label class="option"><input type="radio" name="q4" value="3"> (3) Cyanobacteria and Diatoms                              product, while the remaining three are</label>
+<label class="option"><input type="radio" name="q4" value="4"> (4) Protists and mosses                                    correct ?                      [AIPMT – 2011]</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Eubacteria and Archaea                                 matching of a microbe and its industrial</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q5. Black (stem) rust of wheat is caused by-                   (1) Aspergillus niger -citric acid [AIPMT – 2010]                (2) Yeast -Statins</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Ustilago nuda                                          (3) Acetobacter aceti-acetic acid</label>
+<label class="option"><input type="radio" name="q5" value="2"> (2) Puccinia graminis                                      (4) Clostridium butylicum-lactic acid</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Xanthomonas oryzae</label>
+<label class="option"><input type="radio" name="q5" value="4"> (4) Alternaria solani                               13.    Which one of the following is not a biofertilizer?                [AIPMT – 2011]</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Puccinia graminis                                      (4) Clostridium butylicum-lactic acid</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q6. One of the free-living, anaerobic nitrogen-</div>
+        <label class="option"><input type="radio" name="q6" value="1"> (1) Azotobacter        (2) Beijernickia</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) Rhodospirillum     (4) Rhizobium                14.    The pathogen Microsporum responsible for ringworm disease in humans belongs to the</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Rhodospirillum     (4) Rhizobium                14.    The pathogen Microsporum responsible for ringworm disease in humans belongs to the</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q7. Membrane-bound organelles are absent in :                  same Kingdom of organisms as that of- [AIPMT – 2010]                                                   [AIPMT – 2011]</div>
+        <label class="option"><input type="radio" name="q7" value="1"> (1) Ascaris, a round worm</label>
+<label class="option"><input type="radio" name="q7" value="2"> (2) Taenia, a tapeworm</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) Streptococcus  (4) Chlamydononas</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Streptococcus  (4) Chlamydononas</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q8. Select the correct combination of the                      (3) Wuchereria, a filarial worm statements (a-d) regarding the characteristics of          (4) Rhizopus, a mould certain organisms              [AIPMT – 2010] (a) Methanogens are Archaebacteria which            15.    The cyanobacteria are also referred to as : produce methane in marshy areas.                                                   [AIPMT – 2012] (b) Nostoc is a filamentous blue-green alga                (1) Slime moulds      (2) Blue green algae which fixes atmospheric nitrogen.                     (3) Protists          (4) Golden algae (c) Chemosynthetic autotrophic bacteria</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q16. Yeast is used in the production of :- synthesize cellulose from glucose [AIPMT – 2012] (d) Mycoplasma lack a cell wall and can survive with oxygen                                    (1) Bread and beer The correct Statements are:                                 (2) Cheese and butter</div>
+        <label class="option"><input type="radio" name="q16" value="1"> (1) (a), (b), (c)        (2) (b), (c), (d)                  (3) Citric acid and lactic acid</label>
+<label class="option"><input type="radio" name="q16" value="3"> (3) (a), (b), (d)        (4) (b), (c)                       (4) Lipase and pectinase Sarvam Career Institute                                           75 Biology                                                                                           Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) (a), (b), (c)        (2) (b), (c), (d)                  (3) Citric acid and lactic acid</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q17. A nitrogen-fixing microbe associated with                24.    Which one of the following is the wrong Azolla in rice fields is-        [AIPMT – 2012]                 statement?                      [AIPMT – 2012]</div>
+        <label class="option"><input type="radio" name="q17" value="1"> (1) Frankia                 (2) Tolypothrix                     (1) Phosphorus is a constituent of cell</label>
+<label class="option"><input type="radio" name="q17" value="3"> (3) Spirulina               (4) Anabaena                            membranes, certain nucleic acids and all proteins</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q18. Which one of the following does not differ in                   (2) Nitrosomonas and Nitrobacter are E.coli and Chlamydomonas? [AIPMT – 2012]                            chemoautotrophs</div>
+        <label class="option"><input type="radio" name="q18" value="1"> (1) Cell wall                                                   (3) Anabaena and Nostoc are capable of</label>
+<label class="option"><input type="radio" name="q18" value="2"> (2) Cell membrane                                                   fixing nitrogen in free-living state also</label>
+<label class="option"><input type="radio" name="q18" value="3"> (3) Ribosomes                                                   (4) Root nodule forming nitrogen fixers live</label>
+<label class="option"><input type="radio" name="q18" value="4"> (4) Chromosomal Organization                                        as aerobes under free-living conditions</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Cell membrane                                                   fixing nitrogen in free-living state also</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q25. Which one single organism or the pair of</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q19. Maximum nutritional diversity is found in the organisms is correctly assigned to its or their group-                           [AIPMT – 2012] named taxonomic group?       [AIPMT – 2012]</div>
+        <label class="option"><input type="radio" name="q19" value="1"> (1) Yeast used in making bread and beer is</label>
+<label class="option"><input type="radio" name="q19" value="3"> (3) Fungi                   (4) Animalia                            a fungus</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Yeast used in making bread and beer is</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q20. Nuclear membrane is absent in :–                                (2) Nostoc and Anabaena are examples of [AIPMT – 2012]                     protista</div>
+        <label class="option"><input type="radio" name="q20" value="1"> (1) Volvox                  (2) Nostoc the same kingdom as that of Penicilium</label>
+<label class="option"><input type="radio" name="q20" value="3"> (3) Penicillium             (4) Agaricus</label>
+<label class="option"><input type="radio" name="q20" value="4"> (4) Lichen is a composite organism formed</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q21. The most abundant prokaryotes helpful to                            from the symbiotic association of an humans in making curd from milk and in the                          algae and a protozoan production of antibiotics are the ones                   26.    Which of the following are likely to be present in categorised as :–                [AIPMT – 2012]                 deep sea water ?             [NEET UG – 2013]</div>
+        <label class="option"><input type="radio" name="q21" value="1"> (1) Chemosynthetic autotrophs                                   (1) Saprophytic fungi (2) Archaebacteria</label>
+<label class="option"><input type="radio" name="q21" value="2"> (2) Heterotrophic bacteria                                      (3) Eubacteria           (4) Blue-green algae</label>
+<label class="option"><input type="radio" name="q21" value="3"> (3) Cyanobacteria                                        27.    A good producer of citric acid is-</label>
+<label class="option"><input type="radio" name="q21" value="4"> (4) Archaebacteria                                                                         [NEET UG – 2013]</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Heterotrophic bacteria                                      (3) Eubacteria           (4) Blue-green algae</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q22. In    the       five-kingdom           classification,          (1) Saccharomyces      (2) Aspergillus Chlamydomonas and Chlorella have been                           (3) Pseudomonas        (4) Clostridium included in :                    [AIPMT – 2012]          28.    Select the wrong statement:</div>
+        <label class="option"><input type="radio" name="q22" value="1"> (1) Plantae                 (2) Monera                                                    [NEET UG – 2013]</label>
+<label class="option"><input type="radio" name="q22" value="3"> (3) Protista                (4) Algae                           (1) Chlamydomonas exhibits both isogamy and anisogamy and fucus shows oogamy</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Protista                (4) Algae                           (1) Chlamydomonas exhibits both isogamy and anisogamy and fucus shows oogamy</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q23. How many organisms in the list given below</div>
+        <label class="option"><input type="radio" name="q23" value="1"> (1) Six                     (2) Three                               and motile, while male gamete is larger</label>
+<label class="option"><input type="radio" name="q23" value="2"> (2) Isogametes are similar in structure, are autotrophs?                  [AIPMT – 2012] function and behaviour Lactobacillus, Nostoc, Chara, Nitrosomonas,</label>
+<label class="option"><input type="radio" name="q23" value="3"> (3) Four                    (4) Five                                and nonmotile 76                                                     Sarvam Career Institute Biological Classification                                                                              Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Six                     (2) Three                               and motile, while male gamete is larger</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q29. Which of the following represents the            36.     Which of the following shows coiled RNA maximum number of species among global                   strands and capsomeres?   [AIPMT – 2014] diversity ?             [NEET UG – 2013]                 (1) Polio virus</div>
+        <label class="option"><input type="radio" name="q29" value="1"> (1) Mosses and fern (2) Algae                            (2) Tobacco mosaic virus</label>
+<label class="option"><input type="radio" name="q29" value="3"> (3) Lichens         (4) Fungi                            (3) Measles virus</label>
+<label class="option"><input type="radio" name="q29" value="4"> (4) Retrovirus</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q30. Pigments containing membranous extensions in some cyanobacteria are: [NEET UG – 2013]         37.     Transformation was discovered by:</div>
+        <label class="option"><input type="radio" name="q30" value="1"> (1) Chromatophores                                                                  [AIPMT – 2014]</label>
+<label class="option"><input type="radio" name="q30" value="2"> (2) Heterocysts                                          (1) Meselson and Stahl</label>
+<label class="option"><input type="radio" name="q30" value="3"> (3) Basal bodies                                         (2) Hershey and Chase</label>
+<label class="option"><input type="radio" name="q30" value="4"> (4) Pneumatophores                                       (3) Griffith</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Chromatophores                                                                  [AIPMT – 2014]</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q31. Which of the following is not correctly                  (4) Watson and Crick matched for the organism and its cell wall       38.     Viruses have:                [AIPMT – 2014] degrading enzyme-        [NEET UG – 2013]                (1) DNA enclosed in a protein coat</div>
+        <label class="option"><input type="radio" name="q31" value="1"> (1) Fungi-Chitinase                                      (2) Prokaryotic nucleus</label>
+<label class="option"><input type="radio" name="q31" value="2"> (2) Bacteria-Lysozyme                                    (3) Single chromosome</label>
+<label class="option"><input type="radio" name="q31" value="3"> (3) Plant cell-Cellulase                                 (4) Both DNA and RNA</label>
+<label class="option"><input type="radio" name="q31" value="4"> (4) Algae-Methylase</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Algae-Methylase</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q39. Which one of the following living organisms</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q32. Five kingdom system of classification                    completely lacks a cell wall? suggested by R.H. Whittaker is not based on :                                          [AIPMT – 2014] [AIPMT – 2014]              (1) Cyanobacteria       (2) Seafan(Gorgonia)</div>
+        <label class="option"><input type="radio" name="q32" value="1"> (1) Presence or absence of a well defined                (3) Saccharomyces       (4) Blue-green algae nucleus</label>
+<label class="option"><input type="radio" name="q32" value="2"> (2) Mode of reproduction                         40.     Which one of the following matches is</label>
+<label class="option"><input type="radio" name="q32" value="3"> (3) Mode of nutrition                                    correct ?                    [AIPMT – 2015]</label>
+<label class="option"><input type="radio" name="q32" value="4"> (4) Complexity of body organization                      (1) a-Alternaria, b-Sexual reproduction</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Mode of reproduction                         40.     Which one of the following matches is</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q33. Which one of the following fungi contains                    absent, c-Deuteromycetes hallucinogens?               [AIPMT – 2014]              (2) a-Mucor, b-Reproduction by Conjugatoin, c-</div>
+        <label class="option"><input type="radio" name="q33" value="1"> (1) Morchella esculenta                                      Ascomycetes</label>
+<label class="option"><input type="radio" name="q33" value="2"> (2) Amanita muscaris                                     (3) a-Agaricus, b-Parasitic fungus, c-</label>
+<label class="option"><input type="radio" name="q33" value="3"> (3) Neurospora sp.                                           Basidiomycetes</label>
+<label class="option"><input type="radio" name="q33" value="4"> (4) Ustilago sp.                                         (4) a-Phytophthora, b-Aseptate mycelium, c–Basidiomycetes</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Amanita muscaris                                     (3) a-Agaricus, b-Parasitic fungus, c-</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q34. Archaebacteria differ from eubacteria in:</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q41. True nucleus is absent in : [AIPMT – 2015] [AIPMT-2014]</div>
+        <label class="option"><input type="radio" name="q41" value="1"> (1) Cyanophycean granule</label>
+<label class="option"><input type="radio" name="q41" value="2"> (2) Mode of nutrition                                    (3) Vaucheria          (4) Anabaena</label>
+<label class="option"><input type="radio" name="q41" value="3"> (3) Cell shape                                   42.     Which one of the following is not an inclusion</label>
+<label class="option"><input type="radio" name="q41" value="4"> (4) Mode of reproduction                                 body found in prokaryotes? [AIPMT – 2015]</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Mode of reproduction                                 body found in prokaryotes? [AIPMT – 2015]</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q35. Anoxygenic photosynthesis is characteristic of :                            [AIPMT – 2014]              (2) Glycogen granule</div>
+        <label class="option"><input type="radio" name="q35" value="1"> (1) Rhodospirillum   (2) Spirogyra                       (3) Polysome</label>
+<label class="option"><input type="radio" name="q35" value="3"> (3) Chlamydomonas (4) Ulva                               (4) Phosphate granule Sarvam Career Institute                                           77 Biology                                                                                  Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Rhodospirillum   (2) Spirogyra                       (3) Polysome</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q43. The guts of cow and buffalo possess :–           51.    Choose the wrong statement : [AIPMT – 2015]                                        [RE AIPMT – 2015]</div>
+        <label class="option"><input type="radio" name="q43" value="1"> (1) Chlorella spp.    (2) Methanogens                   (1) Yeast is unicellular and useful in</label>
+<label class="option"><input type="radio" name="q43" value="2"> (2) Penicillium is multicellular and produces</label>
+<label class="option"><input type="radio" name="q43" value="3"> (3) Cyanobacteria     (4) Fucus spp.                        fermentation</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Penicillium is multicellular and produces</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q44. Cell wall is absent in - [RE AIPMT – 2015] antibiotics</div>
+        <label class="option"><input type="radio" name="q44" value="1"> (1) Nostoc              (2) Aspergillus</label>
+<label class="option"><input type="radio" name="q44" value="3"> (3) Funaria             (4) Mycoplasma biochemical genetics</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q45. Chromatophores take part in ?                           (4) Morels and truffles are poisonous [RE AIPMT – 2015]                    mushrooms</div>
+        <label class="option"><input type="radio" name="q45" value="1"> (1) Respiration      (2) Photosynthesis</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q52. In which group of organisms the cell walls</div>
+        <label class="option"><input type="radio" name="q52" value="3"> (3) Growth           (4) Movement form two thin overlapping shells which fit</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q46. The structures that help some bacteria to               together?              [RE AIPMT – 2015] attach to rocks and / or host tissues are:              (1) Slime moulds     (2) Chrysophytes [RE AIPMT – 2015]             (3) Euglenoids       (4) Dinoflagellates</div>
+        <label class="option"><input type="radio" name="q46" value="1"> (1) Holdfast            (2) Rhizoids             53.    Select the wrong statements:</label>
+<label class="option"><input type="radio" name="q46" value="3"> (3) Fimbriae            (4) Mesosomes                                                 [NEET-II – 2016]</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Fimbriae            (4) Mesosomes                                                 [NEET-II – 2016]</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q47. Which of the following are not membrane                 (1) Diatomaceous earth is formed by the bound ?                     [RE AIPMT-2015]                 cell walls of diatoms</div>
+        <label class="option"><input type="radio" name="q47" value="1"> (1) Mesosomes                                           (2) Diatoms are chief producers in the oceans</label>
+<label class="option"><input type="radio" name="q47" value="2"> (2) Vacuoles                                            (3) Diatoms are microscopic and float</label>
+<label class="option"><input type="radio" name="q47" value="3"> (3) Ribosomes                                               passively in water</label>
+<label class="option"><input type="radio" name="q47" value="4"> (4) Lysosomes                                           (4) The wall of diatoms are easily destructible</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Ribosomes                                               passively in water</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q48. Which of the following structures is not         54.    Methanogens belong to : [NEET-II – 2016] found in prokaryotic cells ?                            (1) Archaebacteria   (2) Dinoflagellates [RE AIPMT – 2015]             (3) Slime moulds     (4) Eubacteria</div>
+        <label class="option"><input type="radio" name="q48" value="1"> (1) Plasma membrane</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q55. Chrysophytes, Euglenoids, Dinoflagellates</div>
+        <label class="option"><input type="radio" name="q55" value="2"> (2) Nuclear envelope                                    and Slime moulds are included in the kingdom:</label>
+<label class="option"><input type="radio" name="q55" value="3"> (3) Ribosome                                                                          [NEET-I – 2016]</label>
+<label class="option"><input type="radio" name="q55" value="4"> (4) Mesosome                                            (1) Animalia            (2) Protista</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Nuclear envelope                                    and Slime moulds are included in the kingdom:</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q49. The imperfect fungi which are decomposer of             (3) Monera              (4) Fungi litter and help in mineral cycling belong to :   56.    One of the major components of cell wall of [RE AIPMT – 2015]           most fungi is:            [NEET-I – 2016]</div>
+        <label class="option"><input type="radio" name="q49" value="1"> (1) Ascomycetes          (2) Deuteromycetes             (1) Chitin           (2) Peptidoglycan</label>
+<label class="option"><input type="radio" name="q49" value="3"> (3) Basidiomycetes       (4) Phycomycetes               (3) Cellulose        (4) Hemicellulose</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q50. Pick up the wrong statement:                     57.    Which one of the following statements is [RE AIPMT – 2015]            wrong ?                       [NEET-I – 2016]</div>
+        <label class="option"><input type="radio" name="q50" value="1"> (1) Nuclear membrane is present in Monera               (1) Cyanobacteria are also called blue-green</label>
+<label class="option"><input type="radio" name="q50" value="2"> (2) Cell wall is absent in Animalia                         algae</label>
+<label class="option"><input type="radio" name="q50" value="3"> (3) Protista have photosynthetic and                    (2) Golden algae are also called desmids. heterotrophic modes of nutrition                    (3) Eubacteria are also called false bacteria.</label>
+<label class="option"><input type="radio" name="q50" value="4"> (4) Some fungi are edible                               (4) Phycomycetes are also called algal fungi. 78                                             Sarvam Career Institute Biological Classification                                                                               Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Nuclear membrane is present in Monera               (1) Cyanobacteria are also called blue-green</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q58. Which of the following statements is wrong        65.    Which among the following are the smallest for viroids ?                [NEET-I – 2016]             living cells, known without a definite cell</div>
+        <label class="option"><input type="radio" name="q58" value="1"> (1) They lack a protein coat                             wall, pathogenic to plants as well as animals</label>
+<label class="option"><input type="radio" name="q58" value="2"> (2) They are smaller than viruses                        and can survive without oxygen?</label>
+<label class="option"><input type="radio" name="q58" value="3"> (3) They cause infections                                                              [NEET – 2017]</label>
+<label class="option"><input type="radio" name="q58" value="4"> (4) Their RNA is of high molecular weight                (1) Bacillus           (2) Pseudomonas</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Their RNA is of high molecular weight                (1) Bacillus           (2) Pseudomonas</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q59. Which of the following sets of diseases is               (3) Mycoplasma         (4) Nostoc caused by bacteria?      [NEET-II – 2016]         66.    Select the mismatch :         [NEET – 2017]</div>
+        <label class="option"><input type="radio" name="q59" value="1"> (1) Typhoid and smallpox                                 (1) Frankia - Alnus</label>
+<label class="option"><input type="radio" name="q59" value="2"> (2) Tetanus and mumps                                    (2) Rhodospirillum - Mycorrhiza</label>
+<label class="option"><input type="radio" name="q59" value="3"> (3) Herpes and influenza                                 (3) Anabaena - Nitrogen fixer</label>
+<label class="option"><input type="radio" name="q59" value="4"> (4) Rhizobium - Alfalfa</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Rhizobium - Alfalfa</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q60. Select the wrong statement-</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q67. Which of the following organisms are known as [NEET-II – 2016] chief producers in the oceans ?</div>
+        <label class="option"><input type="radio" name="q67" value="1"> (1) Pili and fimbriae are mainly involved in [NEET – 2018] motility of bacterial cells.</label>
+<label class="option"><input type="radio" name="q67" value="2"> (2) Cyanobacteria lack flagellated cells                 (1) Dinoflagellates     (2) Diatoms</label>
+<label class="option"><input type="radio" name="q67" value="3"> (3) Mycoplasma is a wall less microorganism              (3) Cyanobacteria       (4) Euglenoids</label>
+<label class="option"><input type="radio" name="q67" value="4"> (4) Bacterial cell wall is made up of             68.    Oxygen is not produced during photosynthesis by peptidoglycan                                        :                               [NEET – 2018]</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Cyanobacteria lack flagellated cells                 (1) Dinoflagellates     (2) Diatoms</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q61. Which one of the following is wrong for fungi            (1) Green sulphur bacteria ?                              [NEET-II – 2016]          (2) Nostoc</div>
+        <label class="option"><input type="radio" name="q61" value="1"> (1) All fungi possess a purely cellulosic cell           (3) Cycas wall                                                 (4) Chara</label>
+<label class="option"><input type="radio" name="q61" value="2"> (2) They are heterotrophic</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) All fungi possess a purely cellulosic cell           (3) Cycas wall                                                 (4) Chara</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q69. Which among the following is not a</div>
+        <label class="option"><input type="radio" name="q69" value="1"> (1) Saccharomyces (2) Mycobacterium</label>
+<label class="option"><input type="radio" name="q69" value="3"> (3) They are both unicellular and multicellular prokaryote?              [NEET – 2018]</label>
+<label class="option"><input type="radio" name="q69" value="4"> (4) They are eukaryotic</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Saccharomyces (2) Mycobacterium</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q62. Which of the following is correctly matched              (3) Nostoc        (4) Oscillatoria for the product produced by them ? [NEET – 2017]      70.    After karyogamy followed by meiosis, spores</div>
+        <label class="option"><input type="radio" name="q62" value="1"> (1) Acetobacter aceti : Antibiotics                      produced exogenously in :    [NEET – 2018]</label>
+<label class="option"><input type="radio" name="q62" value="2"> (2) Methanobacterium : Lactic acid                       (1) Neurospora        (2) Alternaria</label>
+<label class="option"><input type="radio" name="q62" value="3"> (3) Penicillium notatum : Acetic acid                    (3) Agaricus          (4) Saccharomyces</label>
+<label class="option"><input type="radio" name="q62" value="4"> (4) Saccharomyces cerevisiae : Ethanol            71.    Select the wrong statement.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Saccharomyces cerevisiae : Ethanol            71.    Select the wrong statement.</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q63. Mycorrhizae are the example of :                                                        [NEET – 2018] [NEET – 2017]                (1) Cell wall is present in members of fungi</div>
+        <label class="option"><input type="radio" name="q63" value="1"> (1) Fungistasis       (2) Amensalism                         and plantae.</label>
+<label class="option"><input type="radio" name="q63" value="3"> (3) Antibiosis        (4) Mutualism                      (2) Mushroom belong to basidiomycetes</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q64. Which of the following are found in extreme              (3) Pseudopodia are locomotory and feeding saline conditions ?          [NEET – 2017]                   structures in sporozoans</div>
+        <label class="option"><input type="radio" name="q64" value="1"> (1) Archaebacteria    (2) Eubacteria                     (4) Mitochondria are the powerhouse of the</label>
+<label class="option"><input type="radio" name="q64" value="3"> (3) Cyanobacteria     (4) Mycobacteria                       cell in all kingdom except monera Sarvam Career Institute                                            79 Biology                                                                                  Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Archaebacteria    (2) Eubacteria                     (4) Mitochondria are the powerhouse of the</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q72. Ciliates differ from all other protozoans in-    77.    According to Robert May, the global species [NEET – 2018]           diversity is about-        [NEET-I – 2020]</div>
+        <label class="option"><input type="radio" name="q72" value="1"> (1) Using flagella for locomotion                       (1) 20 million       (2) 50 million</label>
+<label class="option"><input type="radio" name="q72" value="2"> (2) Having a contractile vacuole for                    (3) 7 million        (4) 1.5 million removing excess water</label>
+<label class="option"><input type="radio" name="q72" value="3"> (3) Using pseudopodia for capturing prey         78.    Which of the following is correct about viroids?</label>
+<label class="option"><input type="radio" name="q72" value="4"> (4) Having two types of nuclei                                                         [NEET-I – 2020]</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Having two types of nuclei                                                         [NEET-I – 2020]</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q73. Match Column-I with column-II.                          (1) They have free RNA without protein coat. Column-I        Column-II                                (2) They have DNA with protein coat. A.   Saprophyte i. Symblotic association of                   (3) They have free DNA without protein coat. fungi with plant roots                   (4) They have RNA with protein coat. B.    Parasite   ii. Decomposition of dead organic materials                 79.    Mach column-I with column-II. C.    Lichens   iii. Living on living plants or                                          [NEET – 2021] animals                                        Column–I           Column–II D.   Mycorrhiza iv. Symbiotic association of                   (a) Nitrococcus (i)     Denitrification algae and fungi (b) Rhizobium      (ii) Conversion of Choose the correct answer form the options                                       ammonia to given below                   [NEET – 2019] nitrate</div>
+        <label class="option"><input type="radio" name="q73" value="1"> (1) A=ii, B= i, C = iii, D=iv (c) Thiobacillus (iii) Conservation</label>
+<label class="option"><input type="radio" name="q73" value="2"> (2) A=ii, B= iii, C = iv, D=i</label>
+<label class="option"><input type="radio" name="q73" value="3"> (3) A=i, B= ii, C = iv, D=i                                                      of nitrite to</label>
+<label class="option"><input type="radio" name="q73" value="4"> (4) A=iii, B= ii, C = i, D=iv                                                    nitrate</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) A=ii, B= iii, C = iv, D=i</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q74. Thiobacillus is a group of bacteria helpful in           (d) Nitrobacter (iv) Conversion of carrying out:                 [NEET – 2019]                                      atmospheric</div>
+        <label class="option"><input type="radio" name="q74" value="1"> (1) Nitrification                                                                nitrogen to</label>
+<label class="option"><input type="radio" name="q74" value="2"> (2) Denitrification                                                              ammonia</label>
+<label class="option"><input type="radio" name="q74" value="3"> (3) Nitrogen fixation Choose the correct answer from options</label>
+<label class="option"><input type="radio" name="q74" value="4"> (4) Chemoautotrophic fixation given below.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Denitrification                                                              ammonia</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q75. Which of the following statements is</div>
+        <label class="option"><input type="radio" name="q75" value="1"> (1) Infective constituent in viruses is the protein coat.                                       (3) (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)</label>
+<label class="option"><input type="radio" name="q75" value="2"> (2) Prions consist of abnormally folded                 (4) (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii) proteins</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Infective constituent in viruses is the protein coat.                                       (3) (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q80. Which of the following statements is correct?</div>
+        <label class="option"><input type="radio" name="q80" value="1"> (1) Some of the organisms can fix</label>
+<label class="option"><input type="radio" name="q80" value="3"> (3) Viroids lack a protein coat. [NEET – 2021]</label>
+<label class="option"><input type="radio" name="q80" value="4"> (4) Viruses are obligate parasites.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Viroids lack a protein coat. [NEET – 2021]</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q76. Which of the following statements is                        atmospheric nitrogen in specialized cells incorrect?                      [NEET – 2019]               called sheath cells.</div>
+        <label class="option"><input type="radio" name="q76" value="1"> (1) Conidia are produced exogenously and</label>
+<label class="option"><input type="radio" name="q76" value="2"> (2) Yeasts have filamentous bodies with long thread like hyphae                                 motile or non-motile gametes is called</label>
+<label class="option"><input type="radio" name="q76" value="3"> (3) Morels and truffles are edible delicacies               Plasmogamy.</label>
+<label class="option"><input type="radio" name="q76" value="4"> (4) Claviceps is a source of many alkaloids             (4) Organisms that depend on living plants and LSD.                                                are called saprophytes. 80                                             Sarvam Career Institute Biological Classification                                                                              Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Yeasts have filamentous bodies with long thread like hyphae                                 motile or non-motile gametes is called</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q81. Given below are two statements :–                  83.    Which one of the following is not a criterion Statement I : Mycoplasma can pass through                 for classification of fungi?   [NEET–2024] less than 1 micron filter size.                           (1) Mode of spore formation Statement II : Mycoplasma are bacteria with               (2) Fruiting body cell wall                                                 (3) Morphology of mycelium In the light of the above statements, choose              (4) Mode of nutrition the most appropriate answer from the options</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q84. Match List I with List II –      [NEET–2024] given below:                    [NEET – 2022] List–I                 List–II</div>
+        <label class="option"><input type="radio" name="q84" value="1"> (1) Both Statement I and Statement II are A.    Rhizopus       I.      Mushroom incorrect B.    Ustilago       II.     Smut fungus</label>
+<label class="option"><input type="radio" name="q84" value="2"> (2) Statement I is correct but Statement II is C.    Puccinia       III.    Bread mould incorrect</label>
+<label class="option"><input type="radio" name="q84" value="3"> (3) Statement I is incorrect but Statement II is           D.    Agaricus       IV.     Rust fungus correct                                               Choose the correct answer from the options</label>
+<label class="option"><input type="radio" name="q84" value="4"> (4) both Statement I and Statement II are                 given below : correct                                               (1) A-III, B-II, C-I, D-IV</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Statement I is incorrect but Statement II is           D.    Agaricus       IV.     Rust fungus correct                                               Choose the correct answer from the options</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q82. Which of the following is a correct statement?            (2) A-IV, B-III, C-II, D-I [NEET – 2022]            (3) A-III, B-II, C-IV, D-I</div>
+        <label class="option"><input type="radio" name="q82" value="1"> (1) Bacteria are exclusively heterotrophic                (4) A-I, B-III, C-II, D-IV organisms</label>
+<label class="option"><input type="radio" name="q82" value="2"> (2) Slime moulds are saprophytic organisms classified under Kingdom Monera.</label>
+<label class="option"><input type="radio" name="q82" value="3"> (3) Mycoplasma have DNA, Ribosome and cell wall</label>
+<label class="option"><input type="radio" name="q82" value="4"> (4) Cyanobacteria are a group of autotrophic organisms classified under kingdom Monera. Sarvam Career Institute                                          81 Biology                                                                              Biological Classification ANSWER KEYS</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Cyanobacteria are a group of autotrophic organisms classified under kingdom Monera. Sarvam Career Institute                                          81 Biology                                                                              Biological Classification ANSWER KEYS</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-3.html">← Exercise 3</a><a href="index.html">🏠 Home</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

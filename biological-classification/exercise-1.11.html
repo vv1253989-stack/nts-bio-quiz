@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.11 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.11 - The Living World</h1>
+        
+    <div class="question" data-answer="1">
+        <div class="qtext">Q1. "Potato spindle tuber disease" refers to :           10.     The protein coat of viruses are called ____</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Capsomere, Capsid</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Virus              (4) Bacteria                          ______.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Capsomere, Capsid</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. Viroids differ from virus in :–                              (2) Pepleomere, Capsid</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Protein coat        (2) DNA                              (3) Capsid, Pepleomere</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) RNA                 (4) All                              (4) Capsid, Capsomere</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Protein coat        (2) DNA                              (3) Capsid, Pepleomere</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q3. BSE disease is caused by                             11.     The function of mycobiont in a lichen is to :</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Virus              (2) Viroids                           (1) Prepare food for algae</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Prions             (4) Lichens                           (2) Provide shelter and absorb nutrients and water for algae</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Prions             (4) Lichens                           (2) Provide shelter and absorb nutrients and water for algae</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q4. In plants symptoms of viral disease are                      (3) Digest algae</div>
+        <label class="option"><input type="radio" name="q4" value="1"> (1) Bacteria       (2) Fungi</label>
+<label class="option"><input type="radio" name="q4" value="2"> (2) Leaf rolling and curling</label>
+<label class="option"><input type="radio" name="q4" value="3"> (3) Yellowing and Vein clearing                      12.     Which of the following is non-cellular</label>
+<label class="option"><input type="radio" name="q4" value="4"> (4) All                                                      organism?</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) All                                                      organism?</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q5. 'Contagium vivium fluidum' belongs to                        (3) Algae          (4) Virus</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Virus             (2) Viroids                    13.     Enzymes are not found in</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Prions            (4) Lichens                            (1) Fungi            (2) Algae</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Virus             (2) Viroids                    13.     Enzymes are not found in</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q6. Which of the following organism can not                      (3) Virus            (4) Cyanobacteria grow in polluted area ?                              14.     Lichens show:</div>
+        <label class="option"><input type="radio" name="q6" value="1"> (1) Virus               (2) Fungi                            (1) Mutually obligatory relationship</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) Mutually relationship between algae and</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q7. Which of the following are not considered in higher plants five kingdom system of classification?</div>
+        <label class="option"><input type="radio" name="q7" value="1"> (1) Lichen            (2) Virus                                  BGA</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) Viroid            (4) All of the above</label>
+<label class="option"><input type="radio" name="q7" value="4"> (4) Relationship between gymnosperm and</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Relationship between gymnosperm and</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q15. Phycobionts and mycobionts are respectively :</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q8. Select the true statement :                                  (1) Autotrophic, Heterotrophic</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) Viruses are obligate parasites                           (2) Heterotrophic, Autotrophic</label>
+<label class="option"><input type="radio" name="q8" value="2"> (2) In lichens, algal component is called                    (3) Autotrophic, Autotrophic phycobiont                                               (4) Heterotrophic, Heterotrophic</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) In lichens, fungal component is called           16.     Lichens are pollution indicator for : mycobiont                                                (1) SO2                 (2) CO2</label>
+<label class="option"><input type="radio" name="q8" value="4"> (4) All of the above                                         (3) NO2                 (4) SiO2</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) All of the above                                         (3) NO2                 (4) SiO2</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q9. Viroid was discovered by:                            17.     VAM is associated to :</div>
+        <label class="option"><input type="radio" name="q9" value="1"> (1) Haeckel             (2) Pasteur                          (1) Ectomycorrhiza     (2) Endomycorrhiza</label>
+<label class="option"><input type="radio" name="q9" value="3"> (3) T.O. Diener         (4) Theophrastus 58                                              Sarvam Career Institute Biological Classification                                                                                     Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-1.9.html">← Exercise 1.9</a><a href="index.html">🏠 Home</a><a href="exercise-2.html">Exercise 2 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 3 - The Living World</h1>
+        
+    <div class="question" data-answer="4">
+        <div class="qtext">Q1. Match the process in Column I with its term                    habitats in Column II and choose the correct in Column II.                                                  option from the codes given below. Column I              Column II (Systems of           (Given by)                             Column I                    Column II classification)                                              (Features)                  (Protista) (A) Two kingdom (p) RH Whittaker (A)    Chief producer       (p) Diatoms system of classification                                               in the oceans (B) Five kingdom (q) Carl Woese                             (B)    Red tide             (q) Dinoflagellates system of classification                                        (C)    Connecting link      (r)    Euglenoids (C) Six kingdom         (r) Carolus                                between plants system of             Linnaeus classification                                               and animals</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) A → (q); B → (p); C → (r)                            (D) Fungus animals          (s)    Slime Moulds</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) A → (p); B → (q); C → (r); D → (s)</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) A → (s); B → (r); C → (p)                                  (1) A → (q); B → (r); C → (s); D → (p)</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) A → (r); B → (p); C → (q)</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) A → (r); B → (p); C → (q)</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q2. Match the process in Column I with its term</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) A → (r); B → (q); C → (p); D → (s)                             (Types)               (Examples)</label>
+<label class="option"><input type="radio" name="q2" value="2"> (2) A → (s); B → (r); C → (q); D → (p) (A)   Amoeboid        (p)   Plasmodium</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) A → (q); B → (p); C → (s); D → (r)</label>
+<label class="option"><input type="radio" name="q2" value="4"> (4) A → (p); B → (s); C → (r); D → (q)                             protozoans</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) A → (q); B → (p); C → (s); D → (r)</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q3. Match the organisms in Column I with                         (B)   Flagellated     (q)   Paramecium habitats in Column II and choose the correct                       protozoans option from the codes given below. Column I                  Column II                    (C)   Ciliated        (r)   Trypanosoma (A) Halophiles             (p) Hot springs                        protozoans (B) Thermoacidophiles (q) Aquatic environment                  (D) Sporozoans        (s)   Entamoeba (C) Methanogens            (r) Guts of                                                  histolytica ruminants (D) Cyanobacteria          (s) Salty area                  (1) A → (p); B → (q); C → (r); D → (s)</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) A → (s); B → (p); C → (r); D → (q)                      (2) A → (s); B → (r); C → (q); D → (p)</label>
+<label class="option"><input type="radio" name="q3" value="2"> (2) A → (p); B → (q); C → (r); D → (s)</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) A → (r); B → (s); C → (q); D → (p)</label>
+<label class="option"><input type="radio" name="q3" value="4"> (4) A → (q); B → (s); C → (r); D → (p)                      (4) A → (q); B → (p); C → (s); D → (r) 64                                             Sarvam Career Institute Biological Classification                                                                                    Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) A → (s); B → (p); C → (r); D → (q)                      (2) A → (s); B → (r); C → (q); D → (p)</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q6. Match the process in Column I with its term        8.      Match the following columns and choose the in Column II.                                              correct option from the codes given below : Column I                    Column II Column I                       Column II (Scientists)                (Related to) (Features)                     (Related to)    (A)   DJ Ivanowsky (1892)   (p)   Viroids (A)   Parastic fungi         (p)     Neurospora      (B)   MW Beijerinck         (q)   First crystallised (1898)                      TMV on mustard (C)   WM Stanley (1935)     (r)   Contagium vivum (B)   Rust and smut          (q)     Puccinia and                                      fluidum disease                        Ustilago        (D)   TO Diener (1971)      (s)   Mosaic disease of tobacco (C)   Used in genetic        (r)     Morels and</div>
+        <label class="option"><input type="radio" name="q6" value="1"> (1) A→(r); B→(t); C→(s); D→(q); E→(p)                      correct option from the codes given below Column I            Column II</label>
+<label class="option"><input type="radio" name="q6" value="2"> (2) A→(p); B→(r); C→(t); D→(s); E→(r) (Kingdoms)          (Classes)</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) A→(r); B→(p); C→(r); D→(t); E→(s)                        (A)   Plantae      (p)    Archaeobacteria (B)   Fungi        (q)    Euglenoids</label>
+<label class="option"><input type="radio" name="q6" value="4"> (4) A→(s); B→(q); C→(p); D→(r); E→(t) (C)   Protista     (r)    Phycomycetes (D)   Monera       (s)    Algae</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) A→(s); B→(q); C→(p); D→(r); E→(t) (C)   Protista     (r)    Phycomycetes (D)   Monera       (s)    Algae</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q7. Match the following columns and choose the correct option from the codes given below                  (1) A → (s); B → (r); C → (q); D → (p)</div>
+        <label class="option"><input type="radio" name="q7" value="2"> (2) A → (p); B → (q); C → (r); D → (s) Column I                 Column II</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) A → (r); B → (s); C → (q); D → (p) (A)   Saprophyte         (p)   Symbiotic association</label>
+<label class="option"><input type="radio" name="q7" value="4"> (4) A → (s); B → (q); C → (r); D → (p) of fungi with plant roots                               Assertion – Reason Type Questions: (B)   Parasite           (q)   Decomposition of</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) A → (r); B → (s); C → (q); D → (p) (A)   Saprophyte         (p)   Symbiotic association</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q10. Assertion: The two kingdom classification, dead organic materials                  used for a long time, was found to be (C)   Lichens        (r) Living on living                         inadequate. Reason: Two kingdom system of classification plants or animals did not distinguish between the eukaryotes (D)   Mycorrhiza     (s) Symbiotic association and prokaryotes, unicellular and multicellular of algae and fungi                      organisms and green algae and fungi.</div>
+        <label class="option"><input type="radio" name="q10" value="1"> (1) A → (r); B → (q); C → (p); D → (s)                          correct explanation of A</label>
+<label class="option"><input type="radio" name="q10" value="2"> (2) A → (q); B → (p); C → (r); D → (s)                      (2) If both A and R are true, but R is not the</label>
+<label class="option"><input type="radio" name="q10" value="3"> (3) If A is true, but R is false</label>
+<label class="option"><input type="radio" name="q10" value="4"> (4) If A is false, but R is true Sarvam Career Institute                                            65 Biology                                                                                     Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) A → (r); B → (q); C → (p); D → (s)                          correct explanation of A</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q11. Assertion:     Five     kingdom    system   of    14.    Assertion:     In   fungi,   sexual   apparatus classification did not differentiated between            decreases in complexity from lower to higher the heterotrophic group, fungi and the                   forms. autotrophic green plants. Though they                    Reason: In algae, sexual apparatus increases showed a characteristic difference in their              in complexity from simple to higher forms. cell wall composition.                                   (1) If both A and R are true and R is the correct explanation of A Reason: Fungal cell wall contains chitin,</div>
+        <label class="option"><input type="radio" name="q11" value="1"> (1) If both A and R are true and R is the</label>
+<label class="option"><input type="radio" name="q11" value="2"> (2) If both A and R are true, but R is not the</label>
+<label class="option"><input type="radio" name="q11" value="3"> (3) If A is true, but R is false correct explanation of A</label>
+<label class="option"><input type="radio" name="q11" value="4"> (4) If A is false, but R is true</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) If A is false, but R is true</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q15. Assertion: Viruses cause diseases and correct explanation of A replicate when they are in the host cell.</div>
+        <label class="option"><input type="radio" name="q15" value="3"> (3) If A is true, but R is false Reason: Viruses do not replicate outside the</label>
+<label class="option"><input type="radio" name="q15" value="4"> (4) If A is false, but R is true host, but they survive in environment.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q12. Assertion: Euglena is a plant due to the                 (1) If both A and R are true and R is the presence of chlorophyll.                                     correct explanation of A Reason: Euglena cannot be classified on the              (2) If both A and R are true, but R is not the basis of two kingdom system.                                 correct explanation of A</div>
+        <label class="option"><input type="radio" name="q12" value="1"> (1) If both A and R are true and R is the                (3) If A is true, but R is false correct explanation of A                             (4) If A is false, but R is true</label>
+<label class="option"><input type="radio" name="q12" value="2"> (2) If both A and R are true, but R is not the    16.    Assertion: Slime moulds are called as fungus correct explanation of A                             like animals.</label>
+<label class="option"><input type="radio" name="q12" value="3"> (3) If A is true, but R is false                         Reason: These do not have cell wall.</label>
+<label class="option"><input type="radio" name="q12" value="4"> (4) If A is false, but R is true                         (1) If both A and R are true and R is the correct explanation of A</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) If both A and R are true, but R is not the    16.    Assertion: Slime moulds are called as fungus correct explanation of A                             like animals.</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q13. Assertion: Fungi are wide spread            in</div>
+        <label class="option"><input type="radio" name="q13" value="2"> (2) If both A and R are true, but R is not the distribution and they can even live on or correct explanation of A inside other plants and animals.                         (3) If A is true, but R is false Reason: Fungi are able to grow anywhere on               (4) If A is false, but R is true land, water or on other organisms because</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q17. Assertion:     Kingdom–Plantae includes all they have variety of pigments including eukaryotic, chlorophyll containing organisms. chlorophyll, carotenoids, fucoxanthin and                Reason: Few of its members are partially phycoerythrin.                                           heterotrophic.</div>
+        <label class="option"><input type="radio" name="q17" value="1"> (1) If both A and R are true and R is the                (1) If both A and R are true and R is the correct explanation of A                                   correct explanation of A</label>
+<label class="option"><input type="radio" name="q17" value="2"> (2) If both A and R are true, but R is not the           (2) If both A and R are true, but R is not the correct explanation of A                                 correct explanation of A</label>
+<label class="option"><input type="radio" name="q17" value="3"> (3) If A is true, but R is false                         (3) If A is true, but R is false</label>
+<label class="option"><input type="radio" name="q17" value="4"> (4) If A is false, but R is true                         (4) If A is false, but R is true 66                                              Sarvam Career Institute Biological Classification                                                                                   Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) If both A and R are true, but R is not the           (2) If both A and R are true, but R is not the correct explanation of A                                 correct explanation of A</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q18. Assertion: Three domains system classifies         20.     The figures represent stages in the sexual organisms based on cellular characteristics.               reproduction in Rhizopus. If gametagia fail to Reason: The three domains are, i.e. archaea,               fuse, then what is the fate of cells ? bacteria and eukarya</div>
+        <label class="option"><input type="radio" name="q18" value="1"> (1) If both A and R are true and R is the correct explanation of A</label>
+<label class="option"><input type="radio" name="q18" value="2"> (2) If both A and R are true, but R is not the correct explanation of A</label>
+<label class="option"><input type="radio" name="q18" value="3"> (3) If A is true, but R is false</label>
+<label class="option"><input type="radio" name="q18" value="4"> (4) If A is false, but R is true Objective Type Questions:</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) If both A and R are true, but R is not the correct explanation of A</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q19. Examine the figures (A–D) given below and select the right option out of 1–4, in which all the four structures A, B, C and D are identified correctly                                       (1) They will develop into a zoospore</div>
+        <label class="option"><input type="radio" name="q19" value="2"> (2) They will develop into a prothallus</label>
+<label class="option"><input type="radio" name="q19" value="3"> (3) They will develop into a parthenospore</label>
+<label class="option"><input type="radio" name="q19" value="4"> (4) They will develop into a zygospore</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) They will develop into a parthenospore</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q21. Study the following statements : (A) Bacterial structure is very simple but very complex in behaviour (B) Bacteria   show     the most extensive metabolic diversity (C) The vast majority of bacteria are autotrophs and a few are heterotrophs</div>
+        <label class="option"><input type="radio" name="q21" value="1"> (1) A – Heterocyst, B - Sterigmeta, C - Sporangiophore, D - Oogonium                       (D) Bacteria are not the most abundant</label>
+<label class="option"><input type="radio" name="q21" value="2"> (2) A - Akinete, B - Conidia, C - Stolon,                       microbes in comparison to fungi D - Antheridium                                        From these, how many statements are incorrect</label>
+<label class="option"><input type="radio" name="q21" value="3"> (3) A - Heterocyst, B - Conidiophore,                      (1) One C - Stolon, D - Antheridium                            (2) Two</label>
+<label class="option"><input type="radio" name="q21" value="4"> (4) A - Akinete, B - Sterigmeta,                           (3) Three C - Rhizoidal hyphae, D – Oogonium                     (4) four Sarvam Career Institute                                              67 Biology                                                                                                                   Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) A - Akinete, B - Conidia, C - Stolon,                       microbes in comparison to fungi D - Antheridium                                        From these, how many statements are incorrect</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q22. Label the a, b, c & d in diagram by correct                                    25.   In a culture the initial concentration of identification of them :                                                             bacterial cells is 2 × 105 per liter. If all bacterial cells divide every 20 minute, what will be the concentration after 1 hour and 30 minutes-</div>
+        <label class="option"><input type="radio" name="q22" value="1"> (1) Penicillium – Source of antibiotics</label>
+<label class="option"><input type="radio" name="q22" value="2"> (2) (a) - Cocci bacteria, (b) - Bacilli bacteria,                                    (3) 2 × 1020 (c) - Flagella in Bacteria,                                                      (4) 8 × 105 (d) - Comma Bacteria</label>
+<label class="option"><input type="radio" name="q22" value="3"> (3) (a) - Cocci bacteria, (b) – Heterocyst,                                    26.   Which one of the following is mismatched? (c) - Vibrio bacteria, (d) - Bacilli Bacteria</label>
+<label class="option"><input type="radio" name="q22" value="4"> (4) (a) - Bacilli bacteria, (b) - Pleomorphic bacteria, (c) - Vibrio bacteria, (d) - Cocci                                     (2) Albugo – Parasitic fungi on legume Bacteria                                                                         (3) Neurospora – used in biochemical and genetic work</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) (a) - Cocci bacteria, (b) - Bacilli bacteria,                                    (3) 2 × 1020 (c) - Flagella in Bacteria,                                                      (4) 8 × 105 (d) - Comma Bacteria</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q23. What will be the correct/suitable characters in place of A, B, C, D in respective kingdoms                                        (4) Agaricus – edible fungus in above table ? S.N.      Character         Monera       Protista      Fungi         Plantae    Animalia    27.   Which of the following pair is correctly (i)        Cell type       Prokaryotic     (A)       Eukaryotic     Eukaryotic Eukaryotic (ii)       Cell wall           (B) Present / absent Present        Present     Absent           matched? Nuclear (iii) Membrane Absent       Present      Present          (C)      Present</div>
+        <label class="option"><input type="radio" name="q23" value="1"> (1) A-Eukaryotic, B-Noncellulosic, C-Present, D-Cellular                                                            (3) Yeast - Prodution of biogas</label>
+<label class="option"><input type="radio" name="q23" value="2"> (2) Structure responsible for organising the</label>
+<label class="option"><input type="radio" name="q23" value="3"> (3) A-Eukaryotic, B-Present, C-Absent,                                         28.   In prokaryotes, chromatophores are :- D-Multicellular                                                                  (1) Specialised granules responsible for</label>
+<label class="option"><input type="radio" name="q23" value="4"> (4) A-Eukaryotic, B-Absent, C-May be colouration of cells present, D-Organ</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) A-Eukaryotic, B-Noncellulosic, C-Present, D-Cellular                                                            (3) Yeast - Prodution of biogas</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q24. Which is not true for the nucleus of shape of organism prokaryotes-</div>
+        <label class="option"><input type="radio" name="q24" value="1"> (1) The nucleus is indistinct and called as                                          (3) Inclusion bodies lying free inside the "nucleoid"                                                                            cells for carrying out various metabolic</label>
+<label class="option"><input type="radio" name="q24" value="2"> (2) Nucleolus and nuclear membrane are activities not present in it</label>
+<label class="option"><input type="radio" name="q24" value="3"> (3) Non-histone proteins and histone                                                 (4) Internal membrane systems that may proteins are not present in it. become extensive       and complex in</label>
+<label class="option"><input type="radio" name="q24" value="4"> (4) It is also called as incipient nucleus or fibrillar nucleus                                                                     photosynthetic bacteria 68                                                                            Sarvam Career Institute Biological Classification                                                                            Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Non-histone proteins and histone                                                 (4) Internal membrane systems that may proteins are not present in it. become extensive       and complex in</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q29. In given diagram (a) and (b) represents to:      32.     For above given cladogram select out the correct one :- Animalia Protista Fungi Plantae Monera</div>
+        <label class="option"><input type="radio" name="q29" value="1"> (1) Heterocyst & mucilaginous sheath                     (2) Fungi are the ancestor of Animalia respectively                                         (3) Plantae and protista arose from Monera</label>
+<label class="option"><input type="radio" name="q29" value="2"> (2) Mucilaginous sheath & heterocyst                         directly respectively</label>
+<label class="option"><input type="radio" name="q29" value="3"> (3) Harmogonia & mucilaginous sheath protista respectively</label>
+<label class="option"><input type="radio" name="q29" value="4"> (4) Heterocyst and trichome respectively         33.     Which of the following option is not related</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Heterocyst & mucilaginous sheath                     (2) Fungi are the ancestor of Animalia respectively                                         (3) Plantae and protista arose from Monera</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q30. Read the following four statements (A – D):              with protist and plantae but related with (A) In the five-kingdom classification,                  monera : Chalamydomonas and Chlorella have                    (1) Cell wall and cell membrane been included in protista                            (2) Ribosome and flagella (B) Entamoeba coli a commonly occuring                   (3) Nitrogen fixation ability bacterium in human intestine                         (4) Cellular organization (C) Paramecium and Plasmodium belong to the same kingdom as that of Penicilium       34.     Consider the following statements. Which of (D) Hydrogen doner in photosynthesis of                  the statements given below is incorrect? purple sulphur bacteria is H2S                       (1) All prokaryotic organisms were grouped How many of the above statements are                         together under kingdom–Monera incorrect?</div>
+        <label class="option"><input type="radio" name="q30" value="1"> (1) Four               (2) One were placed in kingdom–Protista</label>
+<label class="option"><input type="radio" name="q30" value="2"> (2) The unicellular eukaryotic organisms</label>
+<label class="option"><input type="radio" name="q30" value="3"> (3) Chlorella and Chlamydomonas, both lack</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Chlorella and Chlamydomonas, both lack</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q31. In which one of the following, the kingdom its cell walls two characters and its examples are not correctly matched, whereas the remaining                 (4) Paramecium and Amoeba lack cell wall. three are correct</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q35. Choose the incorrect statement about</div>
+        <label class="option"><input type="radio" name="q35" value="1"> (1) Kingdom: Protista; Two characters: a. Single celled, b. Eukaryetes; Examples:              members of kingdom–Monera. Gonyaulax, Euglena                                   (1) Many of them live in or on other</label>
+<label class="option"><input type="radio" name="q35" value="2"> (2) Kingdom: Monera; Two characters: a.                      organisms as parasites Single celled, b. prokaryotes; Examples:             (2) Some synthesise their own food from Nostoc, Vibrio inorganic solutes</label>
+<label class="option"><input type="radio" name="q35" value="3"> (3) Kingdom: Mycota; Two characters: a. Multicellualr, b. Chitinous cell wall;               (3) Bacterial structure is very complex Examples: Mucor, Aspergillus                             though they have very simple behaviour</label>
+<label class="option"><input type="radio" name="q35" value="4"> (4) Kingdom: Animalia; Two characters: a.                (4) Hundreds of bacteria are present in Eukaryotes, b. Cell wall absent handful of soil Examples: Amoeba, Plasmodium Sarvam Career Institute                                          69 Biology                                                                                Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Kingdom: Mycota; Two characters: a. Multicellualr, b. Chitinous cell wall;               (3) Bacterial structure is very complex Examples: Mucor, Aspergillus                             though they have very simple behaviour</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q36. Read the following statements about             41.    Select the incorrect statement. bacteria and select the correct option.                (1) Bacterial cell wall is made up of</div>
+        <label class="option"><input type="radio" name="q36" value="1"> (1) Bacteria are simple in structure, but                  peptidoglycan complex in behaviour                               (2) Pili and fimbriae are mainly involved in</label>
+<label class="option"><input type="radio" name="q36" value="2"> (2) Bacteria are complex in structure, but                 motility of bacterial cells simple in behaviour                                (3) Cyanobacteria lack flagellated cells</label>
+<label class="option"><input type="radio" name="q36" value="3"> (3) Bacteria are simple in both structure              (4) Mycoplasma is a wall-less microorganism and behaviour</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Bacteria are simple in structure, but                  peptidoglycan complex in behaviour                               (2) Pili and fimbriae are mainly involved in</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q42. Consider the following statements about</div>
+        <label class="option"><input type="radio" name="q42" value="4"> (4) Bacteria are complex in both structure mycoplasma. Which of the statement given and behaviour below is incorrect?</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q37. Which of the following statements about                (1) They are pleomorphic bacteria, which methanogens is not correct?                                lack cell wall</div>
+        <label class="option"><input type="radio" name="q37" value="1"> (1) The walls of diatoms are easily</label>
+<label class="option"><input type="radio" name="q37" value="2"> (2) They are found in the rumen of cattle              (3) They cannot survive without oxygen and their excreta                                  (4) Many mycoplasma are pathogenic in</label>
+<label class="option"><input type="radio" name="q37" value="3"> (3) They grow aerobically and breakdown                    animals and plants cellulose rich food</label>
+<label class="option"><input type="radio" name="q37" value="4"> (4) They produce methane gas                    43.    Select the incorrect statement.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) They grow aerobically and breakdown                    animals and plants cellulose rich food</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q38. Which of the following statements is/are destructible incorrect?</div>
+        <label class="option"><input type="radio" name="q38" value="1"> (1) Bacteria reproduce only by binary fission cell walls of diatoms</label>
+<label class="option"><input type="radio" name="q38" value="2"> (2) Under unfavourable conditions, bacteria</label>
+<label class="option"><input type="radio" name="q38" value="3"> (3) Bacteria reproduce by a sort of sexual</label>
+<label class="option"><input type="radio" name="q38" value="4"> (4) Both (1) and (2)                                   Euglena is/are true?</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Under unfavourable conditions, bacteria</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q39. Which one of the following statements is               (1) Euglenoids bear flagella incorrect?                                             (2) Euglena when placed in continuous</div>
+        <label class="option"><input type="radio" name="q39" value="1"> (1) Golden algae are also called desmids                   darkness, loose their photosynthetic</label>
+<label class="option"><input type="radio" name="q39" value="2"> (2) Eubacteria are also called false bacteria               activity and die</label>
+<label class="option"><input type="radio" name="q39" value="3"> (3) Phycomycetes are also called algal fungi           (3) The pigments of Euglena are quite</label>
+<label class="option"><input type="radio" name="q39" value="4"> (4) Cyanobacteria are also called blue-                    different from those of green plants green algae                                        (4) Euglena is a marine protist</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Eubacteria are also called false bacteria               activity and die</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q40. Which statement is correct?                     45.    Which of the statement(s) given below is/are</div>
+        <label class="option"><input type="radio" name="q40" value="1"> (1) Mycoplasma is smallest and wall less               correct for amoeboid protozoans? living organism                                    (1) Live in freshwater, sea water or moist</label>
+<label class="option"><input type="radio" name="q40" value="2"> (2) Influenza and herpes are caused by virus               soil having DNA and RNA                                     (2) Has pseudopodia for locomotion and</label>
+<label class="option"><input type="radio" name="q40" value="3"> (3) Nostoc and Anabaena are important                      capturing prey decomposers                                        (3) Have silica shells on their surface in</label>
+<label class="option"><input type="radio" name="q40" value="4"> (4) Methanogen are methane producing                       marine forms bacteria in wheat crops                            (4) All of the above 70                                            Sarvam Career Institute Biological Classification                                                                              Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Mycoplasma is smallest and wall less               correct for amoeboid protozoans? living organism                                    (1) Live in freshwater, sea water or moist</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q46. Which of the following statements is correct?     51.    Which of the statement(s) given below is/are</div>
+        <label class="option"><input type="radio" name="q46" value="1"> (1) Slime moulds are haploid                             correct?</label>
+<label class="option"><input type="radio" name="q46" value="2"> (2) Protists reproduce asexually and</label>
+<label class="option"><input type="radio" name="q46" value="3"> (3) Dinoflagellates are immotile                             monerans and the other organisms like</label>
+<label class="option"><input type="radio" name="q46" value="4"> (4) Pellicle is absent in Euglena                            plants, animal and fungi</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Protists reproduce asexually and</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q47. Consider the following statements about sexually by a process involving cell Ascomycetes. Which one of the statement fusion and zygote formation given below is false?</div>
+        <label class="option"><input type="radio" name="q47" value="1"> (1) They are saprophytic, decomposer, body contains a well-defined nucleus coprophilous and parasitic and other membrane bound organelles</label>
+<label class="option"><input type="radio" name="q47" value="2"> (2) Plants show alternation of generations</label>
+<label class="option"><input type="radio" name="q47" value="3"> (3) Mycelium is coenocytic and aseptate           52.    Which of the following statement about plant</label>
+<label class="option"><input type="radio" name="q47" value="4"> (4) Aspergillus, Claviceps and Neurospora                is false? are important examples of Ascomycetes                (1) Plants are heterotrophs</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Mycelium is coenocytic and aseptate           52.    Which of the following statement about plant</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q48. Which of the following statement is during their life cycle incorrect?</div>
+        <label class="option"><input type="radio" name="q48" value="1"> (1) Claviceps is a source of many alkaloids</label>
+<label class="option"><input type="radio" name="q48" value="2"> (2) Conidia are produced exogenously and          53.    Select incorrect statement. ascospores endogenously                              (1) The viroids were discovered by DJ</label>
+<label class="option"><input type="radio" name="q48" value="3"> (3) The term ‘Contagium vivum fluidum’ was</label>
+<label class="option"><input type="radio" name="q48" value="4"> (4) Morels and truffles are edible delicacies                be crystallised</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) The term ‘Contagium vivum fluidum’ was</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q49. Which of the following statement is correct?                 coined by MW Beijerinck</div>
+        <label class="option"><input type="radio" name="q49" value="1"> (1) Lichens do not grow in polluted areas                (4) Mosaic disease in tobacco and AIDS in</label>
+<label class="option"><input type="radio" name="q49" value="2"> (2) Algal component of lichens is called                     human being are caused by viruses mycobiont</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Lichens do not grow in polluted areas                (4) Mosaic disease in tobacco and AIDS in</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q54. State whether the given statements are true</div>
+        <label class="option"><input type="radio" name="q54" value="3"> (3) Fungal component of lichens is called or false. phycobiont I. Bacteria show both autotrophic and</label>
+<label class="option"><input type="radio" name="q54" value="4"> (4) Lichens are not good pollution indicators heterotrophic nutrition.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Fungal component of lichens is called or false. phycobiont I. Bacteria show both autotrophic and</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q50. Which of the following statement(s) is/are                II. Some of the bacteria are autotrophic. incorrect?                                                     They may be photosynthetic autotrophic</div>
+        <label class="option"><input type="radio" name="q50" value="1"> (1) Protistan body includes a well-defined                     or chemosynthetic autotrophic. nucleus, and all cellular organelles                  III. Heterotrophic          nutrition involves</label>
+<label class="option"><input type="radio" name="q50" value="2"> (2) Protists have nucleus along with flagella                  obtaining of readymade organic food and cilia                                                  from outside sources.</label>
+<label class="option"><input type="radio" name="q50" value="3"> (3) Protist cells have no nucleus but have                (1) I and II are true some cellular organelles to perform                   (2) I is true, II and III are false basic functions                                       (3) I, II and III are true</label>
+<label class="option"><input type="radio" name="q50" value="4"> (4) All of the above                                      (4) Only I is true Sarvam Career Institute                                            71 Biology                                                                                    Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Protist cells have no nucleus but have                (1) I and II are true some cellular organelles to perform                   (2) I is true, II and III are false basic functions                                       (3) I, II and III are true</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q55. Read the following statements regarding           58.    Assertion:- Although Bacterial structure is archaebacteria and select the correct option.            very simple yet they are very complex in I. Archaebacteria differ from other                      behaviour. bacteria in having different cell wall Reason:- Bacteria as a group show most structure. extensive metabolic diversity. II. Their cell wall is made up of cellulose</div>
+        <label class="option"><input type="radio" name="q55" value="1"> (1) I and II                                      59.    Assertion:– Archaebacteria differ from other</label>
+<label class="option"><input type="radio" name="q55" value="2"> (2) I and III bacteria only in structure not, in resistance.</label>
+<label class="option"><input type="radio" name="q55" value="3"> (3) II and III Reason:- Cell wall of Archaebacteria is made</label>
+<label class="option"><input type="radio" name="q55" value="4"> (4) All of the above up of complex peptidoglycans instead of</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) I and III bacteria only in structure not, in resistance.</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q56. Analyze the following statements and                     simple peptidoglycans. identify the correct option given below.</div>
+        <label class="option"><input type="radio" name="q56" value="1"> (1) I is true, but II is false</label>
+<label class="option"><input type="radio" name="q56" value="2"> (2) I is false, but II is true                    60.    Assertion:- Heterocysts are specialised cells</label>
+<label class="option"><input type="radio" name="q56" value="3"> (3) I and II are true                                    of blue green algae for Nitrogen fixation.</label>
+<label class="option"><input type="radio" name="q56" value="4"> (4) I and II are false                                   Reason:- In Heterocyst cells oxygen depleted</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) I and II are true                                    of blue green algae for Nitrogen fixation.</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q57. Assertion :- Lichen shows symbiotic                      conditions can be created, which is essential relationship between algae and fungi.                    for Nitrogenase functioning. Reason :- Algae absorb water and mineral                 (1) If both assertion and reason are true and nutrients from the environment and provide                     reason is the correct explanation of fungi.                                                         assertion.</div>
+        <label class="option"><input type="radio" name="q57" value="1"> (1) both A and R true and R is the correct</label>
+<label class="option"><input type="radio" name="q57" value="2"> (2) both A and R true but R is not correct assertion. explanation A</label>
+<label class="option"><input type="radio" name="q57" value="3"> (3) A is true but R is false                             (3) If assertion is true but reason is false.</label>
+<label class="option"><input type="radio" name="q57" value="4"> (4) A is false and R is true                             (4) If both assertion and reason are false. 72                                              Sarvam Career Institute Biological Classification                                                                                   Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) A is true but R is false                             (3) If assertion is true but reason is false.</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q61. Assertion:-      Chemosynthetic     autotrophic       64.   Assertion:- Diatoms are the chief producers in bacteria play a great role in recycling nutrients           the oceans. like nitrogen, phosphorus, iron and sulphur.                Reason:- Diatoms possess both chlorophyll-a Reason:-       Chemosynthetic       autotrophic             and chlorophyll-c. bacteria oxidise various inorganic substances to            (1) If both assertion and reason are true and obtain energy                                                   reason is the correct explanation of</div>
+        <label class="option"><input type="radio" name="q61" value="1"> (1) If both assertion and reason are true and assertion. reason is the correct explanation of</label>
+<label class="option"><input type="radio" name="q61" value="2"> (2) If both assertion and reason are true but assertion. reason is not the correct explanation of</label>
+<label class="option"><input type="radio" name="q61" value="3"> (3) If assertion is true but reason is false.</label>
+<label class="option"><input type="radio" name="q61" value="4"> (4) If both assertion and reason are false.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) If both assertion and reason are true and assertion. reason is the correct explanation of</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q65. Assertion:-      Euglenoids     can    perform</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q62. Assertion:-      Members    of    protista      are         photosynthesis. eukaryotes.                                                 Reason:- They have chloroplast in cytoplasm. Reason:- Protistial cell body does not contain              (1) If both assertion and reason are true and a well defined nucleus and other membrane                       reason is the correct explanation of bounded cell organelles.                                        assertion.</div>
+        <label class="option"><input type="radio" name="q62" value="1"> (1) If both assertion and reason are true and               (2) If both assertion and reason are true but reason is the correct explanation of                        reason is not the correct explanation of assertion.                                                  assertion.</label>
+<label class="option"><input type="radio" name="q62" value="2"> (2) If both assertion and reason are true but               (3) If assertion is true but reason is false. reason is not the correct explanation of                (4) If both assertion and reason are false. assertion.</label>
+<label class="option"><input type="radio" name="q62" value="3"> (3) If assertion is true but reason is false.         66.   Assertion:- Spore is the exclusive structure of</label>
+<label class="option"><input type="radio" name="q62" value="4"> (4) If both assertion and reason are false.                 slime moulds upon which cell wall remain present.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) If assertion is true but reason is false.         66.   Assertion:- Spore is the exclusive structure of</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q63. Assertion:- The cell wall of diatoms is Reason:- Slime moulds differentiate and indestructible. form fruiting body during unfavourable Reason:- The cell wall of diatoms is embedded conditions in which spores remain filled. with calcium carbonates.</div>
+        <label class="option"><input type="radio" name="q63" value="1"> (1) If both assertion and reason are true and               (1) If both assertion and reason are true and reason is the correct explanation of                        reason is the correct explanation of assertion.                                                  assertion.</label>
+<label class="option"><input type="radio" name="q63" value="2"> (2) If both assertion and reason are true but               (2) If both assertion and reason are true but reason is not the correct explanation of                    reason is not the correct explanation of assertion.                                                  assertion.</label>
+<label class="option"><input type="radio" name="q63" value="3"> (3) If assertion is true but reason is false.               (3) If assertion is true but reason is false.</label>
+<label class="option"><input type="radio" name="q63" value="4"> (4) If both assertion and reason are false.                 (4) If both assertion and reason are false. Sarvam Career Institute                                               73 Biology                                                                                      Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) If assertion is true but reason is false.               (3) If assertion is true but reason is false.</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q67. Assertion:- Fungi prefer to grow in cold and                    assertion. humid areas.                                              (2) If both assertion and reason are true but Reason:- Low temperature favours the                            reason is not the correct explanation of metabolic activities.                                           assertion.</div>
+        <label class="option"><input type="radio" name="q67" value="1"> (1) If both assertion and reason are true and             (3) If assertion is true but reason is false. reason is the correct explanation of                  (4) If both assertion and reason are false. assertion.                                     70.    Assertion : Archaebacteria are most resistant to</label>
+<label class="option"><input type="radio" name="q67" value="2"> (2) If both assertion and reason are true but             adverse environmental conditions. reason is not the correct explanation of              Reason: In archaebacterial, cell wall and cell assertion.                                            membrane are highly complex.</label>
+<label class="option"><input type="radio" name="q67" value="3"> (3) If assertion is true but reason is false.             (1) If both Assertion & Reason are True &</label>
+<label class="option"><input type="radio" name="q67" value="4"> (4) If both assertion and reason are false. the Reason is a correct explanation of</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) If both assertion and reason are false. the Reason is a correct explanation of</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q68. Assertion:-      In      Ascomycetes        and                 the Assertion. Basidiomycetes well distinct Dikaryophase                 (2) If both Assertion & Reason are True but present during sexual life.                                     Reason is not a correct explanation of Reason:- During sexual reproduction of                          the Assertion. Ascomycetes and Basidiomycetes plasmogamy is              (3) If Assertion is True but the Reason is False. immediately followed by karyogamy.</div>
+        <label class="option"><input type="radio" name="q68" value="1"> (1) If both assertion and reason are true and</label>
+<label class="option"><input type="radio" name="q68" value="2"> (2) If both assertion and reason are true but             kingdom Protista. reason is not the correct explanation of Reason:- Dinoflagellates have autotrophic assertion. type of nutrition.</label>
+<label class="option"><input type="radio" name="q68" value="3"> (3) If assertion is true but reason is false.</label>
+<label class="option"><input type="radio" name="q68" value="4"> (4) If both assertion and reason are false. reason is the correct explanation of</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) If assertion is true but reason is false.</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q69. Assertion:- Neurospora fungus is known as                       assertion. Drosophila of plant kingdom.</div>
+        <label class="option"><input type="radio" name="q69" value="1"> (1) If both assertion and reason are true and             (3) If assertion is true but reason is false. reason is the correct explanation of                  (4) If both assertion and reason are false. 74                                               Sarvam Career Institute Biological Classification                                                                               Biology</label>
+<label class="option"><input type="radio" name="q69" value="2"> (2) If both assertion and reason are true but Reason:- Like Drosophila, Neurospora is also reason is not the correct explanation of extensively used in biochemical and genetic assertion. work.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) If both assertion and reason are true and             (3) If assertion is true but reason is false. reason is the correct explanation of                  (4) If both assertion and reason are false. 74                                               Sarvam Career Institute Biological Classification                                                                               Biology</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-2.html">← Exercise 2</a><a href="index.html">🏠 Home</a><a href="exercise-4.html">Exercise 4 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

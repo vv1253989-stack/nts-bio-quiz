@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.4 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.4 - The Living World</h1>
+        
+    <div class="question" data-answer="2">
+        <div class="qtext">Q1. The basic smallest unit of classifications is :–        4.       Descending arrangement of categories is</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Genus                (2) Species                             called :–</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Hierarchy           (4) key</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q2. What are the basis of modern classification for taxonomists :–                                      5.       For higher plants, flowers are chiefly used as</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) These show a great variety in colour</label>
+<label class="option"><input type="radio" name="q2" value="2"> (2) Development process of organism</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Ecological informations of organism                          (2) It can be preserved easily</label>
+<label class="option"><input type="radio" name="q2" value="4"> (4) All of these                                                 (3) Reproductive      parts        are     more conservative than vegetative parts</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) All of these                                                 (3) Reproductive      parts        are     more conservative than vegetative parts</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q3. Plant nomenclature means :-</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) To give names to plants without any rules                    (4) Reproductive parts are less conservative</label>
+<label class="option"><input type="radio" name="q3" value="2"> (2) Nomenclature of plants under the                    6.       Who is regarded as "Darwin of 20th century" international rules                                          ?</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Ernst Mayr          (4) Darwin language 10                                                 Sarvam Career Institute</label>
+<label class="option"><input type="radio" name="q3" value="4"> (4) Nomenclature of plants in English</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Nomenclature of plants under the                    6.       Who is regarded as "Darwin of 20th century" international rules                                          ?</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q7. Group of organisms that closely resemble             14.    In potato, brinjal, lion, leopard, and tiger. each other and freely interbreed in nature,                 how many species and genera are there constitute a:-                                              respectively ?</div>
+        <label class="option"><input type="radio" name="q7" value="1"> (1) Species           (2) Genus                             (1) 4 & 2               (2) 5 & 3</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) Family            (4) Taxon                             (3) 5 & 4               (4) 5 & 2</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Species           (2) Genus                             (1) 4 & 2               (2) 5 & 3</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q8. Which arrangement is correct ascending               15.    The correct sequence of plant taxonomic order?                                                      categories is :–</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) Species < genus < order < family                        (1) Phylum-order-class-family-genus-</label>
+<label class="option"><input type="radio" name="q8" value="2"> (2) Genus < species < family < order                            species</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) Division-class-family-order-genus-</label>
+<label class="option"><input type="radio" name="q8" value="4"> (4) Species < genus < family < order                            species</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Species < genus < family < order                            species</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q9. Nomenclature is very must in taxonomy                           species which of the following is not correct about                 (4) 1 and 2 both scientific nomenclature ?</div>
+        <label class="option"><input type="radio" name="q9" value="1"> (1) They ensure that each organism has only          16.    For declaration of new species of higher one name                                                plants what characters are used :-</label>
+<label class="option"><input type="radio" name="q9" value="2"> (2) They also ensure that such a name has                   (1) Floral character of new species not been used for any other known                       (2) Anatomical character of new species organism                                                (3) Physiological character of new species</label>
+<label class="option"><input type="radio" name="q9" value="3"> (3) Scientific nomenclature is a standardised               (4) Character of endosperm naming system                                    17.    An organisms is in the same class but not in</label>
+<label class="option"><input type="radio" name="q9" value="4"> (4) Different countries of the world use different          the same family. It may belong to same :– kinds of scientific nomenclature system                 (1) Genus              (2) Species</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Different countries of the world use different          the same family. It may belong to same :– kinds of scientific nomenclature system                 (1) Genus              (2) Species</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q10. Species are considered as :–                                (3) Variety            (4) Order</div>
+        <label class="option"><input type="radio" name="q10" value="1"> (1) Real basic units of classification               18.    In the names Mangifera indica, Solanum</label>
+<label class="option"><input type="radio" name="q10" value="2"> (2) The lowest units of classification                      tuberosum and Panthera leo, the words</label>
+<label class="option"><input type="radio" name="q10" value="3"> (3) Artificial concept of human mind                        indica, tuberosum and leo represent ?</label>
+<label class="option"><input type="radio" name="q10" value="4"> (4) Biggest units of classification devised by              (1) Generic name      (2) Generic epithet taxonomists                                             (3) Specific name     (4) Specific epithet</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Real basic units of classification               18.    In the names Mangifera indica, Solanum</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q11. Mayr proposed which type of concept of               19.    Which of the following is a correct name :- species :–                                                  (1) Solanum tuberosum</div>
+        <label class="option"><input type="radio" name="q11" value="1"> (1) Static concept                                          (2) Solanum Tuberosum</label>
+<label class="option"><input type="radio" name="q11" value="2"> (2) Biological concept                                      (3) Solanum tuberosum Linn.</label>
+<label class="option"><input type="radio" name="q11" value="3"> (3) Topological concept                                     (4) All the above</label>
+<label class="option"><input type="radio" name="q11" value="4"> (4) Genetic concept                                  20.    The     relation    of     solanaceae   and</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Biological concept                                      (3) Solanum tuberosum Linn.</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q12. A division is formed by combining several -                 convolvulaceae with polymoniales is similar</div>
+        <label class="option"><input type="radio" name="q12" value="1"> (1) Orders                                                  to the relation occuring in :</label>
+<label class="option"><input type="radio" name="q12" value="2"> (2) Families                                                (1) Felidae and Canidae with carnivora</label>
+<label class="option"><input type="radio" name="q12" value="3"> (3) Classes                                                 (2) Primata and carnivora with Mammalia</label>
+<label class="option"><input type="radio" name="q12" value="4"> (4) Tribes                                                  (3) Amphibia and Reptilia with Chordata</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Classes                                                 (2) Primata and carnivora with Mammalia</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q13. All the categories used in classification of                (4) Solanum and Petunia with solanaceae organisms constitute :–                              21.    Animals, mammals and dogs represent :–</div>
+        <label class="option"><input type="radio" name="q13" value="1"> (1) Taxonomy                                                (1) Taxa at different levels</label>
+<label class="option"><input type="radio" name="q13" value="2"> (2) Systematics                                             (2) Taxa at same level</label>
+<label class="option"><input type="radio" name="q13" value="3"> (3) Taxonomic hierarchy                                     (3) Different levels of same taxa</label>
+<label class="option"><input type="radio" name="q13" value="4"> (4) Taxonomic affinity                                      (4) All are correct Sarvam Career Institute                                              11</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Taxonomic hierarchy                                     (3) Different levels of same taxa</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-1.3.html">← Exercise 1.3</a><a href="index.html">🏠 Home</a><a href="exercise-2.html">Exercise 2 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

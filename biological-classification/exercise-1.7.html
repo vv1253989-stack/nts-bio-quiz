@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.7 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.7 - The Living World</h1>
+        
+    <div class="question" data-answer="2">
+        <div class="qtext">Q1. Single cell eukaryotic organisms are placed         4.       Members of Protista primarily are - in :                                                         (1) Terrestrial</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Kingdom fungi                                            (2) Aquatic</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) Kingdom Protista                                         (3) Prokaryotic</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Kingdom plantae                                          (4) All of the above</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) Kingdom Monera                                  5.       According to five kingdom system the</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Kingdom Protista                                         (3) Prokaryotic</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. In all the Five kingdom which kingdom has                    unicellular algae like Dinoflagellates, Diatoms not well defined boundaries ?                                and Euglenoids are included in kingdom :-</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Zygotic meiosis      (2) Cyst formation</label>
+<label class="option"><input type="radio" name="q2" value="2"> (2) Kingdom fungi                                            (3) Plantae              (4) Animalia</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Kingdom plantae                                 6.       Protists which are diploid reproduce sexually by</label>
+<label class="option"><input type="radio" name="q2" value="4"> (4) Kingdom Monera                                           the process of -</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Zygotic meiosis      (2) Cyst formation</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q3. Which one of the following kingdom is</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Monera             (2) Fungi                             eukaryotes :–</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Fungi            (4) Plants Division – Chrysophyta This group includes diatoms and golden algae (desmids). They are found in fresh water as well as in marine environment. Structure :</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Monera             (2) Fungi                             eukaryotes :–</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q1. They are found in different shapes such as circular, rectangular , triangular , elongated and boat shaped.</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. The cell wall of diatoms is made up of cellulose in which silica particles are embedded in at many places. Due to which the cell wall appears to be made up of silica. This silicated cell wall is called "shell" or "frustule". Special Note:– Their cell wall is made up of two halves, which are arranged like soap case. Their cell wall have silica in very large quantity. Due to this reason their cell wall is hard and indestructible. The cell wall does not get destroyed after their death so at the bottom of sea, very huge rocks of dead diatoms are formed which are known as "diatomite" or "diatomaceous earth" or "keiselguhr".</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q3. Diploid nucleus is present in Diatom.</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q4. Diatoms have pigments are Chlorophyll 'a', Chl 'c', and xanthophyll (fucoxanthin). Due to these pigments it appears golden coloured.</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q5. They are chief producers in the ocean. Special Note:–</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Stored food : Leucosin (Chrysolaminarian) & fats (Oil).</label>
+<label class="option"><input type="radio" name="q5" value="2"> (2) Slime moulds are saprophytes found on decaying twigs and leaves engulfing organic material.</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Their body is made up of wall less multinucleated protoplasmic mass. This type of body is known as plasmodium. (Plasmodium = wall less coenocyte). Under suitable conditions they form an aggregation which may grow and spread over several feet. During unfavourable conditions plasmodium forms fruiting bodies, which bear spores at their tip.</label>
+<label class="option"><input type="radio" name="q5" value="4"> (4) They are diploid i.e. every nucleus found in the cell is diploid E.g. Physarum , Physarella, Fuligo. Special Note:– They lack cell wall in vegetative stage but at the time of reproduction they form cell wall.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Slime moulds are saprophytes found on decaying twigs and leaves engulfing organic material.</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-1.6.html">← Exercise 1.6</a><a href="index.html">🏠 Home</a><a href="exercise-1.8.html">Exercise 1.8 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

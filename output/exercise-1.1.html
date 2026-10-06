@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.1 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.1 - The Living World</h1>
+        
+    <div class="question" data-answer="4">
+        <div class="qtext">Q1. Metabolism is exhibited by :                      6.     Number of known species of Earth is</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) All plants                                           (1) 1.6 to 2.7 billions</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) All animals                                          (2) 1.7 to 1.8 millions</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Fungi & Microbes</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) All of these</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) All of these</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q7. Which of the following statements regarding</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q2. Which of the following is not the defining the response of living organisms to external property of living ?                                     stimuli is correct ?</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Consciousness                                        (1) The external environmental stimuli can</label>
+<label class="option"><input type="radio" name="q2" value="2"> (2) Reproduction                                             be physical and chemical only.</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Growth (intrinsic)                                   (2) All organisms, from the prokaryotes to</label>
+<label class="option"><input type="radio" name="q2" value="4"> (4) Metabolism                                                 the most complex eukaryotes can sense and respond to environmental stimuli.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Reproduction                                             be physical and chemical only.</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q3. In higher plants & animals, growth &                     (3) Consciousness and response to external reproduction are linked but are                                stimuli is the defining property of living</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Mutually exclusive events                                  organisms.</label>
+<label class="option"><input type="radio" name="q3" value="2"> (2) Mutually inclusive events                            (4) Both (2) and (3)</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Reproduction</label>
+<label class="option"><input type="radio" name="q3" value="4"> (4) Mutually exclusive events along with                 (1) Growth protistans                                           (2) Ability of make sound</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Mutually exclusive events                                  organisms.</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q4. Which of the following is not applicable to              (4) Response to external stimuli living organisms?</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q9. The living organisms can be unexceptionally</div>
+        <label class="option"><input type="radio" name="q9" value="1"> (1) These are self replicating and evolving              distinguished from the non-living things on system                                               the basis of their ability for :–</label>
+<label class="option"><input type="radio" name="q9" value="2"> (2) These are self replicating and capable of            (1) Photosynthesis responding to external stimuli                       (2) Metabolism</label>
+<label class="option"><input type="radio" name="q9" value="3"> (3) These are self replicating and non-                  (3) Growth and movement regulating interactive system                        (4) Reproduction</label>
+<label class="option"><input type="radio" name="q9" value="4"> (4) They exhibit metabolism                       10.    All living organisms are linked to one another because :–</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) These are self replicating and capable of            (1) Photosynthesis responding to external stimuli                       (2) Metabolism</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q5. Most obvious and technically complicated</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Metabolism                                           (2) They share common genetic material but</label>
+<label class="option"><input type="radio" name="q5" value="2"> (2) First letter of generic name should be in capital letter and first letter of specific epithet should be in small letter. E.g. Mangifera indica.</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) When written with free hand or typed, then generic name and specific epithet should be underlined separately. But during printing name should be in italics to indicate their latin orgin.</label>
+<label class="option"><input type="radio" name="q5" value="4"> (4) Name of the scientist who proposed nomenclature should be written in short after the specific epithet E.g. Mangifera indica Linn.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Name of the scientist who proposed nomenclature should be written in short after the specific epithet E.g. Mangifera indica Linn.</div>
+    </div>
+        <div class="footer">
+            <a href="index.html">🏠 Home</a><a href="exercise-1.2.html">Exercise 1.2 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

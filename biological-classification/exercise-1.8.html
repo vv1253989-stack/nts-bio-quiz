@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.8 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.8 - The Living World</h1>
+        
+    <div class="question" data-answer="2">
+        <div class="qtext">Q1. Which of the following protist is responsible      9.      Protist used for the construction of sound for red tides ?                                            proof rooms, is -</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Chrysophytes      (2) Dinoflagellates                  (1) Dinoflagellate    (2) Diatoms</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Euglenoids        (4) Slime moulds                     (3) Euglenoids        (4) Zooflagellates</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. Soap box like structure found in :                 10.     The diatoms do not easily decay like most the</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Diatoms            (2) Gonyaulax                       other Algae because:-</label>
+<label class="option"><input type="radio" name="q2" value="2"> (2) Their walls are mucilagenous</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Euglenoids         (4) Slime moulds                    (1) They have water proof cells</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Diatoms            (2) Gonyaulax                       other Algae because:-</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q3. Spore dispersal mechanism by air is found in :             (3) They have highly siliceous wall</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Diatoms            (2) Gonyaulax                       (4) They are non living</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Euglenoids         (4) Slime moulds</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q11. "Keiselgurh" a heat resistant material is</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q4. True cell wall in spores of slime moulds is                obtained from :– formed under :                                             (1) Red Algae       (2) Brown Algae</div>
+        <label class="option"><input type="radio" name="q4" value="1"> (1) Unfavourable conditions                                (3) Diatoms         (4) Fungi</label>
+<label class="option"><input type="radio" name="q4" value="2"> (2) They produce fire due to friction</label>
+<label class="option"><input type="radio" name="q4" value="3"> (3) Any conditions                                         which character :–</label>
+<label class="option"><input type="radio" name="q4" value="4"> (4) Both (1) and (2)                                       (1) They appear like fire due to pigments</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Unfavourable conditions                                (3) Diatoms         (4) Fungi</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q5. Which of the followings are photosynthetic ?</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Chrysophytes        (2) Dinoflagellates</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Euglenoids          (4) All of the above</label>
+<label class="option"><input type="radio" name="q5" value="4"> (4) They show bioluminiscence</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) They show bioluminiscence</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q13. Shell of diatoms is made up of :-</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q6. Which of the following are mostly marine ?                 (1) Silica             (2) Calcium carbonate</div>
+        <label class="option"><input type="radio" name="q6" value="1"> (1) Gonyaulax          (2) Diatoms                         (3) Keratin            (4) Calcium oxalate</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) Euglena            (4) Slime moulds</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Gonyaulax          (2) Diatoms                         (3) Keratin            (4) Calcium oxalate</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q14. The dead remains of diatoms are known as :-</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q7. Chief producer in oceans is :                              (1) Coenobium           (2) Sporangia</div>
+        <label class="option"><input type="radio" name="q7" value="1"> (1) Diatom            (2) Dinoflagellates                  (3) Kieselgurh          (4) Sporocarp</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) Euglena           (4) Slime moulds             15.     Decomposer protist are:</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Diatom            (2) Dinoflagellates                  (3) Kieselgurh          (4) Sporocarp</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q8. The diatomaceous earth is used to insulate                 (1) Diatoms           (2) Dinoflagellates boilers and steam pipes because:-                          (3) Slime moulds      (4) Euglenoid</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) The wall of diatoms is deposited with          16.     Toxins (Saxitoxins) secreted by some calcium                                                dinoflagellates enter the body of human</label>
+<label class="option"><input type="radio" name="q8" value="2"> (2) The diatomaceous earth is cheap                        beings through food chain and result in-</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) It is a good conductor of heat                         (1) Madness           (2) Paralysis</label>
+<label class="option"><input type="radio" name="q8" value="4"> (4) The wall of diatoms is made of silica                  (3) Syphilis          (4) Plague 42                                               Sarvam Career Institute Biological Classification                                                                                Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) The wall of diatoms is made of silica                  (3) Syphilis          (4) Plague 42                                               Sarvam Career Institute Biological Classification                                                                                Biology</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q17. Most characteristic feature of diatoms is:-        20.     Diatoms float in water due to :-</div>
+        <label class="option"><input type="radio" name="q17" value="1"> (1) Pigments                                               (1) Stored fats</label>
+<label class="option"><input type="radio" name="q17" value="2"> (2) Stored food                                            (2) Gas Vacuoles</label>
+<label class="option"><input type="radio" name="q17" value="3"> (3) Cell wall                                              (3) Flagella</label>
+<label class="option"><input type="radio" name="q17" value="4"> (4) Non oxygenic photosynthesis                            (4) Air chambers</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Cell wall                                              (3) Flagella</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q18. "Naked fungi" (Slime moulds) are naked :-          21.     Armoured cell wall and biflagellated cells</div>
+        <label class="option"><input type="radio" name="q18" value="1"> (1) When they are reproducing                              are characteristic of :-</label>
+<label class="option"><input type="radio" name="q18" value="2"> (2) Dinoflagellates</label>
+<label class="option"><input type="radio" name="q18" value="3"> (3) Euglenophyta</label>
+<label class="option"><input type="radio" name="q18" value="4"> (4) BGA</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Dinoflagellates</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q19. Organism of which kingdom feed like animals</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q22. "Golden Algae" is the common name of Algae and perform photosynthesis like plants :– belonging to :</div>
+        <label class="option"><input type="radio" name="q22" value="1"> (1) Monera                                                 (1) Diatoms</label>
+<label class="option"><input type="radio" name="q22" value="2"> (2) Protista                                               (2) Dinoflagellates</label>
+<label class="option"><input type="radio" name="q22" value="3"> (3) Mycota                                                 (3) Euglenophyta</label>
+<label class="option"><input type="radio" name="q22" value="4"> (4) Animalia                                               (4) BGA Phylum - Protozoa</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Monera                                                 (1) Diatoms</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q1. They are world wide, Cosmopolitan mostly Microscopic, mostly Aquatic, and free living (Amoeba) or parasitic (Plasmodium). These causes serious diseases.</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. All protozoans are heterotrophs and live as predators or parasites. Nutrition of Protozoans are mainly holozoic (Amoeba), Mixotrophic. (Euglena), Parasitic (Plasmodium).</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q3. Reproduction : (i) Asexual - Binary fission, Multiple fission (ii) Sexual - Syngamy, Conjugation</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q4. They are believed to be primitive relatives of animals. There are four major groups of protozoans. (i) Amoeboid protozoans: These organisms live in fresh water, sea water or moist soil. They move and capture their prey by putting out pseudopodia (false feet) as in Amoeba. Marine forms have silica shells on their surface. Some of them such as Entamoeba are parasites. (ii) Flagellated protozoans: The members of this group are either free-living or parasitic. They have flagella. The parasitic forms cause diaseases such as sleeping sickness. Example: Trypanosoma. (iii) Ciliated protozoans: These are aquatic, actively moving organisms because of the presence of thousands of cilia. They have a cavity (gullet) that opens to the outside of the cell surface. The coordinated movement of rows of cilia causes the water laden with food to be steered into the gullet. Example: Paramoecium. (iv) Sporozoans: This includes diverse organisms that have an infectious spore-like stage in their life cycle. The most notorious is Plasmodium (malarial parasite) which causes malaria, a disease which has a staggering effect on human population. Sarvam Career Institute                                           43 Biological Classification                                                                                   Biology</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-1.7.html">← Exercise 1.7</a><a href="index.html">🏠 Home</a><a href="exercise-1.9.html">Exercise 1.9 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

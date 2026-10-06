@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.2 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.2 - The Living World</h1>
+        
+    <div class="question" data-answer="2">
+        <div class="qtext">Q1. In Binomial Nomenclature,                               4.       The process by which any thing is grouped</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Genus name is written after species                          into convenient categories based on some</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) Genus and species names are written in                       easily observable characters is called : italics.                                                     (1) Identification     (2) Systematics</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Genus and species have the same name                         (3) Classification     (4) Nomenclature</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) The first letter of genus and species name          5.       Systematics was first time proposed by is capital.                                                  (1) C. Linnaeus in Pinax</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Genus and species names are written in                       easily observable characters is called : italics.                                                     (1) Identification     (2) Systematics</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. The standard name of any living organism is                      (2) Casper Bauhin in Pinax known by the same name all over the world is                     (3) Casper Bauhin in Species Plantarum called :                                                         (4) C. Linnaeus in Systema Naturae</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Nomenclature     (2) Taxonomy                       6.       Who wrote systema naturae:-</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Classification   (4) Description                             (1) Linnaeus         (2) Mayr</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Nomenclature     (2) Taxonomy                       6.       Who wrote systema naturae:-</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q3. The scientific naming system of two words                        (3) John Ray         (4) De Candolle was first used by                                       7.       A taxon is:</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Aristotle                                                    (1) A group of related families</label>
+<label class="option"><input type="radio" name="q3" value="2"> (2) C. Linnaeus                                                  (2) A group of related species</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Bentham and Hooker                                           (3) A type of living organisms</label>
+<label class="option"><input type="radio" name="q3" value="4"> (4) Theophrastus                                                 (4) A taxonomic group of any ranking 6                                                   Sarvam Career Institute</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) C. Linnaeus                                                  (2) A group of related species</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q8. The process in which biologists follow          15.     First act in taxonomy is :- universally accepted principles to provide              (1) Characterisation name of any organism is called as:                      (2) Identification</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) Identification                                      (3) Naming</label>
+<label class="option"><input type="radio" name="q8" value="2"> (2) Classification                                      (4) Classification</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) Nomenclature</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Nomenclature</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q16. Which of the following statements regarding</div>
+        <label class="option"><input type="radio" name="q16" value="4"> (4) Systematics nomenclature is correct :–</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Systematics nomenclature is correct :–</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q9. Most of the scientific names are drawn from             (1) Generic name always begins with capital the following language -                                    letter whereas specific name with small</div>
+        <label class="option"><input type="radio" name="q9" value="1"> (1) German                                                  letter</label>
+<label class="option"><input type="radio" name="q9" value="2"> (2) Greek                                               (2) Scientific name should be printed in</label>
+<label class="option"><input type="radio" name="q9" value="3"> (3) Latin                                                   italics</label>
+<label class="option"><input type="radio" name="q9" value="4"> (4) Spanish                                             (3) Scientific name when typed or</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Latin                                                   italics</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q10. Taxonomy refers to :-                                       handwritten should be underlined</div>
+        <label class="option"><input type="radio" name="q10" value="1"> (1) Plant classification                                (4) All the above</label>
+<label class="option"><input type="radio" name="q10" value="2"> (2) Plant nomenclature</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q17. Phylogeny refers to :–</div>
+        <label class="option"><input type="radio" name="q17" value="1"> (1) Natural classification</label>
+<label class="option"><input type="radio" name="q17" value="2"> (2) Evolutionary classification</label>
+<label class="option"><input type="radio" name="q17" value="3"> (3) Plant affinity</label>
+<label class="option"><input type="radio" name="q17" value="4"> (4) All the above</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Plant affinity</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q11. ICBN was first published in :                           (3) Evolutionary history</div>
+        <label class="option"><input type="radio" name="q11" value="1"> (1) 1961               (2) 1964                         (4) Origin of algae</label>
+<label class="option"><input type="radio" name="q11" value="3"> (3) 1975               (4) 1753</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) 1961               (2) 1964                         (4) Origin of algae</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q18. Artificial system of classification classifies</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q12. What are the essential basis of modern                  plants on the basis of - taxonomic studies?                                      (1) One or two characters</div>
+        <label class="option"><input type="radio" name="q12" value="1"> (1) Classification</label>
+<label class="option"><input type="radio" name="q12" value="2"> (2) Structure of cell                                   (3) Many naturally existing characters</label>
+<label class="option"><input type="radio" name="q12" value="3"> (3) Developmental process and ecological                (4) Gross Morphological Characters information</label>
+<label class="option"><input type="radio" name="q12" value="4"> (4) All of these                                19.     Systematics deals with :-</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) All of these                                19.     Systematics deals with :-</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q13. As we go from species to kingdom in a</div>
+        <label class="option"><input type="radio" name="q13" value="1"> (1) Will decrease</label>
+<label class="option"><input type="radio" name="q13" value="2"> (2) Will increase                               20.   The term 'Systematics' refers to :–</label>
+<label class="option"><input type="radio" name="q13" value="3"> (3) Remain same                                       (1) Identification and classification of plants</label>
+<label class="option"><input type="radio" name="q13" value="4"> (4) May increase or decrease                              and animals</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Will decrease</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q14. The number and types of organisms present             (2) Nomenclature and identification of on earth make:                                            plants and animals</div>
+        <label class="option"><input type="radio" name="q14" value="1"> (1) Taxonomy                                          (3) Diversity of kinds of organisms and their</label>
+<label class="option"><input type="radio" name="q14" value="2"> (2) Plant diversity                                       relationship</label>
+<label class="option"><input type="radio" name="q14" value="3"> (3) Animal diversity                                  (4) Different kinds of organisms and their</label>
+<label class="option"><input type="radio" name="q14" value="4"> (4) Biodiversity                                          classification Sarvam Career Institute                                              7 Organisms with their Taxonomic Categories Common       Biological Genus           Family             Order         Class                    Phylum/ Name         Name                                                                                Division Man          Homo       Homo          Hominidae          Primata       Mammalia                 Chordata sapiens Housefly      Musca       Musca         Muscidae           Diptera       Insecta                 Arthropoda domestica Mango       Mangifera Mangifera Anacardiaceae Sapindales Dicotyledonae                        Anglospermae indica Wheat       Triticum     Triticum      Poaceae            Poales        Monocotyledonae Angiospermae aestivum Note:– As we go higher from species to kingdom number of common characters decreases. Lower the taxa more are the characteristics that the members with in the taxon share. Higher the category, greater is the difficulty of determining the relationship to other taxa at the same level.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Biodiversity                                          classification Sarvam Career Institute                                              7 Organisms with their Taxonomic Categories Common       Biological Genus           Family             Order         Class                    Phylum/ Name         Name                                                                                Division Man          Homo       Homo          Hominidae          Primata       Mammalia                 Chordata sapiens Housefly      Musca       Musca         Muscidae           Diptera       Insecta                 Arthropoda domestica Mango       Mangifera Mangifera Anacardiaceae Sapindales Dicotyledonae                        Anglospermae indica Wheat       Triticum     Triticum      Poaceae            Poales        Monocotyledonae Angiospermae aestivum Note:– As we go higher from species to kingdom number of common characters decreases. Lower the taxa more are the characteristics that the members with in the taxon share. Higher the category, greater is the difficulty of determining the relationship to other taxa at the same level.</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-1.1.html">← Exercise 1.1</a><a href="index.html">🏠 Home</a><a href="exercise-1.3.html">Exercise 1.3 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

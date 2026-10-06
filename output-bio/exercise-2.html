@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 2 - The Living World</h1>
+        
+    <div class="question" data-answer="1">
+        <div class="qtext">Q1. Archaebacteria differ from other bacteria in    7.          Read the following statements : having a :                                                  (i) The bacterial structure is very simple but</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Different cell wall structure                                 they are complex in behaviour</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) Different cellular organization                         (ii) Compared to many other organisms,</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Parasitic nature                                              bacteria as a group show the most</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) All of these                                                  extensive metabolic diversity (iii) Some of the bacteria are autotrophic</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Different cell wall structure                                 they are complex in behaviour</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q2. Which character indicates that cyanobacteria (iv) Most of the bacteria are heterotrophic are similar to higher green plants ?                        (v) Bacteria possess cell wall How many of</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Type of cell wall                                             the above statements are not incorrect?</label>
+<label class="option"><input type="radio" name="q2" value="2"> (2) Nitrogen fixation ability                               (1) Four                 (2) Five</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Presence of chlorophyll 'a'                             (3) Two                  (4) Zero</label>
+<label class="option"><input type="radio" name="q2" value="4"> (4) Presence of gelatinous sheath</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Presence of chlorophyll 'a'                             (3) Two                  (4) Zero</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q8. Read the following statements :-</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q3. Which one of the following prokaryotes lacks                (i) Majority of the slime moulds are fresh cell wall:                                                        water organisms</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Virus                (2) Cyanobacteria                  (ii) Dinoflagellates are mostly fresh water</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Mycoplasma           (4) Protozoa                             organisms (iii) Slime moulds form plasmodium</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Mycoplasma           (4) Protozoa                             organisms (iii) Slime moulds form plasmodium</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q4. Which organisms have silica in their cell wall (iv) Protozoans may be autotrophs ? (v) The spores of slime moulds are dispersed</div>
+        <label class="option"><input type="radio" name="q4" value="1"> (1) Dinoflagellates      (2) Slime mould by water currents</label>
+<label class="option"><input type="radio" name="q4" value="3"> (3) Diatoms              (4) Euglenoids                     Which of the above statements are correct?</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Diatoms              (4) Euglenoids                     Which of the above statements are correct?</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q5. Which organism is responsible for the red                   (1) Only (iii)          (2) All five surface of the sea ?                                        (3) (ii), (ii) and (v)  (4) (i), (ii), (iv) and (v)</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Saprophytic, plasmodium with cell wall,</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Amoeba               (4) Paramecium                     moulds :</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q6. Read the following statements: spores dispersed by air currents (i) The body organization of fungi is</div>
+        <label class="option"><input type="radio" name="q6" value="2"> (2) Saprophytic, plasmodium without cell multicellular/loose tissue type wall, spores with true cell wall and (ii) Mode of nutrition in monerans is dispersed by air currents autotrophic or heterotrophic</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) Parasitic, plasmodium without cell wall, (iii) Nuclear membrane may be present in E.                 spores dispersed by air current coli                                                    (4) Parasitic, plasmodium without cell wall, (iv) SCell wall is cellulosic in animals cells                  spores with true cell wall and dispersed (v) Non-cellulosic cell wall is present in                      by water current fungi</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q10. The genetic material of prokaryotic cell : How many of the above statements are                        (1) Non-histonic double-stranded DNA correct ?                                                   (2) Histonic double stranded DNA</div>
+        <label class="option"><input type="radio" name="q10" value="1"> (1) Three                (2) Two                            (3) Histone & DNA both are absent</label>
+<label class="option"><input type="radio" name="q10" value="3"> (3) Four                 (4) Five                           (4) Histone without DNA Sarvam Career Institute                                               59 Biology                                                                                        Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Three                (2) Two                            (3) Histone & DNA both are absent</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q11. In bacteria, the plasmid is:                            16.    Select the incorrect statement about fungi?</div>
+        <label class="option"><input type="radio" name="q11" value="1"> (1) Extra chromosomal material                                 (1) The cell wall is composed of chitin and</label>
+<label class="option"><input type="radio" name="q11" value="2"> (2) Main DNA                                                       polysaccharides</label>
+<label class="option"><input type="radio" name="q11" value="3"> (3) Non functional DNA                                         (2) These are heterotrophic organisms</label>
+<label class="option"><input type="radio" name="q11" value="4"> (4) They are absorptive in nature</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Extra chromosomal material                                 (1) The cell wall is composed of chitin and</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q12. In which kingdom would you classify the archaea and nitrogen-fixing organisms, if the           17.    The mycelium is aseptate and Coenocytic in : five-kingdom system of classification is used                  (1) Phycomycetes :–                                                             (2) Basidiomycetes</div>
+        <label class="option"><input type="radio" name="q12" value="1"> (1) Plantae            (2) Fungi                               (3) Deuteromycetes</label>
+<label class="option"><input type="radio" name="q12" value="3"> (3) Protista           (4) Monera                              (4) Ascomycetes</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q13. Carbohydrates are the most abundant                     18.    Septate and branched mycelium are found in biomolecules on earth. are produced by?                        (1) Basidiomycetes</div>
+        <label class="option"><input type="radio" name="q13" value="1"> (1) Some bacteria, algae and green plant cells                 (2) Deuteromycetes</label>
+<label class="option"><input type="radio" name="q13" value="2"> (2) All bacteria, fungi and algae                              (3) Ascomycetes</label>
+<label class="option"><input type="radio" name="q13" value="3"> (3) Fungi, algae and green plant cells                         (4) All of the above</label>
+<label class="option"><input type="radio" name="q13" value="4"> (4) Viruses, fungi and bacteria</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Some bacteria, algae and green plant cells                 (2) Deuteromycetes</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q19. Select the correct matched pair/pairs :</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q14. Match the columns-I and II, and choose the                     (1) Claviceps – Ascomycetes correct combination from the options given.                    (2) Morels – Ascomycetes Column-I                     Column-II                 (3) Agaricus – Basidiomycetes (Kingdom)             (Mode of Nutrition)               (4) All the above</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q20. Asexual reproduction takes place by conidia (a) Monera             (i) Autotrophic formation in :– (b) Protista          (ii) Heterotrophic</div>
+        <label class="option"><input type="radio" name="q20" value="1"> (1) a-iii, b-iii, c-ii, d-i, e-ii (ii) The network of hyphae is called mycelium</label>
+<label class="option"><input type="radio" name="q20" value="2"> (2) a-ii, b-i, c-ii, d-iii, e-ii (iii) Hyphae may be continuous tubes filled</label>
+<label class="option"><input type="radio" name="q20" value="3"> (3) a-iii, b-ii, c-iii, d-i, e-iii with multinucleated cytoplasm, these</label>
+<label class="option"><input type="radio" name="q20" value="4"> (4) a-ii, b-iii, c-ii, d-iii, e-ii hyphae are coenocytic</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) a-ii, b-iii, c-ii, d-iii, e-ii hyphae are coenocytic</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q15. Some characters are given below. Which of                      (iv) In many cases hyphae have septate or them is true for the cyanobacteria ?                                 cross walls (A) Oxygenic photosynthesis                                    (v) The cell wall of fungi are composed of (B) Non-oxygenic chemotrophism                                       chitin and polysaccharides (C) Oxygenic chemotrophism                                     How many of the above statements are (D) Ability of N2 fixation                                     correct ?</div>
+        <label class="option"><input type="radio" name="q15" value="1"> (1) A and B              (2) A and C                           (1) One                   (2) Three</label>
+<label class="option"><input type="radio" name="q15" value="3"> (3) A and D              (4) B and D                           (3) Four                  (4) Five 60                                                    Sarvam Career Institute Biological Classification                                                                                   Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) A and D              (4) B and D                           (3) Four                  (4) Five 60                                                    Sarvam Career Institute Biological Classification                                                                                   Biology</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q22. Identify the virus and name the structure               26.   Select the correct statements about fungi : marked A, B, C, D and E :                                     (A) Most of the fungi are saprophytes (B) Fungi can also survive as symbionts (C) Sexual reproduction in fungi involves three steps (D) Reduction division in fungi occurs in fruiting bodies which forms haploid spores</div>
+        <label class="option"><input type="radio" name="q22" value="1"> (1) Bacteriophage, A= Head, B= Sheath, C=               27.   Choose the incorrect statement regarding Collar, D= Tail fibre, E= Tail pin                        the decomposer :</label>
+<label class="option"><input type="radio" name="q22" value="2"> (2) They may be unicellular or multicellular.</label>
+<label class="option"><input type="radio" name="q22" value="3"> (3) They convert inorganic into organic Tail fibre, D= Collar, E= Tail pin compounds</label>
+<label class="option"><input type="radio" name="q22" value="4"> (4) They play a great role in ecology Sheath, D= Tail fibre, E= Tail pin</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) They play a great role in ecology Sheath, D= Tail fibre, E= Tail pin</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q23. Read the names of different fungi given                 28.   With respect to fungal sexual cycle, what is below :                                                       the correct sequence : Mucor, Albugo, Penicillium, Ustilago, Colletotrichum,         (1) Karyogamy, Plasmogamy & Meiosis Puccinia, Agaricus, Aspergillus and Rhizopus                  (2) Meiosis, Plasmogamy & Karyogamy How many of the following belong to the class                 (3) Plasmogamy, Karyogamy & Meiosis phycomycetes ?                                                (4) Meiosis, Karyogamy & Plasmogamy</div>
+        <label class="option"><input type="radio" name="q23" value="1"> (1) Presence of nucleus, mitochondria and</label>
+<label class="option"><input type="radio" name="q23" value="3"> (3) Four                   (4) Seven</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Presence of nucleus, mitochondria and</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q24. In oogamy, fertilization involves :–                              plastids</div>
+        <label class="option"><input type="radio" name="q24" value="1"> (1) A large motile female gamete and a                        (2) Absence of cell wall, DNA fibrils and small non motile male gamete                                  plastids</label>
+<label class="option"><input type="radio" name="q24" value="2"> (2) A small nonmotile female gamete and a                     (3) Presence of spindle fibres, DNA fibrils large motile male gamete                                      and golgi bodies</label>
+<label class="option"><input type="radio" name="q24" value="3"> (3) A large nonmotile female gamete and a                     (4) Absence of endoplasmic reticulum, golgi small motile male gamete                                      bodies and spindle fibres.</label>
+<label class="option"><input type="radio" name="q24" value="4"> (4) A large non motile female gamete and a small nonmotile male gamete                         30. Dinoglagellates have two flagella :</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) A large nonmotile female gamete and a                     (4) Absence of endoplasmic reticulum, golgi small motile male gamete                                      bodies and spindle fibres.</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q25. Find the incorrect statement about fungi :                  (1) Both lying longitudinally between the</div>
+        <label class="option"><input type="radio" name="q25" value="1"> (1) They show a great diversity in morphology                   wall plates. and habitats                                            (2) One lying longitudinally and the other</label>
+<label class="option"><input type="radio" name="q25" value="2"> (2) Fungi are cosmopolitan and occur in air,                    transversely in a furrow between the water soil and as parasites also                            wall plates.</label>
+<label class="option"><input type="radio" name="q25" value="3"> (3) They prefer to grow in cold and dry places              (3) Both lying transversely between the wall</label>
+<label class="option"><input type="radio" name="q25" value="4"> (4) With the exception of yeasts, fungi are                     plates filamentous                                             (4) Do not help in their movement Sarvam Career Institute                                          61 Biology                                                                                                       Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) They prefer to grow in cold and dry places              (3) Both lying transversely between the wall</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q31. Euglenoids :                                              35.         Match the columns-I and II, and choose the</div>
+        <label class="option"><input type="radio" name="q31" value="1"> (1) Are photosynthetic in the presence of                             correct combination from the options given. sunlight but when deprived of sunlight                                 Column-I                    Column-II they behave like heterotrophs by                                  (a) Morels                   (i) Deuteromycetes predating other smaller organisms                                 (b) Smut                     (ii) Ascomycetes</label>
+<label class="option"><input type="radio" name="q31" value="2"> (2) Possess carbohydrate rich pellicle which                          (c) Bread mould              (iii) Basidiomycetes makes their body flexible                                         (d) Imperfect fungi (iv) Phycomycetes</label>
+<label class="option"><input type="radio" name="q31" value="3"> (3) They possess heterokont flagella i.e.,                            (1) a-iii, b-iv, c-i, d-ii     (2) a-ii, b-iii, c-iv, d-i one short and the other long                                      (3) a-iv, b-i, c-ii, d-iii     (4) a-iii, b-iv, c-ii, d-i</label>
+<label class="option"><input type="radio" name="q31" value="4"> (4) More than one option is correct</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) More than one option is correct</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q36. Match the columns-I and II, and choose the</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q32. The thalloid body of a slime mould                                    correct combination from the options given. (Myxomycetes) is known as :-                                                Column-I                     Column-II</div>
+        <label class="option"><input type="radio" name="q32" value="1"> (1) a-i, b-ii, c-iii, d-iv     (2) a-ii, b-iii, c-iv, d-i</label>
+<label class="option"><input type="radio" name="q32" value="2"> (2) Mycelium                                                           (b) Dinoflagellates          (ii) Albugo (c) Phycomycetes             (iii) Gonyaulax</label>
+<label class="option"><input type="radio" name="q32" value="3"> (3) Protonema (d) Deuteromycetes (iv) Anabaena</label>
+<label class="option"><input type="radio" name="q32" value="4"> (4) Plasmodium</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Plasmodium</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q33. Match the entities in column-I with their</div>
+        <label class="option"><input type="radio" name="q33" value="1"> (1) a-iii, b-iv, c-v, d-ii, e-i                                       (1) a-i, b-ii, c-iii, d-iv     (2) a-ii, b-iii, c-iv, d-i</label>
+<label class="option"><input type="radio" name="q33" value="2"> (2) a-iii, b-iv, c-v, d-i, e-ii                                       (3) a-iii, b-iv, c-i, d-ii     (4) a-iv, b-iii, c-ii, d-i</label>
+<label class="option"><input type="radio" name="q33" value="3"> (3) a-iii, b-v, c-iv, d-ii, e-i                           38.         Match the columns-I and II, and choose the</label>
+<label class="option"><input type="radio" name="q33" value="4"> (4) a-iv, b-v, c-ii, d-iii, e-i                                       correct combination from the options given. Column-I                         Column-II</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) a-iii, b-iv, c-v, d-i, e-ii                                       (3) a-iii, b-iv, c-i, d-ii     (4) a-iv, b-iii, c-ii, d-i</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q34. Match the columns-I and II, and choose the (Scientists)                  (Contribution) correct combination from the options given. (a)      Ivanowsky         (i)      Contagium vivum Column-I                     Column-II fluidum (a) Phycomycetes             (i) Sac fungi (b) Pasteur                (ii)     Crystallisation of (b) Ascomycetes              (ii) Imperfect fungi viruses (c) Basidiomycetes           (iii) Algal fungi (d) Deuteromycetes (iv) Club fungi/                             (c)      Beijerinek        (iii) Discovery of viruses bracket fungi                 (d) Stanley                (iv)     Term virus</div>
+        <label class="option"><input type="radio" name="q34" value="1"> (1) a-i, b-iii, c-iv, d-ii   (2) a-iii, b-i, c-iv, d-ii               (1) a-iii, b-iv, c-ii, d-i     (2) a-iv, b-iii, c-ii, d-i</label>
+<label class="option"><input type="radio" name="q34" value="3"> (3) a-i, b-iii, c-ii, d-iv   (4) a-iii, b-i, c-ii, d-iv               (3) a-iii, b-iv, c-i, d-ii     (4) a-iv, b-iii, c-i, d-ii 62                                                      Sarvam Career Institute Biological Classification                                                                                    Biology</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q39. Match the columns I and II, and choose the          40.     Match the columns-I and II, and choose the correct combination from the option given.                  correct combination from the options given. Column-I                Column-II                   Column-I                    Column-II (Types of                (Production)              (Group Protista)               (Example) (a) Zoospores              (i) Exogenous (a) Chrysophytes           (i) Paramoecium (b) Aplanospores           (ii) Endogenous (b) Dinoflagellates       (ii) Euglena (c) Conidia (c) Euglenoids            (iii) Gonyaulax (d) Ascospores                                       (d) Protozoans            (iv) Diatoms (e) Basidiospores</div>
+        <label class="option"><input type="radio" name="q39" value="1"> (1) a-i, b-ii, c-i, d-ii, e-ii</label>
+<label class="option"><input type="radio" name="q39" value="2"> (2) a-ii, b-i, c-ii, d-i, e-ii</label>
+<label class="option"><input type="radio" name="q39" value="3"> (3) a-ii, b-ii, c-i, d-ii, e-i                              (3) a-iv, b-ii, c-iii, d-i</label>
+<label class="option"><input type="radio" name="q39" value="4"> (4) a-i, b-ii, c-i, d-ii, e-i                               (4) a-iv, b-iii, c-ii, d-i Sarvam Career Institute                                             63 Biology                                                                                      Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) a-ii, b-ii, c-i, d-ii, e-i                              (3) a-iv, b-ii, c-iii, d-i</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-1.11.html">← Exercise 1.11</a><a href="index.html">🏠 Home</a><a href="exercise-3.html">Exercise 3 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

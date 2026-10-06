@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.3 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.3 - The Living World</h1>
+        
+    <div class="question" data-answer="4">
+        <div class="qtext">Q1. Sole member of kingdom monera is :                     7.     The function of mesosome in prokaryotes is:</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Archaebacteria   (2) Mycoplasma                           (1) Aerobic respiration</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Cyanobacteria          (4) Bacteria                       (2) Cell wall formation</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. Which of the following have most extensive                    (3) Both (1) and (2) diversity in nutrition ?                                      (4) N2 – fixation</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Bacteria               (2) Plants</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Bacteria               (2) Plants</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q8. Plasmid are-</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) Virus</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) Animals                (4) Fungi</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Animals                (4) Fungi</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q3. All nitrifying bacteria are                                   (2) New types of micro organism</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Chemosynthetic heterotroph                                (3) Extra chromosomal genetic material of</label>
+<label class="option"><input type="radio" name="q3" value="2"> (2) Chemosynthetic autotroph                                        bacteria</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Chemosynthetic organotroph                                (4) Essential bacterial genetic materials</label>
+<label class="option"><input type="radio" name="q3" value="4"> (4) Photosynthetic Lithotrophs</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Chemosynthetic autotroph                                        bacteria</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q9. The vast majority of bacteria are:</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q4. Which types of bacteria are most abundant in                  (1) Symbiotic             (2) Autotrophic nature ?                                                      (3) Heterotrophic         (4) Nitrogen fixing</div>
+        <label class="option"><input type="radio" name="q4" value="1"> (1) Heterotrophic          (2) Photoautotrophic</label>
+<label class="option"><input type="radio" name="q4" value="3"> (3) Organotrophic          (4) Symbiotic               10.    Infoldings of plasma membrane in bacteria are called as :-</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Heterotrophic          (2) Photoautotrophic</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q5. Genetic material of prokaryotic cell contains :               (1) Episomes              (2) Plasmid</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Cilia                 (2) Cell–wall</label>
+<label class="option"><input type="radio" name="q5" value="2"> (2) Histonic double stranded DNA</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Neither histone nor DNA                            11.    The main difference between gram +ve and</label>
+<label class="option"><input type="radio" name="q5" value="4"> (4) Histone without DNA                                       gram –ve resides in the composition of</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Cilia                 (2) Cell–wall</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q6. Chemosynthetic autotrophic bacteria :</div>
+        <label class="option"><input type="radio" name="q6" value="1"> (1) Water bloom : Excessive growth of BGA in polluted water. BGA grow rapidly in polluted water and secrete toxic substances. E.g. Anabaena</label>
+<label class="option"><input type="radio" name="q6" value="2"> (2) BGA that grow in water tanks, pollute the water : E.g. Oscillatoria</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) Both (1) and (2)                                          (3) Both (1) and (2)</label>
+<label class="option"><input type="radio" name="q6" value="4"> (4) Can evolve oxygen during photosynthesis                   (4) Parasitic plants 30                                                   Sarvam Career Institute Biological Classification                                                                                Biology Reproduction : In BGA reproduction is done by two main processes:</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Both (1) and (2)                                          (3) Both (1) and (2)</div>
+    </div>
+        <div class="footer">
+            <a href="index.html">🏠 Home</a><a href="exercise-1.5.html">Exercise 1.5 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

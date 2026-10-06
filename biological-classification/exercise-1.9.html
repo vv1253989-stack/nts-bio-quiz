@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1.9 - The Living World</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; padding: 15px; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4f46e5; padding-bottom: 10px; margin-bottom: 20px; font-size: 20px; }
+        .back { display: inline-block; margin-bottom: 15px; color: #4f46e5; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .question { background: #f9fafb; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #4f46e5; }
+        .qtext { font-weight: 600; margin-bottom: 12px; color: #1a1a2e; }
+        .option { display: block; padding: 10px 12px; margin: 6px 0; background: #fff; border: 2px solid #e5e7eb; border-radius: 6px; cursor: pointer; transition: all 0.15s; font-size: 14px; }
+        .option:hover { border-color: #4f46e5; }
+        .option input { margin-right: 8px; }
+        .option.correct { background: #d1fae5; border-color: #10b981; }
+        .option.wrong { background: #fee2e2; border-color: #ef4444; }
+        .btn { background: #4f46e5; color: #fff; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .answer { display: none; margin-top: 10px; padding: 10px; background: #d1fae5; border-radius: 6px; color: #065f46; font-weight: 600; font-size: 14px; }
+        .answer.show { display: block; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 13px; }
+        .footer a { color: #4f46e5; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← All Exercises</a>
+        <h1>Exercise 1.9 - The Living World</h1>
+        
+    <div class="question" data-answer="4">
+        <div class="qtext">Q1. Fungi are grouped into various classes based         11.     Organism group which shows Heterotrophic on ?                                                         mode of nutrition is :</div>
+        <label class="option"><input type="radio" name="q1" value="1"> (1) Morphology of mycelium                                   (1) Algae              (2) Fungi</label>
+<label class="option"><input type="radio" name="q1" value="2"> (2) Mode of spore formation</label>
+<label class="option"><input type="radio" name="q1" value="3"> (3) Fruiting bodies</label>
+<label class="option"><input type="radio" name="q1" value="4"> (4) All of these                                     12.     In fungi lump of hyphae is referred to as :-</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) All of these                                     12.     In fungi lump of hyphae is referred to as :-</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q2. Mostly fungi are                                             (1) Parenchyma         (2) Haustorium</div>
+        <label class="option"><input type="radio" name="q2" value="1"> (1) Heterotrophic    (2) Photosynthetic                      (3) Mycelium           (4) Carpogonium</label>
+<label class="option"><input type="radio" name="q2" value="3"> (3) Chemoautotrophic (4) Predator</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Heterotrophic    (2) Photosynthetic                      (3) Mycelium           (4) Carpogonium</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q13. Stored food material of fungi :-</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q3. Body of fungi is called :                                    (1) Cellulose</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Mycellium            (2) Hypha                           (2) Starch</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Group of hyphae (4) Haustoria                            (3) Glycogen and starch</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Mycellium            (2) Hypha                           (2) Starch</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q4. Which of the following is unicellular fungi ?                (4) Glycogen and oil</div>
+        <label class="option"><input type="radio" name="q4" value="1"> (1) Yeast              (2) Puccinia</label>
+<label class="option"><input type="radio" name="q4" value="3"> (3) Penicillium        (4) Rhizopus                  14.     Heterotrophic and absorptive mode of nutrition is found in :-</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Yeast              (2) Puccinia</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q5. Select the odd one w.r.t. Ascomycetes</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Aspergillus        (2) Neurospora</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Claviceps          (4) Colletotrichum                    (3) Bryophytes           (4) Euglenoid</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q6. Cell wall of fungi made up of                        15.     The fungi are :–</div>
+        <label class="option"><input type="radio" name="q6" value="1"> (1) Chitin only                                              (1) Autotrophic         (2) Holotrophic</label>
+<label class="option"><input type="radio" name="q6" value="2"> (2) Chitin and polysaccharides                               (3) Chemotrophic        (4) Heterotrophic</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) Polysaccharides only</label>
+<label class="option"><input type="radio" name="q6" value="4"> (4) Starch                                           16.     Non-septate mycelium occurs in:-</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) Chitin and polysaccharides                               (3) Chemotrophic        (4) Heterotrophic</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q7. Which of the following is sexual spore in                    (1) Phycomycetes     (2) Ascomycetes fungi ?                                                      (3) Basidiomycetes   (4) Deuteromycetes</div>
+        <label class="option"><input type="radio" name="q7" value="1"> (1) Oospores, ascospores, basidiospores</label>
+<label class="option"><input type="radio" name="q7" value="2"> (2) Oospores, ascospores, zoospores                  17.     All fungi are :-</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) Ascospores, zoospore, basidiospores                      (1) With chlorophyll</label>
+<label class="option"><input type="radio" name="q7" value="4"> (4) Sporangiospores, ascospores,                             (2) Without chlorophyll basidiospores                                            (3) With carotene</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Oospores, ascospores, basidiospores</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q8. Fungi shows great diversity in :                             (4) Wall less</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) Morphology only</label>
+<label class="option"><input type="radio" name="q8" value="2"> (2) Habitat only                                     18.     In fungi, vegetative reproduction takes place</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) Reproduction                                             by :</label>
+<label class="option"><input type="radio" name="q8" value="4"> (4) Morphology and habitat                                   (1) Fragmentation       (2) Conidia</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Morphology and habitat                                   (1) Fragmentation       (2) Conidia</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q9. Which of the following is parasitic fungi ?                  (3) Zygospore           (4) Oospore</div>
+        <label class="option"><input type="radio" name="q9" value="1"> (1) Rhizopus           (2) Albugo                    19.     In ascomycetes and basidomycetes, the</label>
+<label class="option"><input type="radio" name="q9" value="3"> (3) Yeast              (4) Morels                            dikaryotic cell is :</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q10. Which of the following classes of fungi have                 (1) Haploid             (2) Diploid dikaryon condition ?                                         (3) Triploid            (4) Polyploid</div>
+        <label class="option"><input type="radio" name="q10" value="1"> (1) Ascomycetes and basidiomycetes</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Ascomycetes and basidiomycetes</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q20. Coenocytic mycelium is found in :-</div>
+        <label class="option"><input type="radio" name="q20" value="2"> (2) Ascomycetes and deuteromycetes</label>
+<label class="option"><input type="radio" name="q20" value="3"> (3) Basidiomycetes and phycomycetes                          (1) Rhizopus          (2) Mucor</label>
+<label class="option"><input type="radio" name="q20" value="4"> (4) All of these                                             (3) Penicillium       (4) Both (1) and (2) Sarvam Career Institute                                                 47 Biology                                                                                    Biological Classification</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) All of these                                             (3) Penicillium       (4) Both (1) and (2) Sarvam Career Institute                                                 47 Biology                                                                                    Biological Classification</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q21. Fungi are ecologically important because -        23.      The fungus without mycelium is -</div>
+        <label class="option"><input type="radio" name="q21" value="1"> (1) They yield antibiotics                                 (1) Phytopthora</label>
+<label class="option"><input type="radio" name="q21" value="2"> (2) Rhizopus</label>
+<label class="option"><input type="radio" name="q21" value="3"> (3) Saccharomyces</label>
+<label class="option"><input type="radio" name="q21" value="4"> (4) Microsporum</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Saccharomyces</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q22. Which of the following characters indicate</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q24. Nucleated spore bearing non chlorophyllous similarity between fungi and animals ? organism belong to:</div>
+        <label class="option"><input type="radio" name="q24" value="1"> (1) Monera</label>
+<label class="option"><input type="radio" name="q24" value="2"> (2) Mucor 48                                             Sarvam Career Institute Biology                                                                                     Biological Classification</label>
+<label class="option"><input type="radio" name="q24" value="3"> (3) Albugo candida : Parasite on mustard. (b)       Zygomycetes :– Asexual reproduction – By the formation of sporangiospores (aplanospores). Sexual reproduction – By Zygospore (thin walled). Types of sexual reproduction •   Isogamous – All the members E.g.       (1) Rhizopus</label>
+<label class="option"><input type="radio" name="q24" value="4"> (4) Bryophyta Phycomycetes: •   All the fungi included in this class are called as lower fungi. Members of phycomycetes are found in aquatic habitat (members of this class known as algal fungi) and on decaying wood in moist and damp place or as obligate parasites on plants. Mycelium :- •   The fungal filament (mycelium) of all the fungus included in this class are coenocytic and aseptate and branched. •   Phycomycetes further classified into oomycetes and zygomycetes Note: The mycelium of oomycetes and zygomycetes classes is same in structure i.e. coenocytic & aseptate. But they are dissimilar on the basis of sexual reproduction. (a)        Oomycetes : Asexual reproduction : By the formation of sporangiospores (zoospores) & conidia. Sexual reproduction : Oospore (thick walled) There is no time interval between plasmogamy and karyogamy, so dikaryophase is not formed. E.g.       (1) Phytophthora infestans : Causes ‘‘late blight of potato’’.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Albugo candida : Parasite on mustard. (b)       Zygomycetes :– Asexual reproduction – By the formation of sporangiospores (aplanospores). Sexual reproduction – By Zygospore (thin walled). Types of sexual reproduction •   Isogamous – All the members E.g.       (1) Rhizopus</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q3. Which of the following is coprophilous fungi ?    14.    Aspergillosis is caused by :-</div>
+        <label class="option"><input type="radio" name="q3" value="1"> (1) Club fungi          (2) Sac fungi                    (1) Virus               (2) Bacteria</label>
+<label class="option"><input type="radio" name="q3" value="3"> (3) Algal fungi         (4) Fungi imperfecti             (3) Fungi               (4) Mycoplasma</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Club fungi          (2) Sac fungi                    (1) Virus               (2) Bacteria</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q4. Which of the following is not applicable for      15.    One of the common fungal disease of human is :- fungi ?                                                  (1) Cholera           (2) Plague</div>
+        <label class="option"><input type="radio" name="q4" value="1"> (1) Phycomycetes       (2) Ascomycetes</label>
+<label class="option"><input type="radio" name="q4" value="2"> (2) They are heterotrophic</label>
+<label class="option"><input type="radio" name="q4" value="3"> (3) They are both unicellular and multicellular   16.    Neurospora, which is popularly known as</label>
+<label class="option"><input type="radio" name="q4" value="4"> (4) They possess a purely cellulosic cell wall           Drosophila of plant kingdom, belongs to :-</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Phycomycetes       (2) Ascomycetes</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q5. Storage grains come to have aflatoxin due to</div>
+        <label class="option"><input type="radio" name="q5" value="1"> (1) Aspergillus flavus (2) Yeast                  17.    Which of the following is a form class ?</label>
+<label class="option"><input type="radio" name="q5" value="3"> (3) Bacterium          (4) Virus                         (1) Deuteromycetes (2) Basidiomycetes</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q6. Which one of the following has photosynthetic            (3) Rhodophyceae       (4) Euglenophyceae pigment similar to higher plants :                18.    The sac fungi belongs to :-</div>
+        <label class="option"><input type="radio" name="q6" value="1"> (1) Diatoms              (2) Dinoflagellates             (1) Ascomycetes        (2) Basidiomycetes</label>
+<label class="option"><input type="radio" name="q6" value="3"> (3) Euglenoids           (4) Green algae                 (3) Phycomycetes       (4) Deuteromycetes</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q7. The basidiomycetes includes :-                    19.    Which of the following secretes toxins during</div>
+        <label class="option"><input type="radio" name="q7" value="1"> (1) Aspergillus        (2) Penicillium</label>
+<label class="option"><input type="radio" name="q7" value="3"> (3) Mushrooms         (4) All of the above</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) Aspergillus        (2) Penicillium</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q8. For bread and beer making, commonly :                    (3) Fusarium           (4) Colletotrichum</div>
+        <label class="option"><input type="radio" name="q8" value="1"> (1) Unicellular algae are used</label>
+<label class="option"><input type="radio" name="q8" value="2"> (2) Multicellular algae are used                  20.    The chief characteristic of class Ascomycetes is :–</label>
+<label class="option"><input type="radio" name="q8" value="3"> (3) Formation of acospores</label>
+<label class="option"><input type="radio" name="q8" value="4"> (4) Multicellular fungi are used                         (2) Hyphae</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (4) Multicellular fungi are used                         (2) Hyphae</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q9. The fungi which grow on dung is called :–</div>
+        <label class="option"><input type="radio" name="q9" value="1"> (1) Epixylic          (2) Coprophilous</label>
+<label class="option"><input type="radio" name="q9" value="3"> (3) Keratinophillic   (4) Xyllophillous           21.    Yeast grows more quickly in -</label>
+<label class="option"><input type="radio" name="q9" value="4"> (4) Formation of zoospores</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="1">
+        <div class="qtext">Q10. Which of the following causes wheat rust                 (1) Salt water disease:-                                                (2) Sugar solution</div>
+        <label class="option"><input type="radio" name="q10" value="1"> (1) A red Algae      (2) A green Algae                   (3) Double distilled water</label>
+<label class="option"><input type="radio" name="q10" value="3"> (3) A fungi          (4) Mycoplasma                      (4) Marine water</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (1) A red Algae      (2) A green Algae                   (3) Double distilled water</div>
+    </div>
+
+    <div class="question" data-answer="2">
+        <div class="qtext">Q11. Deuteromycetes are called 'Imperfect fungi'       22.    A. Flemming isolated penicillin from - as :-                                                    (1) P.chrysogenum      (2) P.notatum</div>
+        <label class="option"><input type="radio" name="q11" value="1"> (1) They have no cell wall                               (3) Aspergillus Flovus (4) A. niger</label>
+<label class="option"><input type="radio" name="q11" value="2"> (2) No mycelium</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (2) No mycelium</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q23. Alexander Flemming discovered penicillin in</div>
+        <label class="option"><input type="radio" name="q23" value="1"> (1) Streptomyces</label>
+<label class="option"><input type="radio" name="q23" value="3"> (3) No sexual reproduction 1928 while working with-</label>
+<label class="option"><input type="radio" name="q23" value="4"> (4) No asexual reproduction</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) No sexual reproduction 1928 while working with-</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q12. Sexual reproduction absent in :-                         (2) Bacteria (Staphylococcus)</div>
+        <label class="option"><input type="radio" name="q12" value="1"> (1) Phycomycetes      (2) Deuteromycetes                 (3) Penicillium notatum</label>
+<label class="option"><input type="radio" name="q12" value="3"> (3) Zygomycetes       (4) Basidiomycetes</label>
+<label class="option"><input type="radio" name="q12" value="4"> (4) P. chrysogenum</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Zygomycetes       (4) Basidiomycetes</div>
+    </div>
+
+    <div class="question" data-answer="4">
+        <div class="qtext">Q13. Which of the following is not a member of</div>
+        
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">⚠️ Answer key me nahi mila</div>
+    </div>
+
+    <div class="question" data-answer="3">
+        <div class="qtext">Q24. Pseudomycelium occurs in - class phycomycetes?</div>
+        <label class="option"><input type="radio" name="q24" value="1"> (1) Albugo           (2) Mucor</label>
+<label class="option"><input type="radio" name="q24" value="3"> (3) Rhizopus         (4) Neurospora 54                                              Sarvam Career Institute Biology                                                                                       Biological Classification Mycorrhiza •   Mycorrhiza is the symbiotic association between roots of higher plants and fungus.Fungus obtain food and shelter from root and fungi helps to root in absorption of water and mineral and also protect plant from soil borne pathogen. •   It is useful for phosphate absorption.</label>
+
+        <button class="btn" onclick="checkAnswer(this)">Check Answer</button>
+        <div class="answer">✅ Sahi jawab: (3) Rhizopus         (4) Neurospora 54                                              Sarvam Career Institute Biology                                                                                       Biological Classification Mycorrhiza •   Mycorrhiza is the symbiotic association between roots of higher plants and fungus.Fungus obtain food and shelter from root and fungi helps to root in absorption of water and mineral and also protect plant from soil borne pathogen. •   It is useful for phosphate absorption.</div>
+    </div>
+        <div class="footer">
+            <a href="exercise-1.8.html">← Exercise 1.8</a><a href="index.html">🏠 Home</a><a href="exercise-1.11.html">Exercise 1.11 →</a>
+        </div>
+    </div>
+    <script>
+        function checkAnswer(btn) {
+            const q = btn.closest('.question');
+            const correct = parseInt(q.dataset.answer);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            if (!selected) { alert('Pehle option select karo!'); return; }
+            q.querySelectorAll('.option').forEach(o => o.classList.remove('correct', 'wrong'));
+            q.querySelectorAll('.option').forEach(o => {
+                const val = parseInt(o.querySelector('input').value);
+                if (val === correct) o.classList.add('correct');
+                if (o.querySelector('input').checked && val !== correct) o.classList.add('wrong');
+            });
+            q.querySelector('.answer').classList.add('show');
+            btn.disabled = true;
+            btn.textContent = '✓ Answered';
+        }
+    </script>
+</body>
+</html>

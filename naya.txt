@@ -1,0 +1,1877 @@
+ Biology                                                                                        Biological Classification
+(ii)       Heterotrophs : Most of the bacteria are heterotrophic i.e., they can not manufacture their own food.
+           • They receive their own food from dead organic matter or living organism.
+These are of following types :
+(a)    Saprotrophic bacteria : These bacteria obtain food from dead and decaying organic matter.
+       E.g. Clostridium botulinum, Lactobacillus.
+(b)    Parasitic bacteria : They obtain their food from living organism.
+(c)    Symbiotic bacteria : These bacteria convert atmospheric nitrogen into nitrogenous compounds like
+       Amino acid, NO3 or Salts of ammonia. E.g. Rhizobium, Frankia.
+                                                          Exercise 1.3
+1.         Sole member of kingdom monera is :                     7.     The function of mesosome in prokaryotes is:
+           (1) Archaebacteria   (2) Mycoplasma                           (1) Aerobic respiration
+           (3) Cyanobacteria          (4) Bacteria                       (2) Cell wall formation
+2.         Which of the following have most extensive                    (3) Both (1) and (2)
+           diversity in nutrition ?                                      (4) N2 – fixation
+           (1) Bacteria               (2) Plants
+                                                                  8.     Plasmid are-
+           (3) Animals                (4) Fungi
+                                                                         (1) Virus
+3.         All nitrifying bacteria are                                   (2) New types of micro organism
+           (1) Chemosynthetic heterotroph                                (3) Extra chromosomal genetic material of
+           (2) Chemosynthetic autotroph                                        bacteria
+           (3) Chemosynthetic organotroph                                (4) Essential bacterial genetic materials
+           (4) Photosynthetic Lithotrophs
+                                                                  9.     The vast majority of bacteria are:
+4.         Which types of bacteria are most abundant in                  (1) Symbiotic             (2) Autotrophic
+           nature ?                                                      (3) Heterotrophic         (4) Nitrogen fixing
+           (1) Heterotrophic          (2) Photoautotrophic
+           (3) Organotrophic          (4) Symbiotic               10.    Infoldings of plasma membrane in bacteria
+                                                                         are called as :-
+5.         Genetic material of prokaryotic cell contains :               (1) Episomes              (2) Plasmid
+           (1) Non histonic double stranded DNA                          (3) Pili                  (4) Mesosomes
+           (2) Histonic double stranded DNA
+           (3) Neither histone nor DNA                            11.    The main difference between gram +ve and
+           (4) Histone without DNA                                       gram –ve resides in the composition of
+                                                                         (1) Cilia                 (2) Cell–wall
+6.         Chemosynthetic autotrophic bacteria :
+                                                                         (3) Cell–membrane         (4) Cytoplasm
+           (1) Oxidize various inorganic substance such as
+               ammonia and use the released energy for            12.    Which of the following are the important
+               their ATP production                                      decomposers of dead organisms?
+           (2) Play a great role in recycling of nutrients               (1) Bacteria which are saprobic
+               like nitrogen, phosphorus, iron and sulphur               (2) Saprotrophic fungi
+           (3) Both (1) and (2)                                          (3) Both (1) and (2)
+           (4) Can evolve oxygen during photosynthesis                   (4) Parasitic plants
+30                                                   Sarvam Career Institute
+Biological Classification                                                                                Biology
+Reproduction :
+        In BGA reproduction is done by two main processes:
+        (1) Vegetative                             (2) Asexual
+(1)     Vegetative Reproduction :
+        (i) Binary fission : This is the most common method of reproduction in prokaryotes. By this process
+             only unicellular prokaryotes can reproduce. E.g. Spirulina
+        (ii) Fragmentation : Filamentous prokaryotes, reproduce by this process. E.g. Oscillatoria, Nostoc
+
+Economic Importance of BGA :–
+Useful activities :
+(1)     Nitrogen fixation : They provide fertility to soil by nitrogen fixation. E.g. Nostoc, Anabaena, Aulosira,
+        Oscillatoria Food supplement : E.g. Spirulina
+
+Harmful activities :
+(1)     Water bloom :
+        Excessive growth of BGA in polluted water.
+        BGA grow rapidly in polluted water and secrete toxic substances. E.g. Anabaena
+
+(2)     BGA that grow in water tanks, pollute the water : E.g. Oscillatoria
+
+                                                   Exercise 1.5
+1.      Which of the following is very simple in          7.      Colonies of BGA is surrounded by :
+        structure but very complex in behaviour ?                 (1) Gelatinous sheath
+        (1) Bacteria          (2) Archaebacteria                  (2) Hydrocolloids
+        (3) Cyanobacteria     (4) Mycoplasma                      (3) Pectin
+2.      Cell wall of cynobacteria similar to :                    (4) Cellulose
+        (1) Gram negative eubacteria                      8.      Cynobacteria or BGA similar to higher plant
+        (2) Gram positive eubacteria                              having in :
+        (3) Archaebacteria                                        (1) Chlorophyll-a
+        (4) All of the above                                      (2) All type of chlorophyll
+3.      Which of the following is nitrogen fixing                 (3) Cell wall composition
+        organisms                                                 (4) Food storage
+        (1) Nostoc           (2) Anabeana                 9.      Heterocyst is :
+        (3) Oscillatoria     (4) All of the above                 (1) Photosynthetic and Nitrogen fixation
+4.      Nutrition in Cyanobactria is                                  structure
+        (1) Similar to Archaebacteria                             (2) Photosynthetic and Non-Nitrogen fixation
+        (2) Similar to humans                                         structure
+        (3) Non-oxygenic photoautotrophic                         (3) Non-Nitrogen fixative structure and Non-
+        (4) Similar to plants                                         Photosynthetic
+5.      BGA is found in :                                         (4) Nitrogen fixative and Non-Photosynthetic
+        (1) Fresh water         (2) Marine water                      structure
+        (3) Terrestrial habitat (4) All of the above      10.     Fertility of soil is Increased by :–
+6.      Which of the following is            oxygenic             (1) Nitrogen - fixing bacteria
+        filamentous autotrophic BGA :                             (2) Denitrifying bacteria
+        (1) Anabaena          (2) Notoc                           (3) Plasmalemma
+        (3) Oscillatoria      (4) All                             (4) Cell membrane
+                                             Sarvam Career Institute                                            35
+ Biology                                                                                         Biological Classification
+11.        Harmful activity of Blue green algae is-                16.   Heterocyst is a structure which is associated
+           (1) Denitrification                                           with
+           (2) Water - bloom                                             (1) Reproduction
+           (3) Increase alkalinity of soil                               (2) Respiration
+           (4) Decrease fertility of soil                                (3) Nitrogen fixation
+                                                                         (4) Locomotion
+12.        The cyanobacteria are :
+           (1) Unicellular, colonial or filamentous                17.   In blue green algae photosynthesis occurs at
+               marine or terrestrial algae                               :-
+                                                                         (1) Chromatophore
+           (2) Available only in the form of colonies
+                                                                         (2) Chloroplast
+           (3) Sometimes surrounded by mucilaginous /
+                                                                         (3) Leucoplast
+               gelatinous sheath
+                                                                         (4) Chromoplast
+           (4) Not associated with algal bloom
+                                                                   18.   During the rainy season ground surface
+13.        Antibiotic mostly obtained from
+                                                                         become slippery due to :–
+           (1) Bacteria            (2) Viruses
+                                                                         (1) Fungi
+           (3) Fungi               (4) Angiosperm
+                                                                         (2) Blue green algae
+14.        Typhoid and tetanus are caused by :-                          (3) Bryophytes
+           (1) Bacteria            (2) Virus                             (4) Slime molds
+           (3) Viroids             (4) Fungi                       19.   True sexual reproduction absent in :-
+15.        Chemicals produced by one microbe and                         (1) Yellow green algae
+           inhibit growth of another microbes are called                 (2) Red algae
+           (1) Antibiotics          (2) Aflatoxin                        (3) Green algae
+           (3) Antibodies           (4) Phytoalexin                      (4) Blue green algae
+
+Mycoplasma
+           •   PPLO is known as a joker of plant kingdom or joker of microbiology.
+           •   PPLO is pleomorphic organism
+           •   They can’t be filtered by bacterial proof filter.
+
+Main Points :
+       1. Mycoplasmas unicellular, smallest prokaryotic organisms. The diameter of cell varies from 0.1mm
+               to 0.3mm.
+           2. Cell membrane is tri-layered and made up of lipoprotein. Both DNA (ds DNA linear) and RNA are
+               present.
+           3. Mycoplasmas may be the simplest form of life capable of independent growth, reproduction and
+              metabolism.
+           4. They are cell wall less prokaryotes.
+           5. They are resistant to antibiotics as penicillin that act on cell wall.
+           6. They are sensitive to tetracycline & chloramphenicol that act on metabolic activities.
+           7. They can survive in absence of Oxygen.
+
+36                                               Sarvam Career Institute
+Biological Classification                                                                             Biology
+                                                 Exercise 1.6
+1.      Mycoplasma is :                                  3.      Which of the following is wall less smallest
+        (1) Facultative anaerobs                                 organism?
+        (2) Obligate anaerobs                                    (1) Eubacteria
+        (3) Facultative aerobic                                  (2) Mycoplasma
+        (4) Obligate aerobic                                     (3) Cyanobacteria
+                                                                 (4) Archaebacteria
+2.      Mycoplasma causes disease in :-
+                                                         4.      Prokaryotic smallest cell is :-
+        (1) Plant only
+                                                                 (1) Mycoplasma
+        (2) Animal only
+                                                                 (2) Cyanobacteria
+        (3) Virus                                                (3) Bacteria
+        (4) Both plant and animal                                (4) Bacillus
+
+Kingdom Protista
+        All the organism included in Protista are unicellular (acellular) eukaryotes. Members of protista are
+        primarly aquatic. This kingdom forms a link with the others dealing with plants, animals and fungi.
+        There is no well defined boundary of kingdom Protista
+        Following organism are included in Protista : Dinoflagellates, Chrysophytes, Euglenoids, Slime molds,
+        Protozoans
+
+General characters of Protista :
+1.      Unicellular, eukaryotic organisms.
+2.      Mostly aquatic organisms.
+3.      Cell structure is eukaryotic type having all kinds of membrane bound organelles and 80S cytoplasmic
+        ribosomes and cells may possess cellulosic cell wall.
+4.      Flagella and cilia have (9+2) pattern of microtubule organization consisting of tubulin protein.
+5.      Movement by pseudopodia, flagella or cilia where cilliary mode is most efficient.
+6.      They show highly diverse mode of nutrition.
+
+Reproduction :
+1.    Vegetative Reproduction :
+        This is the most common method of reproduction in protists. Vegetative reproduction takes place in
+        favourable condition.
+        Binary fission : Two daughter cells are formed by the division of one mother cell. After this each
+        daughter cell grows to form a normal organism.
+
+2.      Asexual Reproduction :
+        Spore formation :- Some protists have special structure known as sporangia. Spores are formed in this
+        sporangia. The sporangia bursts after sometime and all the spores become free. These spores form a new
+        cell after germination.
+
+3.      Sexual Reproduction :
+        Sexual reproduction was first of all seen in protists. In sexual reproduction two haploid gametes fuse
+        to form a diploid zygote. This process is known as syngamy.
+                                            Sarvam Career Institute                                          37
+Biological Classification                                                                                   Biology
+                                                    Exercise 1.7
+1.      Single cell eukaryotic organisms are placed         4.       Members of Protista primarily are -
+        in :                                                         (1) Terrestrial
+        (1) Kingdom fungi                                            (2) Aquatic
+        (2) Kingdom Protista                                         (3) Prokaryotic
+        (3) Kingdom plantae                                          (4) All of the above
+        (4) Kingdom Monera                                  5.       According to five kingdom system the
+2.      In all the Five kingdom which kingdom has                    unicellular algae like Dinoflagellates, Diatoms
+        not well defined boundaries ?                                and Euglenoids are included in kingdom :-
+        (1) Kingdom Protista                                         (1) Monera               (2) Protista
+        (2) Kingdom fungi                                            (3) Plantae              (4) Animalia
+        (3) Kingdom plantae                                 6.       Protists which are diploid reproduce sexually by
+        (4) Kingdom Monera                                           the process of -
+                                                                     (1) Zygotic meiosis      (2) Cyst formation
+3.      Which one of the following kingdom is
+                                                                     (3) Binary fission       (4) gametic meiosis.
+        classified under Five kingdom classification
+        as prokaryotes?                                     7.       Link between prokaryotes and multicellular
+        (1) Monera             (2) Fungi                             eukaryotes :–
+        (3) Plantae            (4) Protista                          (1) Cyanobacteria    (2) Protista
+                                                                     (3) Fungi            (4) Plants
+
+Division – Chrysophyta
+        This group includes diatoms and golden algae (desmids). They are found in fresh water as well as in
+        marine environment.
+
+Structure :
+1.      They are found in different shapes such as circular, rectangular , triangular , elongated and boat shaped.
+2.      The cell wall of diatoms is made up of cellulose in which silica particles are embedded in at many places.
+        Due to which the cell wall appears to be made up of silica. This silicated cell wall is called "shell" or
+        "frustule".
+Special Note:–
+        Their cell wall is made up of two halves, which are arranged like soap case. Their cell wall have silica
+        in very large quantity. Due to this reason their cell wall is hard and indestructible. The cell wall does not
+        get destroyed after their death so at the bottom of sea, very huge rocks of dead diatoms are formed
+        which are known as "diatomite" or "diatomaceous earth" or "keiselguhr".
+3.      Diploid nucleus is present in Diatom.
+4.      Diatoms have pigments are Chlorophyll 'a', Chl 'c', and xanthophyll (fucoxanthin). Due to these pigments
+        it appears golden coloured.
+5.      They are chief producers in the ocean.
+
+Special Note:–
+        (1) Stored food : Leucosin (Chrysolaminarian) & fats (Oil).
+        (2) Movement : They are immotile, because flagella are absent in them. They float on the surface of
+            water with the help of low molecular weight stored fats.
+
+                                             Sarvam Career Institute                                                39
+ Biology                                                                                    Biological Classification
+           (2) Slime moulds are saprophytes found on decaying twigs and leaves engulfing organic material.
+           (3) Their body is made up of wall less multinucleated protoplasmic mass. This type of body is known as
+               plasmodium. (Plasmodium = wall less coenocyte). Under suitable conditions they form an
+               aggregation which may grow and spread over several feet. During unfavourable conditions
+               plasmodium forms fruiting bodies, which bear spores at their tip.
+           (4) They are diploid i.e. every nucleus found in the cell is diploid E.g. Physarum , Physarella, Fuligo.
+
+Special Note:–
+       They lack cell wall in vegetative stage but at the time of reproduction they form cell wall.
+
+                                                       Exercise 1.8
+1.         Which of the following protist is responsible      9.      Protist used for the construction of sound
+           for red tides ?                                            proof rooms, is -
+           (1) Chrysophytes      (2) Dinoflagellates                  (1) Dinoflagellate    (2) Diatoms
+           (3) Euglenoids        (4) Slime moulds                     (3) Euglenoids        (4) Zooflagellates
+2.         Soap box like structure found in :                 10.     The diatoms do not easily decay like most the
+           (1) Diatoms            (2) Gonyaulax                       other Algae because:-
+           (3) Euglenoids         (4) Slime moulds                    (1) They have water proof cells
+                                                                      (2) Their walls are mucilagenous
+3.         Spore dispersal mechanism by air is found in :             (3) They have highly siliceous wall
+           (1) Diatoms            (2) Gonyaulax                       (4) They are non living
+           (3) Euglenoids         (4) Slime moulds
+                                                              11.     "Keiselgurh" a heat resistant material is
+4.         True cell wall in spores of slime moulds is                obtained from :–
+           formed under :                                             (1) Red Algae       (2) Brown Algae
+           (1) Unfavourable conditions                                (3) Diatoms         (4) Fungi
+           (2) Favourable conditions                          12.     Dinoflagellates are called fire algae due to
+           (3) Any conditions                                         which character :–
+           (4) Both (1) and (2)                                       (1) They appear like fire due to pigments
+                                                                      (2) They produce fire due to friction
+5.         Which of the followings are photosynthetic ?
+                                                                      (3) They occur on burnt places
+           (1) Chrysophytes        (2) Dinoflagellates
+                                                                      (4) They show bioluminiscence
+           (3) Euglenoids          (4) All of the above
+                                                              13.     Shell of diatoms is made up of :-
+6.         Which of the following are mostly marine ?                 (1) Silica             (2) Calcium carbonate
+           (1) Gonyaulax          (2) Diatoms                         (3) Keratin            (4) Calcium oxalate
+           (3) Euglena            (4) Slime moulds
+                                                              14.     The dead remains of diatoms are known as :-
+7.         Chief producer in oceans is :                              (1) Coenobium           (2) Sporangia
+           (1) Diatom            (2) Dinoflagellates                  (3) Kieselgurh          (4) Sporocarp
+           (3) Euglena           (4) Slime moulds             15.     Decomposer protist are:
+8.         The diatomaceous earth is used to insulate                 (1) Diatoms           (2) Dinoflagellates
+           boilers and steam pipes because:-                          (3) Slime moulds      (4) Euglenoid
+           (1) The wall of diatoms is deposited with          16.     Toxins (Saxitoxins) secreted by some
+               calcium                                                dinoflagellates enter the body of human
+           (2) The diatomaceous earth is cheap                        beings through food chain and result in-
+           (3) It is a good conductor of heat                         (1) Madness           (2) Paralysis
+           (4) The wall of diatoms is made of silica                  (3) Syphilis          (4) Plague
+42                                               Sarvam Career Institute
+Biological Classification                                                                                Biology
+17.     Most characteristic feature of diatoms is:-        20.     Diatoms float in water due to :-
+        (1) Pigments                                               (1) Stored fats
+        (2) Stored food                                            (2) Gas Vacuoles
+        (3) Cell wall                                              (3) Flagella
+        (4) Non oxygenic photosynthesis                            (4) Air chambers
+
+18.     "Naked fungi" (Slime moulds) are naked :-          21.     Armoured cell wall and biflagellated cells
+        (1) When they are reproducing                              are characteristic of :-
+        (2) When they are not reproducing                          (1) Diatoms
+                                                                   (2) Dinoflagellates
+        (3) Always naked
+                                                                   (3) Euglenophyta
+        (4) Never naked
+                                                                   (4) BGA
+19.     Organism of which kingdom feed like animals
+                                                           22.     "Golden Algae" is the common name of Algae
+        and perform photosynthesis like plants :–
+                                                                   belonging to :
+        (1) Monera                                                 (1) Diatoms
+        (2) Protista                                               (2) Dinoflagellates
+        (3) Mycota                                                 (3) Euglenophyta
+        (4) Animalia                                               (4) BGA
+Phylum - Protozoa
+1.      They are world wide, Cosmopolitan mostly Microscopic, mostly Aquatic, and free living (Amoeba)
+        or parasitic (Plasmodium). These causes serious diseases.
+2.      All protozoans are heterotrophs and live as predators or parasites. Nutrition of Protozoans are mainly
+        holozoic (Amoeba), Mixotrophic. (Euglena), Parasitic (Plasmodium).
+3.      Reproduction :
+        (i) Asexual - Binary fission, Multiple fission
+        (ii) Sexual - Syngamy, Conjugation
+4.      They are believed to be primitive relatives of animals. There are four major groups of protozoans.
+        (i) Amoeboid protozoans: These organisms live in fresh water, sea water or moist soil. They move and
+            capture their prey by putting out pseudopodia (false feet) as in Amoeba. Marine forms have silica
+            shells on their surface. Some of them such as Entamoeba are parasites.
+        (ii) Flagellated protozoans: The members of this group are either free-living or parasitic. They have
+            flagella. The parasitic forms cause diaseases such as sleeping sickness. Example: Trypanosoma.
+        (iii) Ciliated protozoans: These are aquatic, actively moving organisms because of the presence of
+              thousands of cilia. They have a cavity (gullet) that opens to the outside of the cell surface. The
+            coordinated movement of rows of cilia causes the water laden with food to be steered into the
+            gullet. Example: Paramoecium.
+
+
+
+
+        (iv) Sporozoans: This includes diverse organisms that have an infectious spore-like stage in their life
+             cycle. The most notorious is Plasmodium (malarial parasite) which causes malaria, a disease which
+             has a staggering effect on human population.
+
+                                             Sarvam Career Institute                                           43
+Biological Classification                                                                                   Biology
+                                                      Exercise 1.9
+1.      Fungi are grouped into various classes based         11.     Organism group which shows Heterotrophic
+        on ?                                                         mode of nutrition is :
+        (1) Morphology of mycelium                                   (1) Algae              (2) Fungi
+        (2) Mode of spore formation
+                                                                     (3) Bryophytes         (4) Pteridophytes
+        (3) Fruiting bodies
+        (4) All of these                                     12.     In fungi lump of hyphae is referred to as :-
+2.      Mostly fungi are                                             (1) Parenchyma         (2) Haustorium
+        (1) Heterotrophic    (2) Photosynthetic                      (3) Mycelium           (4) Carpogonium
+        (3) Chemoautotrophic (4) Predator
+                                                             13.     Stored food material of fungi :-
+3.      Body of fungi is called :                                    (1) Cellulose
+        (1) Mycellium            (2) Hypha                           (2) Starch
+        (3) Group of hyphae (4) Haustoria                            (3) Glycogen and starch
+4.      Which of the following is unicellular fungi ?                (4) Glycogen and oil
+        (1) Yeast              (2) Puccinia
+        (3) Penicillium        (4) Rhizopus                  14.     Heterotrophic and absorptive mode of
+                                                                     nutrition is found in :-
+5.      Select the odd one w.r.t. Ascomycetes
+                                                                     (1) Algae                (2) Fungi
+        (1) Aspergillus        (2) Neurospora
+        (3) Claviceps          (4) Colletotrichum                    (3) Bryophytes           (4) Euglenoid
+
+6.      Cell wall of fungi made up of                        15.     The fungi are :–
+        (1) Chitin only                                              (1) Autotrophic         (2) Holotrophic
+        (2) Chitin and polysaccharides                               (3) Chemotrophic        (4) Heterotrophic
+        (3) Polysaccharides only
+        (4) Starch                                           16.     Non-septate mycelium occurs in:-
+7.      Which of the following is sexual spore in                    (1) Phycomycetes     (2) Ascomycetes
+        fungi ?                                                      (3) Basidiomycetes   (4) Deuteromycetes
+        (1) Oospores, ascospores, basidiospores
+        (2) Oospores, ascospores, zoospores                  17.     All fungi are :-
+        (3) Ascospores, zoospore, basidiospores                      (1) With chlorophyll
+        (4) Sporangiospores, ascospores,                             (2) Without chlorophyll
+            basidiospores                                            (3) With carotene
+8.      Fungi shows great diversity in :                             (4) Wall less
+        (1) Morphology only
+        (2) Habitat only                                     18.     In fungi, vegetative reproduction takes place
+        (3) Reproduction                                             by :
+        (4) Morphology and habitat                                   (1) Fragmentation       (2) Conidia
+9.      Which of the following is parasitic fungi ?                  (3) Zygospore           (4) Oospore
+        (1) Rhizopus           (2) Albugo                    19.     In ascomycetes and basidomycetes, the
+        (3) Yeast              (4) Morels                            dikaryotic cell is :
+10.     Which of the following classes of fungi have                 (1) Haploid             (2) Diploid
+        dikaryon condition ?                                         (3) Triploid            (4) Polyploid
+        (1) Ascomycetes and basidiomycetes
+                                                             20.     Coenocytic mycelium is found in :-
+        (2) Ascomycetes and deuteromycetes
+        (3) Basidiomycetes and phycomycetes                          (1) Rhizopus          (2) Mucor
+        (4) All of these                                             (3) Penicillium       (4) Both (1) and (2)
+                                            Sarvam Career Institute                                                 47
+ Biology                                                                                    Biological Classification
+21.        Fungi are ecologically important because -        23.      The fungus without mycelium is -
+           (1) They yield antibiotics                                 (1) Phytopthora
+           (2) They are used in genetic studies
+                                                                      (2) Rhizopus
+           (3) They function as decomposers
+                                                                      (3) Saccharomyces
+           (4) All of the above
+                                                                      (4) Microsporum
+22.        Which of the following characters indicate
+                                                             24.      Nucleated spore bearing non chlorophyllous
+           similarity between fungi and animals ?
+                                                                      organism belong to:
+           (1) Heterotrophic nutrition
+                                                                      (1) Monera
+           (2) Type of stored food
+                                                                      (2) Thallophyta
+           (3) Presence of chitin
+                                                                      (3) Fungi
+           (4) All of the above
+                                                                      (4) Bryophyta
+Phycomycetes:
+           •   All the fungi included in this class are called as lower fungi. Members of phycomycetes are found
+               in aquatic habitat (members of this class known as algal fungi) and on decaying wood in moist and
+               damp place or as obligate parasites on plants.
+
+Mycelium :-
+           •   The fungal filament (mycelium) of all the fungus included in this class are coenocytic and aseptate
+               and branched.
+           •   Phycomycetes further classified into oomycetes and zygomycetes
+Note:
+           The mycelium of oomycetes and zygomycetes classes is same in structure i.e. coenocytic & aseptate. But
+           they are dissimilar on the basis of sexual reproduction.
+(a)        Oomycetes :
+           Asexual reproduction : By the formation of sporangiospores (zoospores) & conidia.
+           Sexual reproduction : Oospore (thick walled)
+           There is no time interval between plasmogamy and karyogamy, so dikaryophase is not formed.
+E.g.       (1) Phytophthora infestans : Causes ‘‘late blight of potato’’.
+           (2) Sclerospora graminicola : Causes "Green ear disease" of Bajra.
+           (3) Albugo candida : Parasite on mustard.
+ (b)       Zygomycetes :–
+           Asexual reproduction – By the formation of sporangiospores (aplanospores).
+           Sexual reproduction – By Zygospore (thin walled).
+           Types of sexual reproduction
+           •   Isogamous – All the members
+E.g.       (1) Rhizopus
+           (2) Mucor
+
+48                                             Sarvam Career Institute
+ Biology                                                                                     Biological Classification
+3.         Which of the following is coprophilous fungi ?    14.    Aspergillosis is caused by :-
+           (1) Club fungi          (2) Sac fungi                    (1) Virus               (2) Bacteria
+           (3) Algal fungi         (4) Fungi imperfecti             (3) Fungi               (4) Mycoplasma
+4.         Which of the following is not applicable for      15.    One of the common fungal disease of human is :-
+           fungi ?                                                  (1) Cholera           (2) Plague
+           (1) They are eukaryotic                                  (3) Typhoid           (4) Ring worm
+           (2) They are heterotrophic
+           (3) They are both unicellular and multicellular   16.    Neurospora, which is popularly known as
+           (4) They possess a purely cellulosic cell wall           Drosophila of plant kingdom, belongs to :-
+                                                                    (1) Phycomycetes       (2) Ascomycetes
+5.         Storage grains come to have aflatoxin due to
+                                                                    (3) Basidiomycetes     (4) Deuteromycetes
+           growth of :
+           (1) Aspergillus flavus (2) Yeast                  17.    Which of the following is a form class ?
+           (3) Bacterium          (4) Virus                         (1) Deuteromycetes (2) Basidiomycetes
+6.         Which one of the following has photosynthetic            (3) Rhodophyceae       (4) Euglenophyceae
+           pigment similar to higher plants :                18.    The sac fungi belongs to :-
+           (1) Diatoms              (2) Dinoflagellates             (1) Ascomycetes        (2) Basidiomycetes
+           (3) Euglenoids           (4) Green algae                 (3) Phycomycetes       (4) Deuteromycetes
+7.         The basidiomycetes includes :-                    19.    Which of the following secretes toxins during
+           (1) Rusts             (2) Smuts
+                                                                    storage conditions of crop plants?
+           (3) Mushrooms         (4) All of the above
+                                                                    (1) Aspergillus        (2) Penicillium
+8.         For bread and beer making, commonly :                    (3) Fusarium           (4) Colletotrichum
+           (1) Unicellular algae are used
+           (2) Multicellular algae are used                  20.    The chief characteristic of class Ascomycetes is :–
+           (3) Unicellular fungi are used                           (1) Formationof spores
+           (4) Multicellular fungi are used                         (2) Hyphae
+                                                                    (3) Formation of acospores
+9.         The fungi which grow on dung is called :–
+                                                                    (4) Formation of zoospores
+           (1) Epixylic          (2) Coprophilous
+           (3) Keratinophillic   (4) Xyllophillous           21.    Yeast grows more quickly in -
+10.        Which of the following causes wheat rust                 (1) Salt water
+           disease:-                                                (2) Sugar solution
+           (1) A red Algae      (2) A green Algae                   (3) Double distilled water
+           (3) A fungi          (4) Mycoplasma                      (4) Marine water
+
+11.        Deuteromycetes are called 'Imperfect fungi'       22.    A. Flemming isolated penicillin from -
+           as :-                                                    (1) P.chrysogenum      (2) P.notatum
+           (1) They have no cell wall                               (3) Aspergillus Flovus (4) A. niger
+           (2) No mycelium
+                                                             23.    Alexander Flemming discovered penicillin in
+           (3) No sexual reproduction
+                                                                    1928 while working with-
+           (4) No asexual reproduction
+                                                                    (1) Streptomyces
+12.        Sexual reproduction absent in :-                         (2) Bacteria (Staphylococcus)
+           (1) Phycomycetes      (2) Deuteromycetes                 (3) Penicillium notatum
+           (3) Zygomycetes       (4) Basidiomycetes
+                                                                    (4) P. chrysogenum
+13.        Which of the following is not a member of
+                                                             24.    Pseudomycelium occurs in -
+           class phycomycetes?
+                                                                    (1) Mushroom        (2) Mucor
+           (1) Albugo           (2) Mucor
+                                                                    (3) Bread mold      (4) Yeast
+           (3) Rhizopus         (4) Neurospora
+54                                              Sarvam Career Institute
+ Biology                                                                                       Biological Classification
+
+Mycorrhiza
+           •   Mycorrhiza is the symbiotic association between roots of higher plants and fungus.Fungus obtain
+               food and shelter from root and fungi helps to root in absorption of water and mineral and also
+               protect plant from soil borne pathogen.
+           •   It is useful for phosphate absorption.
+                                                        Exercise 1.11
+1.         "Potato spindle tuber disease" refers to :           10.     The protein coat of viruses are called ____
+           (1) Viroids            (2) Prions                            which is made of small subunits called
+           (3) Virus              (4) Bacteria                          ______.
+                                                                        (1) Capsomere, Capsid
+2.         Viroids differ from virus in :–                              (2) Pepleomere, Capsid
+           (1) Protein coat        (2) DNA                              (3) Capsid, Pepleomere
+           (3) RNA                 (4) All                              (4) Capsid, Capsomere
+3.         BSE disease is caused by                             11.     The function of mycobiont in a lichen is to :
+           (1) Virus              (2) Viroids                           (1) Prepare food for algae
+           (3) Prions             (4) Lichens                           (2) Provide shelter and absorb nutrients and
+                                                                            water for algae
+4.         In plants symptoms of viral disease are                      (3) Digest algae
+           (1) Mosaic formation                                         (4) All are incorrect
+           (2) Leaf rolling and curling
+           (3) Yellowing and Vein clearing                      12.     Which of the following is non-cellular
+           (4) All                                                      organism?
+                                                                        (1) Bacteria       (2) Fungi
+5.         'Contagium vivium fluidum' belongs to                        (3) Algae          (4) Virus
+           (1) Virus             (2) Viroids                    13.     Enzymes are not found in
+           (3) Prions            (4) Lichens                            (1) Fungi            (2) Algae
+6.         Which of the following organism can not                      (3) Virus            (4) Cyanobacteria
+           grow in polluted area ?                              14.     Lichens show:
+           (1) Virus               (2) Fungi                            (1) Mutually obligatory relationship
+           (3) Bacteria            (4) Lichens                          (2) Mutually non-obligatory relationship
+                                                                        (3) Mutually relationship between algae and
+7.         Which of the following are not considered in
+                                                                            higher plants
+           five kingdom system of classification?
+                                                                        (4) Relationship between gymnosperm and
+           (1) Lichen            (2) Virus                                  BGA
+           (3) Viroid            (4) All of the above
+                                                                15.     Phycobionts and mycobionts are respectively :
+8.         Select the true statement :                                  (1) Autotrophic, Heterotrophic
+           (1) Viruses are obligate parasites                           (2) Heterotrophic, Autotrophic
+           (2) In lichens, algal component is called                    (3) Autotrophic, Autotrophic
+               phycobiont                                               (4) Heterotrophic, Heterotrophic
+           (3) In lichens, fungal component is called           16.     Lichens are pollution indicator for :
+               mycobiont                                                (1) SO2                 (2) CO2
+           (4) All of the above                                         (3) NO2                 (4) SiO2
+9.         Viroid was discovered by:                            17.     VAM is associated to :
+           (1) Haeckel             (2) Pasteur                          (1) Ectomycorrhiza     (2) Endomycorrhiza
+                                                                        (3) Lichens            (4) Both (1) and (2)
+           (3) T.O. Diener         (4) Theophrastus
+58                                              Sarvam Career Institute
+Biological Classification                                                                                     Biology
+                                                 Exercise 2
+1.      Archaebacteria differ from other bacteria in    7.          Read the following statements :
+        having a :                                                  (i) The bacterial structure is very simple but
+        (1) Different cell wall structure                                 they are complex in behaviour
+        (2) Different cellular organization                         (ii) Compared to many other organisms,
+        (3) Parasitic nature                                              bacteria as a group show the most
+        (4) All of these                                                  extensive metabolic diversity
+                                                                    (iii) Some of the bacteria are autotrophic
+2.      Which character indicates that cyanobacteria
+                                                                    (iv) Most of the bacteria are heterotrophic
+        are similar to higher green plants ?                        (v) Bacteria possess cell wall How many of
+        (1) Type of cell wall                                             the above statements are not incorrect?
+        (2) Nitrogen fixation ability                               (1) Four                 (2) Five
+        (3) Presence of chlorophyll 'a'                             (3) Two                  (4) Zero
+        (4) Presence of gelatinous sheath
+                                                            8.      Read the following statements :-
+3.      Which one of the following prokaryotes lacks                (i) Majority of the slime moulds are fresh
+        cell wall:                                                        water organisms
+        (1) Virus                (2) Cyanobacteria                  (ii) Dinoflagellates are mostly fresh water
+        (3) Mycoplasma           (4) Protozoa                             organisms
+                                                                    (iii) Slime moulds form plasmodium
+4.      Which organisms have silica in their cell wall
+                                                                    (iv) Protozoans may be autotrophs
+        ?
+                                                                    (v) The spores of slime moulds are dispersed
+        (1) Dinoflagellates      (2) Slime mould
+                                                                          by water currents
+        (3) Diatoms              (4) Euglenoids                     Which of the above statements are correct?
+5.      Which organism is responsible for the red                   (1) Only (iii)          (2) All five
+        surface of the sea ?                                        (3) (ii), (ii) and (v)  (4) (i), (ii), (iv) and (v)
+        (1) Euglena              (2) Gonyaulax              9.      Select the correct statement about slime
+        (3) Amoeba               (4) Paramecium                     moulds :
+                                                                    (1) Saprophytic, plasmodium with cell wall,
+6.      Read the following statements:
+                                                                        spores dispersed by air currents
+        (i) The body organization of fungi is
+                                                                    (2) Saprophytic, plasmodium without cell
+            multicellular/loose tissue type
+                                                                        wall, spores with true cell wall and
+        (ii) Mode of nutrition in monerans is
+                                                                        dispersed by air currents
+            autotrophic or heterotrophic
+                                                                    (3) Parasitic, plasmodium without cell wall,
+        (iii) Nuclear membrane may be present in E.                 spores dispersed by air current
+            coli                                                    (4) Parasitic, plasmodium without cell wall,
+        (iv) SCell wall is cellulosic in animals cells                  spores with true cell wall and dispersed
+        (v) Non-cellulosic cell wall is present in                      by water current
+            fungi
+                                                            10.     The genetic material of prokaryotic cell :
+        How many of the above statements are                        (1) Non-histonic double-stranded DNA
+        correct ?                                                   (2) Histonic double stranded DNA
+        (1) Three                (2) Two                            (3) Histone & DNA both are absent
+        (3) Four                 (4) Five                           (4) Histone without DNA
+                                               Sarvam Career Institute                                               59
+ Biology                                                                                        Biological Classification
+11.        In bacteria, the plasmid is:                            16.    Select the incorrect statement about fungi?
+           (1) Extra chromosomal material                                 (1) The cell wall is composed of chitin and
+           (2) Main DNA                                                       polysaccharides
+           (3) Non functional DNA                                         (2) These are heterotrophic organisms
+           (4) Repetative gene                                            (3) They are autotrophic organisms
+                                                                          (4) They are absorptive in nature
+12.        In which kingdom would you classify the
+           archaea and nitrogen-fixing organisms, if the           17.    The mycelium is aseptate and Coenocytic in :
+           five-kingdom system of classification is used                  (1) Phycomycetes
+           :–                                                             (2) Basidiomycetes
+           (1) Plantae            (2) Fungi                               (3) Deuteromycetes
+           (3) Protista           (4) Monera                              (4) Ascomycetes
+13.        Carbohydrates are the most abundant                     18.    Septate and branched mycelium are found in
+           biomolecules on earth. are produced by?                        (1) Basidiomycetes
+           (1) Some bacteria, algae and green plant cells                 (2) Deuteromycetes
+           (2) All bacteria, fungi and algae                              (3) Ascomycetes
+           (3) Fungi, algae and green plant cells                         (4) All of the above
+           (4) Viruses, fungi and bacteria
+                                                                   19.    Select the correct matched pair/pairs :
+14.        Match the columns-I and II, and choose the                     (1) Claviceps – Ascomycetes
+           correct combination from the options given.                    (2) Morels – Ascomycetes
+                   Column-I                     Column-II                 (3) Agaricus – Basidiomycetes
+                  (Kingdom)             (Mode of Nutrition)               (4) All the above
+
+                                                                   20.    Asexual reproduction takes place by conidia
+            (a) Monera             (i) Autotrophic
+                                                                          formation in :–
+            (b) Protista          (ii) Heterotrophic
+                                                                          (1) Aspergillus       (2) Penicillium
+             (c) Fungi            (iii) Autotrophic and
+                                                                          (3) Colletotrichum    (4) All of the above
+                                        heterotrophic both
+            (d) Plantae                                            21.    Read the following statements w.r.t. fungi :
+            (e) Animalia                                                  (i) Their body consists of long, slender
+                                                                                thread like structures called hyphae
+           (1) a-iii, b-iii, c-ii, d-i, e-ii
+                                                                          (ii) The network of hyphae is called mycelium
+           (2) a-ii, b-i, c-ii, d-iii, e-ii
+                                                                          (iii) Hyphae may be continuous tubes filled
+           (3) a-iii, b-ii, c-iii, d-i, e-iii
+                                                                                with multinucleated cytoplasm, these
+           (4) a-ii, b-iii, c-ii, d-iii, e-ii
+                                                                                hyphae are coenocytic
+15.        Some characters are given below. Which of                      (iv) In many cases hyphae have septate or
+           them is true for the cyanobacteria ?                                 cross walls
+           (A) Oxygenic photosynthesis                                    (v) The cell wall of fungi are composed of
+           (B) Non-oxygenic chemotrophism                                       chitin and polysaccharides
+           (C) Oxygenic chemotrophism                                     How many of the above statements are
+           (D) Ability of N2 fixation                                     correct ?
+           (1) A and B              (2) A and C                           (1) One                   (2) Three
+           (3) A and D              (4) B and D                           (3) Four                  (4) Five
+60                                                    Sarvam Career Institute
+Biological Classification                                                                                   Biology
+22.     Identify the virus and name the structure               26.   Select the correct statements about fungi :
+        marked A, B, C, D and E :                                     (A) Most of the fungi are saprophytes
+                                                                      (B) Fungi can also survive as symbionts
+                                                                      (C) Sexual reproduction in fungi involves
+                                                                          three steps
+                                                                      (D) Reduction division in fungi occurs in
+                                                                          fruiting bodies which forms haploid spores
+                                                                      (1) A, B are correct
+                                                                      (2) C, D are correct
+                                                                      (3) A, B & C are correct
+                                                                      (4) A, B, C & D are correct
+        (1) Bacteriophage, A= Head, B= Sheath, C=               27.   Choose the incorrect statement regarding
+            Collar, D= Tail fibre, E= Tail pin                        the decomposer :
+        (2) Bacteriophage, A= Head, B= Collar, C=                     (1) They may be prokaryotes or eukaryotes.
+            Base plate, D= Sheath, E= Base Tail fibre
+                                                                      (2) They may be unicellular or multicellular.
+        (3) Bacteriophage, A= Head, B= Sheath, C=
+                                                                      (3) They convert inorganic into organic
+            Tail fibre, D= Collar, E= Tail pin
+                                                                          compounds
+        (4) Bacteriophage, A= Head, B=Collar,C=
+                                                                      (4) They play a great role in ecology
+            Sheath, D= Tail fibre, E= Tail pin
+23.     Read the names of different fungi given                 28.   With respect to fungal sexual cycle, what is
+        below :                                                       the correct sequence :
+        Mucor, Albugo, Penicillium, Ustilago, Colletotrichum,         (1) Karyogamy, Plasmogamy & Meiosis
+        Puccinia, Agaricus, Aspergillus and Rhizopus                  (2) Meiosis, Plasmogamy & Karyogamy
+        How many of the following belong to the class                 (3) Plasmogamy, Karyogamy & Meiosis
+        phycomycetes ?                                                (4) Meiosis, Karyogamy & Plasmogamy
+        (1) Three                  (2) Two                      29.   Prokaryotic cell is characterized by :–
+        (3) Four                   (4) Seven
+                                                                      (1) Presence of nucleus, mitochondria and
+24.     In oogamy, fertilization involves :–                              plastids
+        (1) A large motile female gamete and a                        (2) Absence of cell wall, DNA fibrils and
+            small non motile male gamete                                  plastids
+        (2) A small nonmotile female gamete and a                     (3) Presence of spindle fibres, DNA fibrils
+            large motile male gamete                                      and golgi bodies
+        (3) A large nonmotile female gamete and a                     (4) Absence of endoplasmic reticulum, golgi
+            small motile male gamete                                      bodies and spindle fibres.
+        (4) A large non motile female gamete and a
+            small nonmotile male gamete                         30. Dinoglagellates have two flagella :
+25.     Find the incorrect statement about fungi :                  (1) Both lying longitudinally between the
+        (1) They show a great diversity in morphology                   wall plates.
+            and habitats                                            (2) One lying longitudinally and the other
+        (2) Fungi are cosmopolitan and occur in air,                    transversely in a furrow between the
+            water soil and as parasites also                            wall plates.
+        (3) They prefer to grow in cold and dry places              (3) Both lying transversely between the wall
+        (4) With the exception of yeasts, fungi are                     plates
+            filamentous                                             (4) Do not help in their movement
+                                              Sarvam Career Institute                                          61
+ Biology                                                                                                       Biological Classification
+31.        Euglenoids :                                              35.         Match the columns-I and II, and choose the
+           (1) Are photosynthetic in the presence of                             correct combination from the options given.
+               sunlight but when deprived of sunlight                                 Column-I                    Column-II
+               they behave like heterotrophs by                                  (a) Morels                   (i) Deuteromycetes
+               predating other smaller organisms                                 (b) Smut                     (ii) Ascomycetes
+           (2) Possess carbohydrate rich pellicle which                          (c) Bread mould              (iii) Basidiomycetes
+               makes their body flexible                                         (d) Imperfect fungi (iv) Phycomycetes
+
+           (3) They possess heterokont flagella i.e.,                            (1) a-iii, b-iv, c-i, d-ii     (2) a-ii, b-iii, c-iv, d-i
+               one short and the other long                                      (3) a-iv, b-i, c-ii, d-iii     (4) a-iii, b-iv, c-ii, d-i
+           (4) More than one option is correct
+                                                                     36.         Match the columns-I and II, and choose the
+32.        The thalloid body of a slime mould                                    correct combination from the options given.
+           (Myxomycetes) is known as :-                                                Column-I                     Column-II
+
+           (1) Fruiting body                                                      (a) Eubacteria               (i) Trichoderma
+
+           (2) Mycelium                                                           (b) Dinoflagellates          (ii) Albugo
+                                                                                  (c) Phycomycetes             (iii) Gonyaulax
+           (3) Protonema
+                                                                                  (d) Deuteromycetes (iv) Anabaena
+           (4) Plasmodium
+                                                                                 (1) a-i, b-ii, c-iii, d-iv     (2) a-ii, b-iii, c-iv, d-i
+33.        Match the entities in column-I with their
+                                                                                 (3) a-iv, b-iii, c-ii, d-i     (4) a-iii, b-iv, c-i, d-ii
+           character in column-II:
+                 Column-I                    Column-II               37.         Match the columns-I and II, and choose the
+            (a) Protozoans              (i) Diatoms and                          correct combination from the options given.
+                                             golden algae                                 Column-I                    Column-II
+            (b) Slime Moulds            (ii) Gonyaulax                                   (Organism)               (Common name)
+            (c) Euglenoids              (iii) Trypanosoma                         (a) Puccinia                (i) Yeast
+            (d) Chrysophytes            (iv) Saprophytic                          (b) Ustilago                (ii) Mushroom
+                                             protists                             (c) Agaricus                (iii) Smut fungus
+            (e) Dinoflagellates (v) Euglena                                       (d) Saccharomyces (iv) Rust fungus
+
+           (1) a-iii, b-iv, c-v, d-ii, e-i                                       (1) a-i, b-ii, c-iii, d-iv     (2) a-ii, b-iii, c-iv, d-i
+           (2) a-iii, b-iv, c-v, d-i, e-ii                                       (3) a-iii, b-iv, c-i, d-ii     (4) a-iv, b-iii, c-ii, d-i
+           (3) a-iii, b-v, c-iv, d-ii, e-i                           38.         Match the columns-I and II, and choose the
+           (4) a-iv, b-v, c-ii, d-iii, e-i                                       correct combination from the options given.
+                                                                                     Column-I                         Column-II
+34.        Match the columns-I and II, and choose the
+                                                                                    (Scientists)                  (Contribution)
+           correct combination from the options given.
+                                                                           (a)      Ivanowsky         (i)      Contagium vivum
+                Column-I                     Column-II
+                                                                                                               fluidum
+           (a) Phycomycetes             (i) Sac fungi
+                                                                           (b) Pasteur                (ii)     Crystallisation of
+           (b) Ascomycetes              (ii) Imperfect fungi
+                                                                                                               viruses
+           (c) Basidiomycetes           (iii) Algal fungi
+           (d) Deuteromycetes (iv) Club fungi/                             (c)      Beijerinek        (iii) Discovery of viruses
+                                             bracket fungi                 (d) Stanley                (iv)     Term virus
+           (1) a-i, b-iii, c-iv, d-ii   (2) a-iii, b-i, c-iv, d-ii               (1) a-iii, b-iv, c-ii, d-i     (2) a-iv, b-iii, c-ii, d-i
+           (3) a-i, b-iii, c-ii, d-iv   (4) a-iii, b-i, c-ii, d-iv               (3) a-iii, b-iv, c-i, d-ii     (4) a-iv, b-iii, c-i, d-ii
+62                                                      Sarvam Career Institute
+Biological Classification                                                                                    Biology
+39.     Match the columns I and II, and choose the          40.     Match the columns-I and II, and choose the
+        correct combination from the option given.                  correct combination from the options given.
+                 Column-I                Column-II                   Column-I                    Column-II
+               (Types of                (Production)              (Group Protista)               (Example)
+         (a) Zoospores              (i) Exogenous
+                                                              (a) Chrysophytes           (i) Paramoecium
+         (b) Aplanospores           (ii) Endogenous
+                                                              (b) Dinoflagellates       (ii) Euglena
+         (c) Conidia
+                                                              (c) Euglenoids            (iii) Gonyaulax
+         (d) Ascospores                                       (d) Protozoans            (iv) Diatoms
+         (e) Basidiospores
+                                                                    (1) a-i, b-iii, c-ii, d-iv
+        (1) a-i, b-ii, c-i, d-ii, e-ii
+                                                                    (2) a-ii, b-iv, c-iii, d-i
+        (2) a-ii, b-i, c-ii, d-i, e-ii
+        (3) a-ii, b-ii, c-i, d-ii, e-i                              (3) a-iv, b-ii, c-iii, d-i
+        (4) a-i, b-ii, c-i, d-ii, e-i                               (4) a-iv, b-iii, c-ii, d-i
+
+
+
+
+                                               Sarvam Career Institute                                             63
+ Biology                                                                                      Biological Classification
+                                                     Exercise 3
+             Matrix—Match Type Questions:                   4.         Match the organisms in Column I with
+1.      Match the process in Column I with its term                    habitats in Column II and choose the correct
+        in Column II.                                                  option from the codes given below.
+           Column I              Column II
+           (Systems of           (Given by)                             Column I                    Column II
+           classification)                                              (Features)                  (Protista)
+     (A) Two kingdom (p) RH Whittaker
+                                                                 (A)    Chief producer       (p) Diatoms
+           system of
+           classification                                               in the oceans
+     (B) Five kingdom (q) Carl Woese                             (B)    Red tide             (q) Dinoflagellates
+           system of
+           classification                                        (C)    Connecting link      (r)    Euglenoids
+     (C) Six kingdom         (r) Carolus                                between plants
+           system of             Linnaeus
+           classification                                               and animals
+        (1) A → (q); B → (p); C → (r)                            (D) Fungus animals          (s)    Slime Moulds
+        (2) A → (p); B → (q); C → (s)
+        (3) A → (s); B → (r); C → (p)                                  (1) A → (q); B → (r); C → (s); D → (p)
+        (4) A → (r); B → (p); C → (q)
+                                                                       (2) A → (p); B → (q); C → (r); D → (s)
+2.         Match the process in Column I with its term
+                                                                       (3) A → (r); B → (s); C → (p); D → (q)
+           in Column II.
+                  Column I           Column II                         (4) A → (s); B → (p); C → (r); D → (r)
+                  (Names)            (Shape)
+            (A) Coccus         (p) Rod-shaped               5.         Match the process in Column I with its term
+            (B) Bacillus       (q) Spherical                           in Column II.
+            (C) Vibrio         (r) Spiral-shaped
+            (D) Spirillum      (s) Comma-shaped                               Column I              Column II
+           (1) A → (r); B → (q); C → (p); D → (s)                             (Types)               (Examples)
+           (2) A → (s); B → (r); C → (q); D → (p)
+                                                                        (A)   Amoeboid        (p)   Plasmodium
+           (3) A → (q); B → (p); C → (s); D → (r)
+           (4) A → (p); B → (s); C → (r); D → (q)                             protozoans
+3.         Match the organisms in Column I with                         (B)   Flagellated     (q)   Paramecium
+           habitats in Column II and choose the correct                       protozoans
+           option from the codes given below.
+                 Column I                  Column II                    (C)   Ciliated        (r)   Trypanosoma
+            (A) Halophiles             (p) Hot springs                        protozoans
+            (B) Thermoacidophiles (q) Aquatic
+                                           environment                  (D) Sporozoans        (s)   Entamoeba
+            (C) Methanogens            (r) Guts of                                                  histolytica
+                                           ruminants
+            (D) Cyanobacteria          (s) Salty area                  (1) A → (p); B → (q); C → (r); D → (s)
+           (1) A → (s); B → (p); C → (r); D → (q)                      (2) A → (s); B → (r); C → (q); D → (p)
+           (2) A → (p); B → (q); C → (r); D → (s)
+                                                                       (3) A → (r); B → (q); C → (p); D → (s)
+           (3) A → (r); B → (s); C → (q); D → (p)
+           (4) A → (q); B → (s); C → (r); D → (p)                      (4) A → (q); B → (p); C → (s); D → (r)
+64                                             Sarvam Career Institute
+Biological Classification                                                                                    Biology
+6.      Match the process in Column I with its term        8.      Match the following columns and choose the
+        in Column II.                                              correct option from the codes given below :
+                                                                  Column I                    Column II
+             Column I                       Column II
+                                                                  (Scientists)                (Related to)
+             (Features)                     (Related to)    (A)   DJ Ivanowsky (1892)   (p)   Viroids
+       (A)   Parastic fungi         (p)     Neurospora      (B)   MW Beijerinck         (q)   First crystallised
+                                                                  (1898)                      TMV
+             on mustard
+                                                            (C)   WM Stanley (1935)     (r)   Contagium vivum
+       (B)   Rust and smut          (q)     Puccinia and                                      fluidum
+             disease                        Ustilago        (D)   TO Diener (1971)      (s)   Mosaic disease of
+                                                                                              tobacco
+       (C)   Used in genetic        (r)     Morels and
+                                                                   (1) A → (p); B → (s); C → (q); D → (r)
+             work                           truffles
+                                                                   (2) A → (q); B → (p); C → (s); D → (r)
+       (D)   Edible                 (s)     Albugo
+                                                                   (3) A → (s); B → (r); C → (q); D → (p)
+             delicacies                                            (4) A → (r); B → (q); C → (p); D → (s)
+       (E)   Bread mould            (t)     Rhizopus       9.      Match the following columns and choose the
+        (1) A→(r); B→(t); C→(s); D→(q); E→(p)                      correct option from the codes given below
+                                                                           Column I            Column II
+        (2) A→(p); B→(r); C→(t); D→(s); E→(r)
+                                                                           (Kingdoms)          (Classes)
+        (3) A→(r); B→(p); C→(r); D→(t); E→(s)                        (A)   Plantae      (p)    Archaeobacteria
+                                                                     (B)   Fungi        (q)    Euglenoids
+        (4) A→(s); B→(q); C→(p); D→(r); E→(t)
+                                                                     (C)   Protista     (r)    Phycomycetes
+                                                                     (D)   Monera       (s)    Algae
+7.      Match the following columns and choose the
+        correct option from the codes given below                  (1) A → (s); B → (r); C → (q); D → (p)
+                                                                   (2) A → (p); B → (q); C → (r); D → (s)
+       Column I                 Column II
+                                                                   (3) A → (r); B → (s); C → (q); D → (p)
+ (A)   Saprophyte         (p)   Symbiotic association
+                                                                   (4) A → (s); B → (q); C → (r); D → (p)
+                                of fungi with plant
+                                roots                               Assertion – Reason Type Questions:
+ (B)   Parasite           (q)   Decomposition of
+                                                           10.     Assertion: The two kingdom classification,
+                           dead organic materials                  used for a long time, was found to be
+ (C)   Lichens        (r) Living on living                         inadequate.
+                                                                   Reason: Two kingdom system of classification
+                           plants or animals
+                                                                   did not distinguish between the eukaryotes
+ (D)   Mycorrhiza     (s) Symbiotic association
+                                                                   and prokaryotes, unicellular and multicellular
+                           of algae and fungi                      organisms and green algae and fungi.
+                                                                   (1) If both A and R are true and R is the
+       (1) A → (r); B → (q); C → (p); D → (s)                          correct explanation of A
+       (2) A → (q); B → (p); C → (r); D → (s)                      (2) If both A and R are true, but R is not the
+       (3) A → (q); B → (r); C → (s); D → (p)                          correct explanation of A
+                                                                   (3) If A is true, but R is false
+       (4) A → (p); B → (q); C → (r); D → (s)
+                                                                   (4) If A is false, but R is true
+                                             Sarvam Career Institute                                            65
+ Biology                                                                                     Biological Classification
+11.        Assertion:     Five     kingdom    system   of    14.    Assertion:     In   fungi,   sexual   apparatus
+           classification did not differentiated between            decreases in complexity from lower to higher
+           the heterotrophic group, fungi and the                   forms.
+           autotrophic green plants. Though they                    Reason: In algae, sexual apparatus increases
+           showed a characteristic difference in their              in complexity from simple to higher forms.
+           cell wall composition.                                   (1) If both A and R are true and R is the
+                                                                          correct explanation of A
+           Reason: Fungal cell wall contains chitin,
+                                                                    (2) If both A and R are true, but R is not the
+           while green plants have a cellulosic cell wall.
+                                                                         correct explanation of A
+           (1) If both A and R are true and R is the
+                                                                    (3) If A is true, but R is false
+               correct explanation of A
+                                                                    (4) If A is false, but R is true
+           (2) If both A and R are true, but R is not the
+                                                             15.    Assertion: Viruses cause diseases and
+               correct explanation of A
+                                                                    replicate when they are in the host cell.
+           (3) If A is true, but R is false
+                                                                    Reason: Viruses do not replicate outside the
+           (4) If A is false, but R is true
+                                                                    host, but they survive in environment.
+12.        Assertion: Euglena is a plant due to the                 (1) If both A and R are true and R is the
+           presence of chlorophyll.                                     correct explanation of A
+           Reason: Euglena cannot be classified on the              (2) If both A and R are true, but R is not the
+           basis of two kingdom system.                                 correct explanation of A
+           (1) If both A and R are true and R is the                (3) If A is true, but R is false
+
+               correct explanation of A                             (4) If A is false, but R is true
+
+           (2) If both A and R are true, but R is not the    16.    Assertion: Slime moulds are called as fungus
+               correct explanation of A                             like animals.
+           (3) If A is true, but R is false                         Reason: These do not have cell wall.
+           (4) If A is false, but R is true                         (1) If both A and R are true and R is the
+                                                                        correct explanation of A
+13.        Assertion: Fungi are wide spread            in
+                                                                    (2) If both A and R are true, but R is not the
+           distribution and they can even live on or
+                                                                        correct explanation of A
+           inside other plants and animals.                         (3) If A is true, but R is false
+           Reason: Fungi are able to grow anywhere on               (4) If A is false, but R is true
+           land, water or on other organisms because
+                                                             17.    Assertion:     Kingdom–Plantae includes all
+           they have variety of pigments including
+                                                                    eukaryotic, chlorophyll containing organisms.
+           chlorophyll, carotenoids, fucoxanthin and                Reason: Few of its members are partially
+           phycoerythrin.                                           heterotrophic.
+           (1) If both A and R are true and R is the                (1) If both A and R are true and R is the
+               correct explanation of A                                   correct explanation of A
+           (2) If both A and R are true, but R is not the           (2) If both A and R are true, but R is not the
+               correct explanation of A                                 correct explanation of A
+           (3) If A is true, but R is false                         (3) If A is true, but R is false
+           (4) If A is false, but R is true                         (4) If A is false, but R is true
+
+66                                              Sarvam Career Institute
+Biological Classification                                                                                   Biology
+18.     Assertion: Three domains system classifies         20.     The figures represent stages in the sexual
+        organisms based on cellular characteristics.               reproduction in Rhizopus. If gametagia fail to
+        Reason: The three domains are, i.e. archaea,               fuse, then what is the fate of cells ?
+        bacteria and eukarya
+        (1) If both A and R are true and R is the
+            correct explanation of A
+        (2) If both A and R are true, but R is not the
+            correct explanation of A
+        (3) If A is true, but R is false
+        (4) If A is false, but R is true
+
+              Objective Type Questions:
+
+19.     Examine the figures (A–D) given below and
+        select the right option out of 1–4, in which all
+        the four structures A, B, C and D are
+        identified correctly                                       (1) They will develop into a zoospore
+                                                                   (2) They will develop into a prothallus
+                                                                   (3) They will develop into a parthenospore
+                                                                   (4) They will develop into a zygospore
+
+                                                           21.     Study the following statements :
+                                                                   (A) Bacterial structure is very simple but
+                                                                        very complex in behaviour
+                                                                   (B) Bacteria   show     the most extensive
+                                                                        metabolic diversity
+                                                                   (C) The vast majority of bacteria are
+                                                                        autotrophs and a few are heterotrophs
+        (1) A – Heterocyst, B - Sterigmeta,
+            C - Sporangiophore, D - Oogonium                       (D) Bacteria are not the most abundant
+
+        (2) A - Akinete, B - Conidia, C - Stolon,                       microbes in comparison to fungi
+
+            D - Antheridium                                        From these, how many statements are incorrect
+        (3) A - Heterocyst, B - Conidiophore,                      (1) One
+            C - Stolon, D - Antheridium                            (2) Two
+        (4) A - Akinete, B - Sterigmeta,                           (3) Three
+            C - Rhizoidal hyphae, D – Oogonium                     (4) four
+                                              Sarvam Career Institute                                              67
+ Biology                                                                                                                   Biological Classification
+22.           Label the a, b, c & d in diagram by correct                                    25.   In a culture the initial concentration of
+              identification of them :                                                             bacterial cells is 2 × 105 per liter. If all
+                                                                                                   bacterial cells divide every 20 minute, what
+                                                                                                   will be the concentration after 1 hour and 30
+                                                                                                   minutes-
+              (1) (a) - Bacilli bacteria, (b) - Vibrio                                             (1) 16 × 105
+                  bacteria, (c) - Flagellum in Bacteria,
+                                                                                                   (2) 32 × 105
+                  (d) - Cocci bacteria
+              (2) (a) - Cocci bacteria, (b) - Bacilli bacteria,                                    (3) 2 × 1020
+                  (c) - Flagella in Bacteria,                                                      (4) 8 × 105
+                  (d) - Comma Bacteria
+              (3) (a) - Cocci bacteria, (b) – Heterocyst,                                    26.   Which one of the following is mismatched?
+                  (c) - Vibrio bacteria, (d) - Bacilli Bacteria
+                                                                                                   (1) Penicillium – Source of antibiotics
+              (4) (a) - Bacilli bacteria, (b) - Pleomorphic
+                  bacteria, (c) - Vibrio bacteria, (d) - Cocci                                     (2) Albugo – Parasitic fungi on legume
+                  Bacteria                                                                         (3) Neurospora – used in biochemical and
+                                                                                                        genetic work
+23.           What will be the correct/suitable characters
+              in place of A, B, C, D in respective kingdoms                                        (4) Agaricus – edible fungus
+              in above table ?
+ S.N.      Character         Monera       Protista      Fungi         Plantae    Animalia    27.   Which of the following pair is correctly
+ (i)        Cell type       Prokaryotic     (A)       Eukaryotic     Eukaryotic Eukaryotic
+
+ (ii)       Cell wall           (B)
+                                          Present
+                                          / absent
+                                                       Present        Present     Absent           matched?
+             Nuclear
+ (iii)
+           Membrane
+                             Absent       Present      Present          (C)      Present
+                                                                                                   (1) Rhizobium - Parasite in the roots of
+                                                                                  Tissue
+
+ (iv)    Body organiation    Cellular       (D)      Multicellular
+                                                                      Tissue/
+                                                                       organ
+                                                                                  /Organ
+                                                                                 / Organ
+                                                                                                        leguminous plants
+                                                                                  system
+                                                                                                   (2) Mycorrhiza - Mineral uptake from soil
+              (1) A-Eukaryotic, B-Noncellulosic,
+                  C-Present, D-Cellular                                                            (3) Yeast - Prodution of biogas
+              (2) A-Prokaryotic, B-Cellulosic, C-Absent,                                           (4) Myxomycetes - The disease Ring worm
+                  D-Tissue
+              (3) A-Eukaryotic, B-Present, C-Absent,                                         28.   In prokaryotes, chromatophores are :-
+                  D-Multicellular                                                                  (1) Specialised granules responsible for
+              (4) A-Eukaryotic, B-Absent, C-May be
+                                                                                                        colouration of cells
+                  present, D-Organ
+                                                                                                   (2) Structure responsible for organising the
+24.           Which is not true for the nucleus of
+                                                                                                   shape of organism
+              prokaryotes-
+              (1) The nucleus is indistinct and called as                                          (3) Inclusion bodies lying free inside the
+                  "nucleoid"                                                                            cells for carrying out various metabolic
+              (2) Nucleolus and nuclear membrane are
+                                                                                                        activities
+                  not present in it
+              (3) Non-histone proteins and histone                                                 (4) Internal membrane systems that may
+                  proteins are not present in it.
+                                                                                                        become extensive       and complex in
+              (4) It is also called as incipient nucleus or
+                  fibrillar nucleus                                                                     photosynthetic bacteria
+68                                                                            Sarvam Career Institute
+Biological Classification                                                                            Biology
+29.     In given diagram (a) and (b) represents to:      32.     For above given cladogram select out the
+                                                                 correct one :-
+                                                                               Animalia
+                                                                                          Protista
+                                                                       Fungi
+                                                                 Plantae
+
+
+
+                                                                      Monera
+                                                                 (1) Animalia directly arose from monera
+        (1) Heterocyst & mucilaginous sheath                     (2) Fungi are the ancestor of Animalia
+            respectively                                         (3) Plantae and protista arose from Monera
+        (2) Mucilaginous sheath & heterocyst                         directly
+            respectively
+                                                                 (4) Plantae, fungi and Animalia arose from
+        (3) Harmogonia & mucilaginous sheath
+                                                                       protista
+            respectively
+        (4) Heterocyst and trichome respectively         33.     Which of the following option is not related
+30.     Read the following four statements (A – D):              with protist and plantae but related with
+        (A) In the five-kingdom classification,                  monera :
+            Chalamydomonas and Chlorella have                    (1) Cell wall and cell membrane
+            been included in protista                            (2) Ribosome and flagella
+        (B) Entamoeba coli a commonly occuring                   (3) Nitrogen fixation ability
+            bacterium in human intestine                         (4) Cellular organization
+        (C) Paramecium and Plasmodium belong to
+            the same kingdom as that of Penicilium       34.     Consider the following statements. Which of
+        (D) Hydrogen doner in photosynthesis of                  the statements given below is incorrect?
+            purple sulphur bacteria is H2S                       (1) All prokaryotic organisms were grouped
+        How many of the above statements are                         together under kingdom–Monera
+        incorrect?
+                                                                 (2) The unicellular eukaryotic organisms
+        (1) Four               (2) One
+                                                                     were placed in kingdom–Protista
+        (3) Two                (4) Three
+                                                                 (3) Chlorella and Chlamydomonas, both lack
+31.     In which one of the following, the kingdom its
+                                                                 cell walls
+        two characters and its examples are not
+        correctly matched, whereas the remaining                 (4) Paramecium and Amoeba lack cell wall.
+        three are correct
+                                                         35.     Choose the incorrect statement about
+        (1) Kingdom: Protista; Two characters: a.
+            Single celled, b. Eukaryetes; Examples:              members of kingdom–Monera.
+            Gonyaulax, Euglena                                   (1) Many of them live in or on other
+        (2) Kingdom: Monera; Two characters: a.                      organisms as parasites
+            Single celled, b. prokaryotes; Examples:             (2) Some synthesise their own food from
+        Nostoc, Vibrio
+                                                                     inorganic solutes
+        (3) Kingdom: Mycota; Two characters: a.
+            Multicellualr, b. Chitinous cell wall;               (3) Bacterial structure is very complex
+            Examples: Mucor, Aspergillus                             though they have very simple behaviour
+        (4) Kingdom: Animalia; Two characters: a.                (4) Hundreds of bacteria are present in
+            Eukaryotes, b. Cell wall absent
+                                                                     handful of soil
+            Examples: Amoeba, Plasmodium
+                                            Sarvam Career Institute                                          69
+ Biology                                                                                Biological Classification
+36.        Read the following statements about             41.    Select the incorrect statement.
+           bacteria and select the correct option.                (1) Bacterial cell wall is made up of
+           (1) Bacteria are simple in structure, but                  peptidoglycan
+               complex in behaviour                               (2) Pili and fimbriae are mainly involved in
+           (2) Bacteria are complex in structure, but                 motility of bacterial cells
+               simple in behaviour                                (3) Cyanobacteria lack flagellated cells
+           (3) Bacteria are simple in both structure              (4) Mycoplasma is a wall-less microorganism
+               and behaviour
+                                                           42.    Consider the following statements about
+           (4) Bacteria are complex in both structure
+                                                                  mycoplasma. Which of the statement given
+               and behaviour
+                                                                  below is incorrect?
+37.        Which of the following statements about                (1) They are pleomorphic bacteria, which
+           methanogens is not correct?                                lack cell wall
+           (1) They can be used to produce biogas                 (2) Mycoplasma is the smallest living organism
+           (2) They are found in the rumen of cattle              (3) They cannot survive without oxygen
+               and their excreta                                  (4) Many mycoplasma are pathogenic in
+           (3) They grow aerobically and breakdown                    animals and plants
+               cellulose rich food
+           (4) They produce methane gas                    43.    Select the incorrect statement.
+                                                                  (1) The walls of diatoms are easily
+38.        Which of the following statements is/are
+                                                                      destructible
+           incorrect?
+                                                                  (2) ‘Diatomaceous earth’ is formed by the
+           (1) Bacteria reproduce only by binary fission
+                                                                      cell walls of diatoms
+           (2) Under unfavourable conditions, bacteria
+                                                                  (3) Diatoms are chief producers in the
+               produce several types of spores
+                                                                      oceans
+           (3) Bacteria reproduce by a sort of sexual
+                                                                  (4) Diatoms are microscopic and float
+               reproduction by adopting a primitive
+                                                                      passively in water
+               type of RNA transfer from one bacterium
+           to other                                        44.    Which of the following statement about
+           (4) Both (1) and (2)                                   Euglena is/are true?
+39.        Which one of the following statements is               (1) Euglenoids bear flagella
+           incorrect?                                             (2) Euglena when placed in continuous
+           (1) Golden algae are also called desmids                   darkness, loose their photosynthetic
+           (2)Eubacteria are also called false bacteria               activity and die
+           (3) Phycomycetes are also called algal fungi           (3) The pigments of Euglena are quite
+           (4) Cyanobacteria are also called blue-                    different from those of green plants
+               green algae                                        (4) Euglena is a marine protist
+
+40.        Which statement is correct?                     45.    Which of the statement(s) given below is/are
+           (1) Mycoplasma is smallest and wall less               correct for amoeboid protozoans?
+               living organism                                    (1) Live in freshwater, sea water or moist
+           (2) Influenza and herpes are caused by virus               soil
+           having DNA and RNA                                     (2) Has pseudopodia for locomotion and
+           (3) Nostoc and Anabaena are important                      capturing prey
+               decomposers                                        (3) Have silica shells on their surface in
+           (4) Methanogen are methane producing                       marine forms
+               bacteria in wheat crops                            (4) All of the above
+70                                            Sarvam Career Institute
+Biological Classification                                                                              Biology
+46.     Which of the following statements is correct?     51.    Which of the statement(s) given below is/are
+        (1) Slime moulds are haploid                             correct?
+        (2) Protozoans lack cell wall                            (1) Kingdom–Protista forms a link between
+        (3) Dinoflagellates are immotile                             monerans and the other organisms like
+        (4) Pellicle is absent in Euglena                            plants, animal and fungi
+                                                                 (2) Protists reproduce asexually and
+47.     Consider the following statements about
+                                                                     sexually by a process involving cell
+        Ascomycetes. Which one of the statement
+                                                                     fusion and zygote formation
+        given below is false?
+                                                                 (3) Being eukaryotes, the protistan cell
+        (1) They are saprophytic, decomposer,
+                                                                     body contains a well-defined nucleus
+            coprophilous and parasitic
+                                                                     and other membrane bound organelles
+        (2) Include unicellular and multicellular
+                                                                 (4) All of the above
+            forms
+        (3) Mycelium is coenocytic and aseptate           52.    Which of the following statement about plant
+        (4) Aspergillus, Claviceps and Neurospora                is false?
+            are important examples of Ascomycetes                (1) Plants are heterotrophs
+                                                                 (2) Plants show alternation of generations
+48.     Which of the following statement is
+                                                                      during their life cycle
+        incorrect?
+                                                                 (3) Plants are multicellular eukaryotes
+        (1) Claviceps is a source of many alkaloids
+                                                                 (4) Plants are non-motile
+            and LSD
+        (2) Conidia are produced exogenously and          53.    Select incorrect statement.
+            ascospores endogenously                              (1) The viroids were discovered by DJ
+        (3) Yeasts have filamentous bodies with long                 Ivanowsky
+            thread-like hyphae                                   (2) WM Stanley showed that viruses could
+        (4) Morels and truffles are edible delicacies                be crystallised
+                                                                 (3) The term ‘Contagium vivum fluidum’ was
+49.     Which of the following statement is correct?                 coined by MW Beijerinck
+        (1) Lichens do not grow in polluted areas                (4) Mosaic disease in tobacco and AIDS in
+        (2) Algal component of lichens is called                     human being are caused by viruses
+            mycobiont
+                                                          54.     State whether the given statements are true
+        (3) Fungal component of lichens is called
+                                                                  or false.
+            phycobiont
+                                                                  I. Bacteria show both autotrophic and
+        (4) Lichens are not good pollution indicators
+                                                                       heterotrophic nutrition.
+50.     Which of the following statement(s) is/are                II. Some of the bacteria are autotrophic.
+        incorrect?                                                     They may be photosynthetic autotrophic
+        (1) Protistan body includes a well-defined                     or chemosynthetic autotrophic.
+            nucleus, and all cellular organelles                  III. Heterotrophic          nutrition involves
+        (2) Protists have nucleus along with flagella                  obtaining of readymade organic food
+            and cilia                                                  from outside sources.
+        (3) Protist cells have no nucleus but have                (1) I and II are true
+            some cellular organelles to perform                   (2) I is true, II and III are false
+            basic functions                                       (3) I, II and III are true
+        (4) All of the above                                      (4) Only I is true
+                                            Sarvam Career Institute                                            71
+ Biology                                                                                    Biological Classification
+55.        Read the following statements regarding           58.    Assertion:- Although Bacterial structure is
+           archaebacteria and select the correct option.            very simple yet they are very complex in
+           I. Archaebacteria differ from other                      behaviour.
+                bacteria in having different cell wall
+                                                                    Reason:- Bacteria as a group show most
+                structure.
+                                                                    extensive metabolic diversity.
+           II. Their cell wall is made up of cellulose
+                                                                    (1) If both assertion and reason are true and
+                and      contains  high     amount      of
+                unsaturated fatty acid, which is                          reason is the correct explanation of
+                responsible for their survival in extreme                 assertion.
+                conditions.                                         (2) If both assertion and reason are true but
+           III. Thermoacidophiles have dual ability to                    reason is not the correct explanation of
+                tolerate high temperature as well as                      assertion.
+                high acidity.                                       (3) If assertion is true but reason is false.
+           Which of the statements given above are
+                                                                    (4) If both assertion and reason are false.
+           correct?
+           (1) I and II                                      59.    Assertion:– Archaebacteria differ from other
+           (2) I and III
+                                                                    bacteria only in structure not, in resistance.
+           (3) II and III
+                                                                    Reason:- Cell wall of Archaebacteria is made
+           (4) All of the above
+                                                                    up of complex peptidoglycans instead of
+56.        Analyze the following statements and                     simple peptidoglycans.
+           identify the correct option given below.
+                                                                    (1) If both assertion and reason are true and
+           I. In diatoms the walls are embedded with
+                                                                          reason is the correct explanation of
+                silica and thus the walls are
+                indestructible.                                           assertion.
+           II. Diatoms have left behind large amount of             (2) If both assertion and reason are true but
+                cell wall deposits in their habitat, this                 reason is not the correct explanation of
+                accumulation over billions of years is                    assertion.
+                referred to as diatomaceous deposition              (3) If assertion is true but reason is false.
+                or diatomaceous earth.                              (4) If both assertion and reason are false.
+           (1) I is true, but II is false
+           (2) I is false, but II is true                    60.    Assertion:- Heterocysts are specialised cells
+           (3) I and II are true                                    of blue green algae for Nitrogen fixation.
+           (4) I and II are false                                   Reason:- In Heterocyst cells oxygen depleted
+57.        Assertion :- Lichen shows symbiotic                      conditions can be created, which is essential
+           relationship between algae and fungi.                    for Nitrogenase functioning.
+           Reason :- Algae absorb water and mineral                 (1) If both assertion and reason are true and
+           nutrients from the environment and provide                     reason is the correct explanation of
+           fungi.                                                         assertion.
+           (1) both A and R true and R is the correct
+                                                                    (2) If both assertion and reason are true but
+               explanation of A
+                                                                          reason is not the correct explanation of
+           (2) both A and R true but R is not correct
+                                                                          assertion.
+               explanation A
+           (3) A is true but R is false                             (3) If assertion is true but reason is false.
+           (4) A is false and R is true                             (4) If both assertion and reason are false.
+72                                              Sarvam Career Institute
+Biological Classification                                                                                   Biology
+61.     Assertion:-      Chemosynthetic     autotrophic       64.   Assertion:- Diatoms are the chief producers in
+        bacteria play a great role in recycling nutrients           the oceans.
+        like nitrogen, phosphorus, iron and sulphur.                Reason:- Diatoms possess both chlorophyll-a
+        Reason:-       Chemosynthetic       autotrophic             and chlorophyll-c.
+        bacteria oxidise various inorganic substances to            (1) If both assertion and reason are true and
+        obtain energy                                                   reason is the correct explanation of
+        (1) If both assertion and reason are true and
+                                                                        assertion.
+            reason is the correct explanation of
+                                                                    (2) If both assertion and reason are true but
+            assertion.
+                                                                        reason is not the correct explanation of
+        (2) If both assertion and reason are true but
+                                                                        assertion.
+            reason is not the correct explanation of
+                                                                    (3) If assertion is true but reason is false.
+            assertion.
+                                                                    (4) If both assertion and reason are false.
+        (3) If assertion is true but reason is false.
+        (4) If both assertion and reason are false.
+                                                              65.   Assertion:-      Euglenoids     can    perform
+62.     Assertion:-      Members    of    protista      are         photosynthesis.
+        eukaryotes.                                                 Reason:- They have chloroplast in cytoplasm.
+        Reason:- Protistial cell body does not contain              (1) If both assertion and reason are true and
+        a well defined nucleus and other membrane                       reason is the correct explanation of
+        bounded cell organelles.                                        assertion.
+        (1) If both assertion and reason are true and               (2) If both assertion and reason are true but
+            reason is the correct explanation of                        reason is not the correct explanation of
+            assertion.                                                  assertion.
+        (2) If both assertion and reason are true but               (3) If assertion is true but reason is false.
+            reason is not the correct explanation of                (4) If both assertion and reason are false.
+            assertion.
+        (3) If assertion is true but reason is false.         66.   Assertion:- Spore is the exclusive structure of
+        (4) If both assertion and reason are false.                 slime moulds upon which cell wall remain
+                                                                    present.
+63.     Assertion:- The cell wall of diatoms is
+                                                                    Reason:- Slime moulds differentiate and
+        indestructible.
+                                                                    form fruiting body during unfavourable
+        Reason:- The cell wall of diatoms is embedded
+                                                                    conditions in which spores remain filled.
+        with calcium carbonates.
+        (1) If both assertion and reason are true and               (1) If both assertion and reason are true and
+
+            reason is the correct explanation of                        reason is the correct explanation of
+            assertion.                                                  assertion.
+        (2) If both assertion and reason are true but               (2) If both assertion and reason are true but
+            reason is not the correct explanation of                    reason is not the correct explanation of
+            assertion.                                                  assertion.
+        (3) If assertion is true but reason is false.               (3) If assertion is true but reason is false.
+        (4) If both assertion and reason are false.                 (4) If both assertion and reason are false.
+                                              Sarvam Career Institute                                               73
+ Biology                                                                                      Biological Classification
+67.        Assertion:- Fungi prefer to grow in cold and                    assertion.
+           humid areas.                                              (2) If both assertion and reason are true but
+           Reason:- Low temperature favours the                            reason is not the correct explanation of
+           metabolic activities.                                           assertion.
+           (1) If both assertion and reason are true and             (3) If assertion is true but reason is false.
+               reason is the correct explanation of                  (4) If both assertion and reason are false.
+               assertion.                                     70.    Assertion : Archaebacteria are most resistant to
+           (2) If both assertion and reason are true but             adverse environmental conditions.
+               reason is not the correct explanation of              Reason: In archaebacterial, cell wall and cell
+               assertion.                                            membrane are highly complex.
+           (3) If assertion is true but reason is false.             (1) If both Assertion & Reason are True &
+           (4) If both assertion and reason are false.
+                                                                           the Reason is a correct explanation of
+
+68.        Assertion:-      In      Ascomycetes        and                 the Assertion.
+           Basidiomycetes well distinct Dikaryophase                 (2) If both Assertion & Reason are True but
+           present during sexual life.                                     Reason is not a correct explanation of
+           Reason:- During sexual reproduction of                          the Assertion.
+           Ascomycetes and Basidiomycetes plasmogamy is              (3) If Assertion is True but the Reason is False.
+           immediately followed by karyogamy.
+                                                                     (4) If both Assertion & Reason are false.
+           (1) If both assertion and reason are true and
+               reason is the correct explanation of           71.    Assertion:-        According   to    Whittaker's
+               assertion.                                            classification dinoflagellates are included in
+           (2) If both assertion and reason are true but             kingdom Protista.
+               reason is not the correct explanation of
+                                                                     Reason:- Dinoflagellates have autotrophic
+               assertion.
+                                                                     type of nutrition.
+           (3) If assertion is true but reason is false.
+                                                                     (1) If both assertion and reason are true and
+           (4) If both assertion and reason are false.
+                                                                           reason is the correct explanation of
+69.        Assertion:- Neurospora fungus is known as                       assertion.
+           Drosophila of plant kingdom.
+                                                                     (2) If both assertion and reason are true but
+           Reason:- Like Drosophila, Neurospora is also
+                                                                           reason is not the correct explanation of
+           extensively used in biochemical and genetic
+                                                                           assertion.
+           work.
+           (1) If both assertion and reason are true and             (3) If assertion is true but reason is false.
+               reason is the correct explanation of                  (4) If both assertion and reason are false.
+
+
+
+
+74                                               Sarvam Career Institute
+Biological Classification                                                                               Biology
+                                      Exercise 4 (Previous Year's Questions)
+1.      Single-celled eukaryotes are included in :-         9.     Ethanol is commercially produced through a
+                                    [AIPMT – 2010]                 particular species of :       [AIPMT – 2011]
+        (1) Monera            (2) Protista                         (1) Saccharomyces       (2) Clostridium
+        (3) Fungi             (4) Archaea                          (3) Trichoderma         (4) Aspergillus
+2.      Ringworm in humans is caused by:                    10.    An organism used as a bio-fertilizer for
+                                   [AIPMT – 2010]                  raising soyabean crops is :- [AIPMT – 2011]
+        (1) Viruses          (2) Bacteria
+                                                                   (1) Azotobacter       (2) Azospirillum
+        (3) Fungi            (4) Namatodes
+                                                                   (3) Rhizobium         (4) Nostoc
+3.      The common nitrogen-fixer in paddy fields is
+                                     [AIPMT – 2010]         11.    Nitrifying bacteria :-       [AIPMT – 2011]
+        (1) Frankia           (2) Rhizobium                        (1) Oxidize ammonia to nitrates
+        (3) Azospirillum      (4) Oscillatoria                     (2) Convert free nitrogen to nitrogen
+                                                                       compounds
+4.      Some hyperthermophilic organisms that
+                                                                   (3) Convert proteins into ammonia
+        grow in highly acidic (pH2) habitats belong to
+        the two groups :–             [AIPMT – 2010]               (4) Reduce nitrates to free nitrogen
+        (1) Liverwort and Yeast                             12.    Which one of the following is a wrong
+        (2) Eubacteria and Archaea                                 matching of a microbe and its industrial
+        (3) Cyanobacteria and Diatoms                              product, while the remaining three are
+        (4) Protists and mosses                                    correct ?                      [AIPMT – 2011]
+5.      Black (stem) rust of wheat is caused by-                   (1) Aspergillus niger -citric acid
+                                     [AIPMT – 2010]                (2) Yeast -Statins
+        (1) Ustilago nuda                                          (3) Acetobacter aceti-acetic acid
+        (2) Puccinia graminis                                      (4) Clostridium butylicum-lactic acid
+        (3) Xanthomonas oryzae
+        (4) Alternaria solani                               13.    Which one of the following is not a
+                                                                   biofertilizer?                [AIPMT – 2011]
+6.      One of the free-living, anaerobic nitrogen-
+                                                                   (1) Agrobacterium       (2) Rhizobium
+        fixer is :                   [AIPMT – 2010]
+                                                                   (3) Nostoc              (4) Mycorrhiza
+        (1) Azotobacter        (2) Beijernickia
+        (3) Rhodospirillum     (4) Rhizobium                14.    The pathogen Microsporum responsible for
+                                                                   ringworm disease in humans belongs to the
+7.      Membrane-bound organelles are absent in :                  same Kingdom of organisms as that of-
+                                [AIPMT – 2010]                                                   [AIPMT – 2011]
+        (1) Plasmodium     (2) Saccharomyces
+                                                                   (1) Ascaris, a round worm
+        (3) Streptococcus  (4) Chlamydononas
+                                                                   (2) Taenia, a tapeworm
+8.      Select the correct combination of the                      (3) Wuchereria, a filarial worm
+        statements (a-d) regarding the characteristics of          (4) Rhizopus, a mould
+        certain organisms              [AIPMT – 2010]
+        (a) Methanogens are Archaebacteria which            15.    The cyanobacteria are also referred to as :
+             produce methane in marshy areas.                                                   [AIPMT – 2012]
+        (b) Nostoc is a filamentous blue-green alga                (1) Slime moulds      (2) Blue green algae
+             which fixes atmospheric nitrogen.                     (3) Protists          (4) Golden algae
+        (c) Chemosynthetic autotrophic bacteria
+                                                            16.     Yeast is used in the production of :-
+             synthesize cellulose from glucose
+                                                                                                   [AIPMT – 2012]
+        (d) Mycoplasma lack a cell wall and can
+             survive with oxygen                                    (1) Bread and beer
+        The correct Statements are:                                 (2) Cheese and butter
+        (1) (a), (b), (c)        (2) (b), (c), (d)                  (3) Citric acid and lactic acid
+        (3) (a), (b), (d)        (4) (b), (c)                       (4) Lipase and pectinase
+                                              Sarvam Career Institute                                           75
+ Biology                                                                                           Biological Classification
+17.        A nitrogen-fixing microbe associated with                24.    Which one of the following is the wrong
+           Azolla in rice fields is-        [AIPMT – 2012]                 statement?                      [AIPMT – 2012]
+           (1) Frankia                 (2) Tolypothrix                     (1) Phosphorus is a constituent of cell
+           (3) Spirulina               (4) Anabaena                            membranes, certain nucleic acids and all
+                                                                               proteins
+18.        Which one of the following does not differ in                   (2) Nitrosomonas and Nitrobacter are
+           E.coli and Chlamydomonas? [AIPMT – 2012]                            chemoautotrophs
+           (1) Cell wall                                                   (3) Anabaena and Nostoc are capable of
+           (2) Cell membrane                                                   fixing nitrogen in free-living state also
+           (3) Ribosomes                                                   (4) Root nodule forming nitrogen fixers live
+           (4) Chromosomal Organization                                        as aerobes under free-living conditions
+                                                                    25.    Which one single organism or the pair of
+19.        Maximum nutritional diversity is found in the
+                                                                           organisms is correctly assigned to its or their
+           group-                           [AIPMT – 2012]
+                                                                           named taxonomic group?       [AIPMT – 2012]
+           (1) Monera                  (2) Plantae
+                                                                           (1) Yeast used in making bread and beer is
+           (3) Fungi                   (4) Animalia                            a fungus
+20.        Nuclear membrane is absent in :–                                (2) Nostoc and Anabaena are examples of
+                                            [AIPMT – 2012]                     protista
+                                                                           (3) Paramecium and Plasmodium belong to
+           (1) Volvox                  (2) Nostoc
+                                                                               the same kingdom as that of Penicilium
+           (3) Penicillium             (4) Agaricus
+                                                                           (4) Lichen is a composite organism formed
+21.        The most abundant prokaryotes helpful to                            from the symbiotic association of an
+           humans in making curd from milk and in the                          algae and a protozoan
+           production of antibiotics are the ones                   26.    Which of the following are likely to be present in
+           categorised as :–                [AIPMT – 2012]                 deep sea water ?             [NEET UG – 2013]
+           (1) Chemosynthetic autotrophs                                   (1) Saprophytic fungi (2) Archaebacteria
+           (2) Heterotrophic bacteria                                      (3) Eubacteria           (4) Blue-green algae
+           (3) Cyanobacteria                                        27.    A good producer of citric acid is-
+           (4) Archaebacteria                                                                         [NEET UG – 2013]
+22.        In    the       five-kingdom           classification,          (1) Saccharomyces      (2) Aspergillus
+           Chlamydomonas and Chlorella have been                           (3) Pseudomonas        (4) Clostridium
+           included in :                    [AIPMT – 2012]          28.    Select the wrong statement:
+           (1) Plantae                 (2) Monera                                                    [NEET UG – 2013]
+           (3) Protista                (4) Algae                           (1) Chlamydomonas exhibits both isogamy
+                                                                               and anisogamy and fucus shows oogamy
+23.        How many organisms in the list given below
+                                                                           (2) Isogametes are similar in structure,
+           are autotrophs?                  [AIPMT – 2012]
+                                                                               function and behaviour
+           Lactobacillus, Nostoc, Chara, Nitrosomonas,
+                                                                           (3) Anisogametes differ either in structure,
+           Nitrobacter, Streptomyces, Sacharomyces,
+                                                                               function or behaviour
+           Trypanosoma, Porphyra, Wolfia                                   (4) In Oomycetes female gamete is smaller
+           (1) Six                     (2) Three                               and motile, while male gamete is larger
+           (3) Four                    (4) Five                                and nonmotile
+76                                                     Sarvam Career Institute
+Biological Classification                                                                              Biology
+29.     Which of the following represents the            36.     Which of the following shows coiled RNA
+        maximum number of species among global                   strands and capsomeres?   [AIPMT – 2014]
+        diversity ?             [NEET UG – 2013]                 (1) Polio virus
+        (1) Mosses and fern (2) Algae                            (2) Tobacco mosaic virus
+        (3) Lichens         (4) Fungi                            (3) Measles virus
+                                                                 (4) Retrovirus
+30.     Pigments containing membranous extensions in
+        some cyanobacteria are: [NEET UG – 2013]         37.     Transformation was discovered by:
+        (1) Chromatophores                                                                  [AIPMT – 2014]
+        (2) Heterocysts                                          (1) Meselson and Stahl
+        (3) Basal bodies                                         (2) Hershey and Chase
+        (4) Pneumatophores                                       (3) Griffith
+31.     Which of the following is not correctly                  (4) Watson and Crick
+        matched for the organism and its cell wall       38.     Viruses have:                [AIPMT – 2014]
+        degrading enzyme-        [NEET UG – 2013]                (1) DNA enclosed in a protein coat
+        (1) Fungi-Chitinase                                      (2) Prokaryotic nucleus
+        (2) Bacteria-Lysozyme                                    (3) Single chromosome
+        (3) Plant cell-Cellulase                                 (4) Both DNA and RNA
+        (4) Algae-Methylase
+                                                         39.     Which one of the following living organisms
+32.     Five kingdom system of classification                    completely lacks a cell wall?
+        suggested by R.H. Whittaker is not based on :                                          [AIPMT – 2014]
+                                     [AIPMT – 2014]              (1) Cyanobacteria       (2) Seafan(Gorgonia)
+        (1) Presence or absence of a well defined                (3) Saccharomyces       (4) Blue-green algae
+            nucleus
+        (2) Mode of reproduction                         40.     Which one of the following matches is
+        (3) Mode of nutrition                                    correct ?                    [AIPMT – 2015]
+        (4) Complexity of body organization                      (1) a-Alternaria, b-Sexual reproduction
+33.     Which one of the following fungi contains                    absent, c-Deuteromycetes
+        hallucinogens?               [AIPMT – 2014]              (2) a-Mucor, b-Reproduction by Conjugatoin, c-
+        (1) Morchella esculenta                                      Ascomycetes
+        (2) Amanita muscaris                                     (3) a-Agaricus, b-Parasitic fungus, c-
+        (3) Neurospora sp.                                           Basidiomycetes
+        (4) Ustilago sp.                                         (4) a-Phytophthora, b-Aseptate mycelium,
+                                                                     c–Basidiomycetes
+34.     Archaebacteria differ from eubacteria in:
+                                                         41.     True nucleus is absent in : [AIPMT – 2015]
+                                     [AIPMT-2014]
+        (1) Cell membrane                                        (1) Mucor              (2) Volvox
+        (2) Mode of nutrition                                    (3) Vaucheria          (4) Anabaena
+        (3) Cell shape                                   42.     Which one of the following is not an inclusion
+        (4) Mode of reproduction                                 body found in prokaryotes? [AIPMT – 2015]
+                                                                 (1) Cyanophycean granule
+35.     Anoxygenic photosynthesis is characteristic of
+        :                            [AIPMT – 2014]              (2) Glycogen granule
+        (1) Rhodospirillum   (2) Spirogyra                       (3) Polysome
+        (3) Chlamydomonas (4) Ulva                               (4) Phosphate granule
+                                            Sarvam Career Institute                                           77
+ Biology                                                                                  Biological Classification
+43.        The guts of cow and buffalo possess :–           51.    Choose the wrong statement :
+                                       [AIPMT – 2015]                                        [RE AIPMT – 2015]
+           (1) Chlorella spp.    (2) Methanogens                   (1) Yeast is unicellular and useful in
+           (3) Cyanobacteria     (4) Fucus spp.                        fermentation
+                                                                   (2) Penicillium is multicellular and produces
+44.        Cell wall is absent in - [RE AIPMT – 2015]
+                                                                       antibiotics
+           (1) Nostoc              (2) Aspergillus
+                                                                   (3) Neurospora is used in the study of
+           (3) Funaria             (4) Mycoplasma
+                                                                       biochemical genetics
+45.        Chromatophores take part in ?                           (4) Morels and truffles are poisonous
+                                  [RE AIPMT – 2015]                    mushrooms
+           (1) Respiration      (2) Photosynthesis
+                                                            52.    In which group of organisms the cell walls
+           (3) Growth           (4) Movement
+                                                                   form two thin overlapping shells which fit
+46.        The structures that help some bacteria to               together?              [RE AIPMT – 2015]
+           attach to rocks and / or host tissues are:              (1) Slime moulds     (2) Chrysophytes
+                                     [RE AIPMT – 2015]             (3) Euglenoids       (4) Dinoflagellates
+           (1) Holdfast            (2) Rhizoids             53.    Select the wrong statements:
+           (3) Fimbriae            (4) Mesosomes                                                 [NEET-II – 2016]
+47.        Which of the following are not membrane                 (1) Diatomaceous earth is formed by the
+           bound ?                     [RE AIPMT-2015]                 cell walls of diatoms
+           (1) Mesosomes                                           (2) Diatoms are chief producers in the oceans
+           (2) Vacuoles                                            (3) Diatoms are microscopic and float
+           (3) Ribosomes                                               passively in water
+           (4) Lysosomes                                           (4) The wall of diatoms are easily destructible
+48.        Which of the following structures is not         54.    Methanogens belong to : [NEET-II – 2016]
+           found in prokaryotic cells ?                            (1) Archaebacteria   (2) Dinoflagellates
+                                     [RE AIPMT – 2015]             (3) Slime moulds     (4) Eubacteria
+           (1) Plasma membrane
+                                                            55.    Chrysophytes, Euglenoids, Dinoflagellates
+           (2) Nuclear envelope                                    and Slime moulds are included in the kingdom:
+           (3) Ribosome                                                                          [NEET-I – 2016]
+           (4) Mesosome                                            (1) Animalia            (2) Protista
+49.        The imperfect fungi which are decomposer of             (3) Monera              (4) Fungi
+           litter and help in mineral cycling belong to :   56.    One of the major components of cell wall of
+                                       [RE AIPMT – 2015]           most fungi is:            [NEET-I – 2016]
+           (1) Ascomycetes          (2) Deuteromycetes             (1) Chitin           (2) Peptidoglycan
+           (3) Basidiomycetes       (4) Phycomycetes               (3) Cellulose        (4) Hemicellulose
+50.        Pick up the wrong statement:                     57.    Which one of the following statements is
+                                      [RE AIPMT – 2015]            wrong ?                       [NEET-I – 2016]
+           (1) Nuclear membrane is present in Monera               (1) Cyanobacteria are also called blue-green
+           (2) Cell wall is absent in Animalia                         algae
+           (3) Protista have photosynthetic and                    (2) Golden algae are also called desmids.
+               heterotrophic modes of nutrition                    (3) Eubacteria are also called false bacteria.
+           (4) Some fungi are edible                               (4) Phycomycetes are also called algal fungi.
+78                                             Sarvam Career Institute
+Biological Classification                                                                               Biology
+58.     Which of the following statements is wrong        65.    Which among the following are the smallest
+        for viroids ?                [NEET-I – 2016]             living cells, known without a definite cell
+        (1) They lack a protein coat                             wall, pathogenic to plants as well as animals
+        (2) They are smaller than viruses                        and can survive without oxygen?
+        (3) They cause infections                                                              [NEET – 2017]
+        (4) Their RNA is of high molecular weight                (1) Bacillus           (2) Pseudomonas
+59.     Which of the following sets of diseases is               (3) Mycoplasma         (4) Nostoc
+        caused by bacteria?      [NEET-II – 2016]         66.    Select the mismatch :         [NEET – 2017]
+        (1) Typhoid and smallpox                                 (1) Frankia - Alnus
+        (2) Tetanus and mumps                                    (2) Rhodospirillum - Mycorrhiza
+        (3) Herpes and influenza                                 (3) Anabaena - Nitrogen fixer
+        (4) Cholera and tetanus
+                                                                 (4) Rhizobium - Alfalfa
+60.     Select the wrong statement-
+                                                          67.    Which of the following organisms are known as
+                                      [NEET-II – 2016]
+                                                                 chief producers in the oceans ?
+        (1) Pili and fimbriae are mainly involved in
+                                                                                                [NEET – 2018]
+            motility of bacterial cells.
+        (2) Cyanobacteria lack flagellated cells                 (1) Dinoflagellates     (2) Diatoms
+        (3) Mycoplasma is a wall less microorganism              (3) Cyanobacteria       (4) Euglenoids
+        (4) Bacterial cell wall is made up of             68.    Oxygen is not produced during photosynthesis by
+            peptidoglycan                                        :                               [NEET – 2018]
+61.     Which one of the following is wrong for fungi            (1) Green sulphur bacteria
+        ?                              [NEET-II – 2016]          (2) Nostoc
+        (1) All fungi possess a purely cellulosic cell           (3) Cycas
+            wall                                                 (4) Chara
+        (2) They are heterotrophic
+                                                          69.    Which among the following is not a
+        (3) They are both unicellular and multicellular
+                                                                 prokaryote?              [NEET – 2018]
+        (4) They are eukaryotic
+                                                                 (1) Saccharomyces (2) Mycobacterium
+62.     Which of the following is correctly matched              (3) Nostoc        (4) Oscillatoria
+        for the product produced by them ?
+                                       [NEET – 2017]      70.    After karyogamy followed by meiosis, spores
+        (1) Acetobacter aceti : Antibiotics                      produced exogenously in :    [NEET – 2018]
+        (2) Methanobacterium : Lactic acid                       (1) Neurospora        (2) Alternaria
+        (3) Penicillium notatum : Acetic acid                    (3) Agaricus          (4) Saccharomyces
+        (4) Saccharomyces cerevisiae : Ethanol            71.    Select the wrong statement.
+63.     Mycorrhizae are the example of :                                                        [NEET – 2018]
+                                    [NEET – 2017]                (1) Cell wall is present in members of fungi
+        (1) Fungistasis       (2) Amensalism                         and plantae.
+        (3) Antibiosis        (4) Mutualism                      (2) Mushroom belong to basidiomycetes
+64.     Which of the following are found in extreme              (3) Pseudopodia are locomotory and feeding
+        saline conditions ?          [NEET – 2017]                   structures in sporozoans
+        (1) Archaebacteria    (2) Eubacteria                     (4) Mitochondria are the powerhouse of the
+        (3) Cyanobacteria     (4) Mycobacteria                       cell in all kingdom except monera
+                                            Sarvam Career Institute                                            79
+ Biology                                                                                  Biological Classification
+72.        Ciliates differ from all other protozoans in-    77.    According to Robert May, the global species
+                                           [NEET – 2018]           diversity is about-        [NEET-I – 2020]
+           (1) Using flagella for locomotion                       (1) 20 million       (2) 50 million
+           (2) Having a contractile vacuole for                    (3) 7 million        (4) 1.5 million
+               removing excess water
+           (3) Using pseudopodia for capturing prey         78.    Which of the following is correct about viroids?
+           (4) Having two types of nuclei                                                         [NEET-I – 2020]
+73.        Match Column-I with column-II.                          (1) They have free RNA without protein coat.
+          Column-I        Column-II                                (2) They have DNA with protein coat.
+     A.   Saprophyte i. Symblotic association of                   (3) They have free DNA without protein coat.
+                          fungi with plant roots                   (4) They have RNA with protein coat.
+     B.    Parasite   ii. Decomposition of dead
+                          organic materials                 79.    Mach column-I with column-II.
+     C.    Lichens   iii. Living on living plants or                                          [NEET – 2021]
+                          animals                                        Column–I           Column–II
+     D.   Mycorrhiza iv. Symbiotic association of                   (a) Nitrococcus (i)     Denitrification
+                          algae and fungi
+                                                                    (b) Rhizobium      (ii) Conversion of
+           Choose the correct answer form the options                                       ammonia to
+           given below                   [NEET – 2019]
+                                                                                            nitrate
+           (1) A=ii, B= i, C = iii, D=iv
+                                                                    (c) Thiobacillus (iii) Conservation
+           (2) A=ii, B= iii, C = iv, D=i
+           (3) A=i, B= ii, C = iv, D=i                                                      of nitrite to
+           (4) A=iii, B= ii, C = i, D=iv                                                    nitrate
+74.        Thiobacillus is a group of bacteria helpful in           (d) Nitrobacter (iv) Conversion of
+           carrying out:                 [NEET – 2019]                                      atmospheric
+           (1) Nitrification                                                                nitrogen to
+           (2) Denitrification                                                              ammonia
+           (3) Nitrogen fixation
+                                                                   Choose the correct answer from options
+           (4) Chemoautotrophic fixation
+                                                                   given below.
+75.        Which of the following statements is
+                                                                   (1) (a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)
+           incorrect?                     [NEET – 2019]
+                                                                   (2) (a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)
+           (1) Infective constituent in viruses is the
+               protein coat.                                       (3) (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)
+           (2) Prions consist of abnormally folded                 (4) (a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)
+               proteins
+                                                            80.    Which of the following statements is correct?
+           (3) Viroids lack a protein coat.
+                                                                                                   [NEET – 2021]
+           (4) Viruses are obligate parasites.
+                                                                   (1) Some of the organisms can fix
+76.        Which of the following statements is                        atmospheric nitrogen in specialized cells
+           incorrect?                      [NEET – 2019]               called sheath cells.
+           (1) Conidia are produced exogenously and
+                                                                   (2) Fusion of two cells is called Karyogamy.
+               ascospores endogenously
+                                                                   (3) Fusion of protoplasms between two
+           (2) Yeasts have filamentous bodies with
+               long thread like hyphae                                 motile or non-motile gametes is called
+           (3) Morels and truffles are edible delicacies               Plasmogamy.
+           (4) Claviceps is a source of many alkaloids             (4) Organisms that depend on living plants
+               and LSD.                                                are called saprophytes.
+80                                             Sarvam Career Institute
+Biological Classification                                                                              Biology
+81.     Given below are two statements :–                  83.    Which one of the following is not a criterion
+        Statement I : Mycoplasma can pass through                 for classification of fungi?   [NEET–2024]
+        less than 1 micron filter size.                           (1) Mode of spore formation
+        Statement II : Mycoplasma are bacteria with               (2) Fruiting body
+        cell wall                                                 (3) Morphology of mycelium
+        In the light of the above statements, choose              (4) Mode of nutrition
+        the most appropriate answer from the options
+                                                           84.    Match List I with List II –      [NEET–2024]
+        given below:                    [NEET – 2022]
+                                                                         List–I                 List–II
+        (1) Both Statement I and Statement II are
+                                                                   A.    Rhizopus       I.      Mushroom
+            incorrect
+                                                                   B.    Ustilago       II.     Smut fungus
+        (2) Statement I is correct but Statement II is
+                                                                   C.    Puccinia       III.    Bread mould
+            incorrect
+        (3) Statement I is incorrect but Statement II is           D.    Agaricus       IV.     Rust fungus
+            correct                                               Choose the correct answer from the options
+        (4) both Statement I and Statement II are                 given below :
+            correct                                               (1) A-III, B-II, C-I, D-IV
+82.     Which of the following is a correct statement?            (2) A-IV, B-III, C-II, D-I
+                                         [NEET – 2022]            (3) A-III, B-II, C-IV, D-I
+        (1) Bacteria are exclusively heterotrophic                (4) A-I, B-III, C-II, D-IV
+            organisms
+        (2) Slime moulds are saprophytic organisms
+            classified under Kingdom Monera.
+        (3) Mycoplasma have DNA, Ribosome and
+            cell wall
+        (4) Cyanobacteria are a group of autotrophic
+            organisms classified under kingdom
+            Monera.
+
+
+
+
+                                             Sarvam Career Institute                                          81
+ Biology                                                                              Biological Classification
+                                            ANSWER KEYS
+                                             Exercise 1.1
+ Que.   1    2    3    4    5   6   7   8   9    10   11
+ Ans.   2    3    4    1    1   2   4   2   1    4    3
+
+
+                                             Exercise 1.2
+ Que.   1    2    3    4    5   6   7   8   9    10   11     12   13   14
+ Ans.   2    3    4    1    2   1   2   3   3    3    4      1    3    4
+
+
+                                             Exercise 1.3
+ Que.   1    2    3    4    5   6   7   8   9    10   11     12
+ Ans.   4    1    2    1    1   3   3   3   3    4    2      3
+
+
+                                             Exercise 1.4
+ Que.   1    2    3    4    5
+ Ans.   1    3    1    2    1
+
+
+                                             Exercise 1.5
+ Que.   1    2    3    4    5   6   7   8   9    10   11     12   13   14   15   16    17    18    19
+ Ans.   1    1    4    4    4   4   1   1   4    1    2      1    1    1    1    3      1     2     4
+
+
+                                             Exercise 1.6
+ Que.   1    2    3    4
+ Ans.   3    4    2    1
+
+                                             Exercise 1.7
+ Que.   1    2    3    4    5   6   7
+ Ans.   2    1    1    2    2   4   2
+
+
+                                             Exercise 1.8
+ Que.   1    2    3    4    5   6   7   8   9    10   11     12   13   14   15   16    17    18    19    20
+ Ans.   2    1    4    1    4   1   1   4   2    3    3      4    1    3    3    2      3     2     2     1
+ Que.   21   22
+ Ans.   2    1
+
+
+                                             Exercise 1.9
+ Que.   1    2    3    4    5   6   7   8   9    10   11     12   13   14   15   16     17   18    19    20
+ Ans.   4    1    1    1    4   2   1   4   2    1    2      3    4    2    4    1      2     1     1     4
+ Que.   21   22   23   24
+ Ans.   3    4    3    3
+
+
+
+
+                                             Exercise 1.10
+ Que.   1    2    3    4    5   6   7   8   9    10   11     12   13   14   15   16    17    18    19    20
+ Ans.   1    1    2    4    1   3   4   3   2    3    3      2    4    3    4    2      1     1     1     3
+ Que.   21   22   23   24
+ Ans.   2    2    2    4
+
+
+
+82                                      Sarvam Career Institute
+Biological Classification                                                                                   Biology
+                                                  Exercise 1.11
+Que.   1    2     3     4   5    6     7    8     9     10   11    12   13   14    15   16   17
+Ans.   1    1     3     4   1    4     4    4    2       4    2    4    3    3     1    1    2
+
+
+                                                      Exercise 2
+Que.   1    2     3     4   5    6     7     8    9     10   11    12   13   14    15   16   17   18   19     20
+Ans.   1    3     3     3   2    1     1     1    2      1    1    4    1    1     3    3    1    4    4       4
+Que.   21   22    23   24   25   26    27   28   29     30   31    32   33   34    35   36   37   38   39     40
+Ans.   4    4     1     3   3    4     3     3    4      2    4    4    2    2     2    3    4    4    3       4
+
+
+                                                      Exercise 3
+Que.   1    2     3     4   5    6     7    8     9     10   11    12   13   14    15   16   17   18   19     20
+Ans.   4    3     1     2   2    4     3    3     1      1    4    2    3    2     2    2    2    2    3      3
+Que. 21     22    23   24   25   26    27   28   29     30   31    32   33   34    35   36   37   38   39     40
+Ans.   2    2     1     3   2    2     2    4     1      3    4    4    3    3     3    1    3    2    2      1
+Que. 41     42    43   44   45   46    47   48   49     50   51    52   53   54    55   56   57   58   59     60
+Ans.   2    3     1     1   4    2     3    3     1      3    4    1    1    3     2    3    3    1    4      1
+Que. 61     62    63   64   65   66    67   68   69     70   71
+Ans.   1    3     3     2   1    1     4    3     1      1    2
+
+
+                                      Exercise 4 (Previous Year's Questions)
+Que.   1    2     3     4   5    6     7     8    9     10    11   12   13   14    15   16   17   18   19     20
+Ans.   2    3     4     2   2    3     3     3    1      3    1    4    1    4     2    1    4    2    1       2
+Que.   21   22    23   24   25   26    27   28   29     30    31   32   33   34    35   36   37   38   39     40
+Ans.   2    3     1     1   1    2     2     4    2      1    4    2    2      1   1    2    3    1    2       1
+Que.   41   42    43   44   45   46    47   48   49     50    51   52   53   54    55   56   57   58   59     60
+Ans.   4    4     2     4   2    3     3     2    2      1    4    2    4      1   2    1    3    4    4       1
+Que.   61   62    63   64   65   66    67   68   69     70    71   72   73   74    75   76   77   78   79     80
+Ans.   1    4     4     1   3    2     2     1    1      3    3    4    2      2   1    2    3    1    2       3
+Que.   81   82    83   84
+Ans.   2    4     4     3
+
+
+
+
+                                             Sarvam Career Institute                                               83
+

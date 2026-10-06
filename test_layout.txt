@@ -1,0 +1,740 @@
+    Biology                                                                                            The Living World
+                                                        Exercise 1.1
+1.            Metabolism is exhibited by :                      6.     Number of known species of Earth is
+              (1) All plants                                           (1) 1.6 to 2.7 billions
+              (2) All animals                                          (2) 1.7 to 1.8 millions
+                                                                       (3) 1.6 to 1.7 thousands
+              (3) Fungi & Microbes
+                                                                       (4) 1.6 to 1.7 crores
+              (4) All of these
+                                                                7.     Which of the following statements regarding
+2.            Which of the following is not the defining
+                                                                       the response of living organisms to external
+              property of living ?                                     stimuli is correct ?
+              (1) Consciousness                                        (1) The external environmental stimuli can
+              (2) Reproduction                                             be physical and chemical only.
+              (3) Growth (intrinsic)                                   (2) All organisms, from the prokaryotes to
+              (4) Metabolism                                                 the most complex eukaryotes can sense
+                                                                             and respond to environmental stimuli.
+3.            In higher plants & animals, growth &                     (3) Consciousness and response to external
+              reproduction are linked but are                                stimuli is the defining property of living
+              (1) Mutually exclusive events                                  organisms.
+              (2) Mutually inclusive events                            (4) Both (2) and (3)
+              (3) Mutually inclusive events along with          8.     Which of the following is a defining
+                  monerans                                             characteristic of living organisms?
+              (4) Mutually exclusive events along with                 (1) Growth
+                  protistans                                           (2) Ability of make sound
+                                                                       (3) Reproduction
+4.            Which of the following is not applicable to              (4) Response to external stimuli
+              living organisms?
+                                                                9.     The living organisms can be unexceptionally
+              (1) These are self replicating and evolving              distinguished from the non-living things on
+                  system                                               the basis of their ability for :–
+              (2) These are self replicating and capable of            (1) Photosynthesis
+                  responding to external stimuli                       (2) Metabolism
+              (3) These are self replicating and non-                  (3) Growth and movement
+
+                  regulating interactive system                        (4) Reproduction
+
+              (4) They exhibit metabolism                       10.    All living organisms are linked to one another
+                                                                       because :–
+5.            Most obvious and technically complicated
+                                                                       (1) They have common genetic material of
+              feature of all living organisms is                             the same type
+              (1) Metabolism                                           (2) They share common genetic material but
+              (2) Cellular organisation                                      to varying degrees
+              (3) Growth                                               (3) All have common cellular organization
+              (4) Consciousness                                        (4) All of above
+
+4                                                  Sarvam Career Institute
+    Biology                                                                                                The Living World
+(2)           First letter of generic name should be in capital letter and first letter of specific epithet should be in
+              small letter. E.g. Mangifera indica.
+(3)           When written with free hand or typed, then generic name and specific epithet should be underlined
+              separately. But during printing name should be in italics to indicate their latin orgin.
+(4)           Name of the scientist who proposed nomenclature should be written in short after the specific epithet
+              E.g. Mangifera indica Linn.
+(5)           Name of scientist should be neither underlined nor in italics but written in Roman letters (simple alphabets)
+(6)           Scientific names should be derived from Latin (usually) or Greek languages because they are dead
+              languages.
+(7)           In plant nomenclature tautonyms are not valid i.e. generic name and specific epithet should not be
+              same in plants E.g. Mangifera mangifera is not correct.
+              But tautonyms are valid in animal nomenclature (ICZN-lnternational Code of Zoological Nomenclature)
+              E.g. Naja naja (Indian cobra), Rattus rattus (Rat).
+              Method of writing biological or scientific name can be memorised as
+                                 1st letter of genus is                      1st letter of species is
+                                Written is capital form                      Written is small form
+                                                     Mangifera         Indica
+                                                     (Represents       (Represents
+                                                     genus)            Species)
+
+
+                                                          Generic   Specific epithet
+
+
+                                    Biological/scientific name which should be printed in italics
+
+                                                              Exercise 1.2
+1.            In Binomial Nomenclature,                               4.       The process by which any thing is grouped
+              (1) Genus name is written after species                          into convenient categories based on some
+              (2) Genus and species names are written in                       easily observable characters is called :
+                  italics.                                                     (1) Identification     (2) Systematics
+              (3) Genus and species have the same name                         (3) Classification     (4) Nomenclature
+              (4) The first letter of genus and species name          5.       Systematics was first time proposed by
+                  is capital.                                                  (1) C. Linnaeus in Pinax
+2.            The standard name of any living organism is                      (2) Casper Bauhin in Pinax
+              known by the same name all over the world is                     (3) Casper Bauhin in Species Plantarum
+              called :                                                         (4) C. Linnaeus in Systema Naturae
+              (1) Nomenclature     (2) Taxonomy                       6.       Who wrote systema naturae:-
+              (3) Classification   (4) Description                             (1) Linnaeus         (2) Mayr
+3.            The scientific naming system of two words                        (3) John Ray         (4) De Candolle
+              was first used by                                       7.       A taxon is:
+              (1) Aristotle                                                    (1) A group of related families
+              (2) C. Linnaeus                                                  (2) A group of related species
+              (3) Bentham and Hooker                                           (3) A type of living organisms
+              (4) Theophrastus                                                 (4) A taxonomic group of any ranking
+6                                                   Sarvam Career Institute
+The Living World                                                                                     Biology
+8.     The process in which biologists follow          15.     First act in taxonomy is :-
+       universally accepted principles to provide              (1) Characterisation
+       name of any organism is called as:                      (2) Identification
+       (1) Identification                                      (3) Naming
+       (2) Classification                                      (4) Classification
+       (3) Nomenclature
+                                                       16.     Which of the following statements regarding
+       (4) Systematics
+                                                               nomenclature is correct :–
+9.     Most of the scientific names are drawn from             (1) Generic name always begins with capital
+       the following language -                                    letter whereas specific name with small
+       (1) German                                                  letter
+       (2) Greek                                               (2) Scientific name should be printed in
+       (3) Latin                                                   italics
+       (4) Spanish                                             (3) Scientific name when typed or
+10.    Taxonomy refers to :-                                       handwritten should be underlined
+       (1) Plant classification                                (4) All the above
+       (2) Plant nomenclature
+                                                       17.     Phylogeny refers to :–
+       (3) Plant affinity
+                                                               (1) Natural classification
+       (4) All the above
+                                                               (2) Evolutionary classification
+11.    ICBN was first published in :                           (3) Evolutionary history
+       (1) 1961               (2) 1964                         (4) Origin of algae
+       (3) 1975               (4) 1753
+                                                       18.     Artificial system of classification classifies
+12.    What are the essential basis of modern                  plants on the basis of -
+       taxonomic studies?                                      (1) One or two characters
+       (1) External and internal structure                     (2) Phylogenetic trends
+       (2) Structure of cell                                   (3) Many naturally existing characters
+       (3) Developmental process and ecological                (4) Gross Morphological Characters
+           information
+       (4) All of these                                19.     Systematics deals with :-
+                                                               (1) Classification
+13.    As we go from species to kingdom in a
+                                                               (2) Nomenclature
+       taxonomic hierarchy, the number of common
+                                                               (3) Plant description
+       characteristics-
+                                                               (4) Identification
+       (1) Will decrease
+       (2) Will increase                               20.   The term 'Systematics' refers to :–
+       (3) Remain same                                       (1) Identification and classification of plants
+       (4) May increase or decrease                              and animals
+14.    The number and types of organisms present             (2) Nomenclature and identification of
+       on earth make:                                            plants and animals
+       (1) Taxonomy                                          (3) Diversity of kinds of organisms and their
+       (2) Plant diversity                                       relationship
+       (3) Animal diversity                                  (4) Different kinds of organisms and their
+       (4) Biodiversity                                          classification
+                                       Sarvam Career Institute                                              7
+The Living World                                                                                               Biology
+
+                                     Organisms with their Taxonomic Categories
+       Common       Biological Genus           Family             Order         Class                    Phylum/
+         Name         Name                                                                                Division
+         Man          Homo       Homo          Hominidae          Primata       Mammalia                 Chordata
+                     sapiens
+       Housefly      Musca       Musca         Muscidae           Diptera       Insecta                 Arthropoda
+                    domestica
+        Mango       Mangifera Mangifera Anacardiaceae Sapindales Dicotyledonae                        Anglospermae
+                      indica
+        Wheat       Triticum     Triticum      Poaceae            Poales        Monocotyledonae Angiospermae
+                    aestivum
+
+Note:– As we go higher from species to kingdom number of common characters decreases. Lower the taxa
+       more are the characteristics that the members with in the taxon share.
+       Higher the category, greater is the difficulty of determining the relationship to other taxa at the same level.
+
+                                                     Exercise 1.3
+1.     Which of the following have maximum                   4.       Select the correct option w.r.t. hierarchial
+       common characters ?                                            arrangement of taxonomic categories in
+       (1) Felidae, Canidae                                           ascending order.
+                                                                      (1) Division → Class → Order → Family
+       (2) Potato, Brinjal
+                                                                      (2) Genus → Family → Order → Class
+       (3) Carnivora, Primata                                         (3) Species → Order → Class → Family
+       (4) Datura, Petunia                                            (4) Kingdom → Order → Family → Genus
+2.     Which of the following statement is correct ?         5.       Taxonomic category with a group of related
+       (1) Potato and brinjal are two different                       genera is characterized on the basis of :
+                                                                      (1) Cell structure
+           genera
+                                                                      (2) Vegetative features
+       (2) Lion and tiger are placed in different                     (3) Only floral characters
+           genera                                                     (4) Vegetative and reproductive features
+       (3) Petunia and Datura are placed in same             6.       In ascending order of taxon common
+           family                                                     morphological characters :
+       (4) Solanaceae and Poaceae are placed in                       (1) Decrease
+           same class.                                                (2) Increase
+                                                                      (3) First decrease than increase
+3.     The process of classification of all living                    (4) First increase than decrease
+       organism into different taxa based on their           7.     Taxonomic categories are __A__ biological
+       characteristics is referred as :                             entities & __B__ morphological aggregates.
+       (1) Taxonomy                                                 A & B respectively stand for :
+       (2) Systematics                                              (1) Same, Merely
+                                                                    (2) Distinct, Not merely
+       (3) Nomenclature
+                                                                    (3) Same, Not merely
+       (4) Identification                                           (4) Distinct, Merely
+                                              Sarvam Career Institute                                          9
+ Biology                                                                                                     The Living World
+Species Concept :
+           •   John Ray : Proposed the term and concept of species.
+Biological Concept of Species :
+(1)        Ernst Mayr (Darwin of 20th century) proposed the biological concept of species.
+(2)        According to Mayr “Species is the group of individual which can interbreed naturally and produce
+           fertile offspring. This definition of Mayr was incomplete because this definition is applicable to only on
+           sexually reproducing living beings but there are many organisms that have only asexual mode of
+           reproduction.
+           E.g. Bacteria, Mycoplasma. BGA
+(3)        Biological species concept is based on reproductive isolation.
+           In taxonomy, the determination of species is mainly based on morphological characters
+Taxonomic concept of species :
+      • When the species is determined on the basis of morphological characters then it is called as
+          taxonomic species.eg. If two plants have almost same fundamental morphological characters, then
+          they belong to same species.
+
+Knowledge Booster :
+                                               Cauliflower Cabbage      Knol-Khol
+
+
+                                                        Brassica oleracea
+           These three have same morphological characters. Therefore they belong to same taxonomic species
+           but they are not interbreed naturally so they belong to three different biological species.
+           In higher plants the determination of species is mainly based on the morphology of flower (floral
+           morphology) because floral (reproductive) characters are more conservative as compared to
+           vegetative.
+                                                          Exercise 1.4
+1.         The basic smallest unit of classifications is :–        4.       Descending arrangement of categories is
+           (1) Genus                (2) Species                             called :–
+           (3) Order                (4) All of the above                    (1) Classification (2) Taxonomy
+                                                                            (3) Hierarchy           (4) key
+2.         What are the basis of modern classification
+           for taxonomists :–                                      5.       For higher plants, flowers are chiefly used as
+           (1) External and internal structure of                           a basis of classification, because-
+                organism
+                                                                            (1) These show a great variety in colour
+           (2) Development process of organism
+           (3) Ecological informations of organism                          (2) It can be preserved easily
+           (4) All of these                                                 (3) Reproductive      parts        are     more
+                                                                                conservative than vegetative parts
+3.         Plant nomenclature means :-
+           (1) To give names to plants without any rules                    (4) Reproductive parts are less conservative
+           (2) Nomenclature of plants under the                    6.       Who is regarded as "Darwin of 20th century"
+               international rules                                          ?
+           (3) Nomenclature of plants in local language                     (1) John Ray          (2) Lamarck
+           (4) Nomenclature of plants in English
+                                                                            (3) Ernst Mayr          (4) Darwin
+               language
+10                                                 Sarvam Career Institute
+The Living World                                                                                         Biology
+7.     Group of organisms that closely resemble             14.    In potato, brinjal, lion, leopard, and tiger.
+       each other and freely interbreed in nature,                 how many species and genera are there
+       constitute a:-                                              respectively ?
+       (1) Species           (2) Genus                             (1) 4 & 2               (2) 5 & 3
+       (3) Family            (4) Taxon                             (3) 5 & 4               (4) 5 & 2
+8.     Which arrangement is correct ascending               15.    The correct sequence of plant taxonomic
+       order?                                                      categories is :–
+       (1) Species < genus < order < family                        (1) Phylum-order-class-family-genus-
+       (2) Genus < species < family < order                            species
+       (3) Order < family < Genus < species                        (2) Division-class-order-family-genus-
+       (4) Species < genus < family < order                            species
+                                                                   (3) Division-class-family-order-genus-
+9.     Nomenclature is very must in taxonomy                           species
+       which of the following is not correct about                 (4) 1 and 2 both
+       scientific nomenclature ?
+       (1) They ensure that each organism has only          16.    For declaration of new species of higher
+           one name                                                plants what characters are used :-
+       (2) They also ensure that such a name has                   (1) Floral character of new species
+           not been used for any other known                       (2) Anatomical character of new species
+           organism                                                (3) Physiological character of new species
+       (3) Scientific nomenclature is a standardised               (4) Character of endosperm
+           naming system                                    17.    An organisms is in the same class but not in
+       (4) Different countries of the world use different          the same family. It may belong to same :–
+           kinds of scientific nomenclature system                 (1) Genus              (2) Species
+10.    Species are considered as :–                                (3) Variety            (4) Order
+       (1) Real basic units of classification               18.    In the names Mangifera indica, Solanum
+       (2) The lowest units of classification                      tuberosum and Panthera leo, the words
+       (3) Artificial concept of human mind                        indica, tuberosum and leo represent ?
+       (4) Biggest units of classification devised by              (1) Generic name      (2) Generic epithet
+           taxonomists                                             (3) Specific name     (4) Specific epithet
+11.    Mayr proposed which type of concept of               19.    Which of the following is a correct name :-
+       species :–                                                  (1) Solanum tuberosum
+       (1) Static concept                                          (2) Solanum Tuberosum
+       (2) Biological concept                                      (3) Solanum tuberosum Linn.
+       (3) Topological concept                                     (4) All the above
+       (4) Genetic concept                                  20.    The     relation    of     solanaceae   and
+12.    A division is formed by combining several -                 convolvulaceae with polymoniales is similar
+       (1) Orders                                                  to the relation occuring in :
+       (2) Families                                                (1) Felidae and Canidae with carnivora
+       (3) Classes                                                 (2) Primata and carnivora with Mammalia
+       (4) Tribes                                                  (3) Amphibia and Reptilia with Chordata
+13.    All the categories used in classification of                (4) Solanum and Petunia with solanaceae
+       organisms constitute :–                              21.    Animals, mammals and dogs represent :–
+       (1) Taxonomy                                                (1) Taxa at different levels
+       (2) Systematics                                             (2) Taxa at same level
+       (3) Taxonomic hierarchy                                     (3) Different levels of same taxa
+       (4) Taxonomic affinity                                      (4) All are correct
+                                              Sarvam Career Institute                                              11
+ Biology                                                                                        The Living World
+                                              Exercise 2
+1.         Why the determination of relationship    4.            Study the following statements carefully and
+           becomes more complex in higher taxonomic               give the answer :
+                                                                  A. Biological names are generally in Latin
+           categories ?
+                                                                      and printed in italics.
+           (1) Number of common characters goes on                B. The first word in biological names
+              decreasing in lower taxa.                               represents the genus.
+                                                                  C. Both the words in a biological name are
+           (2) Number of common characters goes on
+                                                                      separately underlined when printed.
+              decreasing in higher taxa.                          D. The first word of biological name starts
+           (3) Because classification itself is very                  with capital letter when given in memory
+              difficult process.                                      of a person otherwise with small letter.
+                                                                  (1) A, D - correct       B, C-correct
+           (4) Number of common characters goes on
+                                                                  (2) A, C - correct       B, D - incorrect
+              increasing in higher taxa                           (3) A, B - correct       C, D - incorrect
+                                                                  (4) A, B - incorrect     C, D - correct
+2.         Which of the following is not a correct
+                                                           5.      Which of the following is / are not correctly
+           statement ?                                             match ?
+           (1) Order is the assemblage of families                       Common Genus             Family
+              which exhibit a few similar characters in                  Name
+                                                                  (i)    Man       Homo           Hominidae
+              comparisation to families.
+                                                                  (ii) Housefly Musca             Muscidae
+           (2) Convolvulaceae and Solanaceae families             (iii) Mango      Mangifera Sapindales
+              are included in order polymoniales                  (iv) Wheat       Triticum       Poaceae
+              mainly on the basis of floral characters.            (1) i & ii             (2) only i
+                                                                   (3) only iii           (4) iii & iv
+           (3) In hierarchy, both broad categories and
+              sub categories are used.                     6.     How many are the incorrect statements from
+                                                                  the followings ?
+           (4) Class is a sub category which includes
+                                                                  (A) Lower the taxa, more are the
+              related order.                                          characteristics that the members within
+                                                                      the taxon share
+3.         Which of the following is not true for a               (B) Higher the taxonomic category, greater is
+           species ?                                                  the difficulty of determining the
+           (1) Variations occur among members of a                    relationship to other taxa at the same
+                                                                      level
+              species
+                                                                  (C) In lower taxa the problems of
+           (2) Gene flow does not occur between the                   classification becomes more complex
+              populations of a species                            (D) As we go higher from species to kingdom,
+                                                                      the number of common characters
+           (3) Each species is reproductively isolated
+                                                                      increases
+              from every other species
+                                                                  (1) One                 (2) Two
+           (4) Members of a species can interbreed                (3) Three               (4) Four
+12                                            Sarvam Career Institute
+The Living World                                                                                                      Biology
+7.     Which of the following statements about           11.        Consider the following tabel and choose the
+       classification is not true                                   correct sequence of A, B, C, D, E, F, G and H
+       I. Members of a family are less similar than                 :–
+            members of an included genus                 Common      Biological   Genus       Family       Order      Class
+                                                         name        Name
+       II. An order has more members than the            Man         Homo         Homo        A            Primata    B
+            number of members in an included genus                   sapiens
+                                                         Housefly    Musca        Musca       C            D          Insecta
+       III. Families have more members than phyla
+                                                                     Domestica
+       IV. The number of species in a taxon depends      Mango       Mangifera    Mangifera   E            F          Dicotyle
+            on their relative degree of similarity.                  indica                                           donae
+                                                         Wheat       Triticum     Triticum    Poaceae      G          H
+       (1) Only III             (2) Only IV                          asetivum
+       (3) Only II              (4) Only I                          (1) A-Muscidae, B-Mammalia, C-Hominidae, D-
+8.     Characters drawn from flowers are mainly                         Diptera, E-Anacardiaceae, F-Sapindales, G-
+       used as basis of classification in seed plants                   Poales, H- Monocotyledonae
+       because :–                                                   (2) A-Hominidae, B-Muscidae, C- Mammalia,
+       (1) Flowers show great variation in colour                       D-Diptera, E-Anacardiaceae, F-Sapindales,
+           and traits                                                   G-Poales, H-Dicotyledonae
+       (2) Flowers are preserved easily                             (3)A-Hominidae, B-Mammalia, C-Muscidae, D-
+       (3) Flowers are easy and nice to work                            Diptera, E-Anacardiaceae, F-Sapindales, G-
+       (4) Reproductive      parts      are     more                    Poales, H-Monocotyledonae
+           conservative than vegetative parts and                   (4) A-Hominidae, B-Mammalia, C-Muscidae,
+           show less variation                                          D-Anacardiaceae, E- Diptera, F-Poales, G-
+                                                                        Sapindales, H-Monocotyledonae
+9.     Read the following statements:
+       (i) Classification is a single step process       12.        Match the followings :–
+       (ii) Classification involves hierarchy of steps              (a)   Yeast                    (i)         Regeneration
+             in which each step represents a rank or                (b)   Hydra                    (ii)        Budding
+             category                                               (c)   Protonema of             (iii)       Fragmentation
+       (iii) Taxon is a unit of ecological hierarchy                      mosses
+                                                                    (d)   Filamentous algae
+       (iv) Insects represents a species
+                                                                    (e)   Planaria
+       (v) The taxonomic group/categories are
+                                                                    (f)   Flat worm
+             distinct biological entities and not
+             merely morphological aggregates                        (1) a-ii, b-i, c-ii, d-ii, e-i, f-iii
+       How many of the above statements are                         (2) a-iii, b-iii, c-ii, d-i, e-i, f-iii
+       correct?                                                     (3) a-iii, b-i, c-iii, d-ii, e-ii, f-i
+       (1) Five                   (2) Three                         (4)a-ii, b-ii, c-iii, d-iii, e-i, f-i
+       (3) Two                    (4) One                13.        Select the correct combination :
+10.    Two plants can be conclusively said to belong                (a) Plant : limited cell division.
+       to the same species if they :                                (b) Animals : Cell division throughout life
+       (1) Have same number of chromosomes                              span in all types of cells.
+       (2) Can reproduce freely with each other and                 (c) Unicellular     organisms      : Growth
+           form seeds                                                   observation by microscopes
+       (3) Have more than 90 percent similar genes                  (d) Living organism : External growth
+       (4) Looks similar and possess identical                      (1) a                    (2) b
+           secondary metabolites                                    (3) c                    (4) d
+                                           Sarvam Career Institute                                                               13
+ Biology                                                                                                        The Living World
+14.        Isolated metabolic reactions in-vitro are:             19.     Match the following :
+           (1)Neither living nor non-living things
+                                                                                Column- I                Column-II
+           (2) Non-living things
+           (3) Living reactions                                          (a)    Kingdom        (i)       First name of the
+           (4) Always faulty reactions                                                                   organism
+15.        Which one of the following animals is                         (b)    Division       (ii)      Second form
+           correctly matched with its particular named
+                                                                                                         of scientific name
+           taxonomic category ?
+           (1) Tiger - Tigris, the species                               (c)    Class          (iii)     Plantae
+           (2) Cuttlefish – Mollusca, a class                            (d)    Order          (iv)      Ae
+           (3) Humans - Primata, the family
+                                                                         (e)    Family         (v)       Ales
+           (4) Housefly - Musca, an order
+                                                                         (f)    Genus          (vi)      Phyta
+16.        In which of the following taxon, other three
+           are included itself ?                                         (g)    Species        (vii)     aceae
+           (1) Phylum
+                                                                          (1) a-iv, b-vii, c-vi, d-v, e-i, f-iii, g-ii
+           (2) Order
+           (3) Class                                                      (2) a-ii, b-i, c-iii, d-iv, e-v, f-vii, g-vi
+           (4) Family                                                     (3) a-i, b-ii, c-iv, d-iii, e-vi, f-vii, g-v
+17.        'X' and 'Y' are the components of binomial                     (4)a-iii, b-vi, c-iv, d-v, e-vii, f-i, g-ii
+           nomenclature. This naming system was
+           proposed by 'Z' ?                                      20.     Match the columns :–
+           (1) X-Generic name, Y-Specific epithet, Z-                           Column- I              Column-II
+               Carolus Linnaeus
+                                                                          (a)   ICVN          (i)      International code
+           (2) X-Specific epithet, Y-Generic name, Z-
+               R.H. Whittaker                                                                          of botanical
+
+           (3) X-Specific epithet, Y-Generic name, Z-                                                  Nomenclature
+               Carolus Linnaeus                                           (b)   ICBN          (ii)     International code
+           (4) X-Generic name, Y-Specific epithet, Z-
+                                                                                                       of bacteria
+               R.H. Whittaker
+                                                                                                       Nomenclature
+18.        Match the following and choose the correct
+                                                                          (c)   ICZN          (iii)    International code of
+           option.
+                                                                                                       virus Nomenclature
+           Column - I           Column - II
+           (a)   Family         (i)     Tuberosum                         (d)   ICNB          (iv)     International code
+           (b)   Kingdom        (ii)    Polymoniales                                                   of zoological
+           (c)   Order          (iii)   Solanum                                                        Nomenclature
+           (d)   Species        (iv)    Plantae
+           (e)   Genus          (v)     Solanaceae                        (1) a-i, b-ii, c-iii, d-iv
+           (1) a-iv, b-iii, c-v, d-ii, e-i                                (2)a-iii, b-i, c-iv, d-ii
+           (2)a-v, b-iv, c-ii, d-i, e-iii                                 (3) a-iv, b-iii, c-ii, d-i
+           (3) a-iv, b-v, c-ii, d-i, e-iii
+                                                                          (4) a-iv, b-ii, c-i, d-iii
+           (4) a-iv, b-iii, c-ii, d-i, e-v
+14                                                   Sarvam Career Institute
+The Living World                                                                                    Biology
+                                                 Exercise 3
+1.     Assertion :- Binomial names are latinised or    4.      Assertion:- Genera are aggregates of closely
+       derived from Latin irrespective of their                related species.
+       origin.                                                 Reason:- Genus comprises a group of related
+       Reason :- Latin is a dead language, so used             species which has more characters in
+       by scholars.                                            common in comparison to species of other
+       (1) If both assertion and reason are true and           genera.
+           reason is the correct explanation of                (1) If both assertion and reason are true and
+           assertion.                                              reason is the correct explanation of
+       (2) If both assertion and reason are true but               assertion.
+           reason is not the correct explanation of            (2) If both assertion and reason are true but
+           assertion.                                              reason is not the correct explanation of
+       (3) If assertion is true but reason is false.               assertion.
+       (4) If both assertion and reason are false              (3) If assertion is true but reason is false.
+2.     Assertion:- Modern taxonomic studies                    (4) If both assertion and reason are false.
+       provide more accurate grouping of various
+                                                       5.      Assertion:- In higher category there is great
+       organisms.
+                                                               difficulty of determining the relationship to
+       Reason:- Modern taxonomic studies are
+                                                               other taxa at the same level.
+       based on external and internal structures
+                                                               Reason:- In higher taxa there are less
+       along with the structure of cell development
+                                                               characteristics that the members within the
+       process and ecological informations.
+                                                               taxa share
+       (1) If both assertion and reason are true and
+                                                               (1) If both assertion and reason are true and
+           reason is the correct explanation of
+                                                                    reason is the correct explanation of
+           assertion.
+                                                                    assertion.
+       (2) If both assertion and reason are true but
+                                                               (2) If both assertion and reason are true but
+           reason is not the correct explanation of
+           assertion.                                               reason is not the correct explanation of
+       (3) If assertion is true but reason is false.                assertion.
+       (4) If both assertion and reason are false.             (3) If assertion is true but reason is false.
+                                                               (4) If both assertion and reason are false.
+3.     Assertion:- Family has a group of related
+       orders and classes.                             6.      Assertion:- Biological concept of species is
+       Reason:- Families are characterised on the              based on reproductive isolation.
+       basis of only vegetative characters not by              Reason:- Biological concept of species is
+       reproductive characters.                                universal
+       (1) If both assertion and reason are true and           (1) If both assertion and reason are true and
+           reason is the correct explanation of                    reason is the correct explanation of
+           assertion.                                              assertion.
+       (2) If both assertion and reason are true but           (2) If both assertion and reason are true but
+           reason is not the correct explanation of                reason is not the correct explanation of
+           assertion.                                              assertion
+       (3) If assertion is true but reason is false.           (3) If assertion is true but reason is false.
+       (4) If both assertion and reason are false.             (4) If both assertion and reason are false.
+                                          Sarvam Career Institute                                             15
+ Biology                                                                                            The Living World
+7.         Assertion:- Classification of Linnaeus is          10.    Assertion (A): Species is the most fundamental
+           artificial.                                               unit of taxonomy.
+                                                                     Reason (R): In taxonomic hierarchy, species
+           Reason:- It is based on one or two characters.
+                                                                     shows minimum common features.
+           (1) If both assertion and reason are true and             (1) Both (A) & (R) are true and the (R) is the
+               reason is the correct explanation of                      correct explanation of the (A)
+               assertion.                                            (2) Both (A) & (R) are true but the (R) is not
+                                                                         the correct explanation of the (A)
+           (2) If both assertion and reason are true but
+                                                                     (3) (A) is true but (R) is false
+               reason is not the correct explanation of              (4) Both (A) and (R) are false
+               assertion.                                     11.    Assertion (A): Families are characterized on
+           (3) If assertion is true but reason is false.             the basis of both vegetative and reproductive
+           (4) If both assertion and reason are false.               features of species.
+                                                                     Reason (R): Members of family can show
+8.         Assertion (A): For plants scientific names                morphological similarities, but unexceptionally
+                                                                     none of the genera of same family can
+           are based on agreed principles and criteria
+                                                                     interbreed with each other.
+           which are provided in ICNB.                               (1) Both (A) & (R) are true and the (R) is the
+           Reason (R): The scientific names ensure that                  correct explanation of the (A)
+           each organism has only one name, but this                 (2) Both (A) & (R) are true but the (R) is not
+                                                                         the correct explanation of the (A)
+           name can be repeated for other organism of
+                                                                     (3) (A) is true but (R) is false
+           same kingdom.                                             (4) Both (A) and (R) are false
+           (1) Both (A) & (R) are true and the (R) is the     12.    Assertion (A): Classification of Linnaeus is
+               correct explanation of the (A)                        artificial.
+           (2) Both (A) & (R) are true but the (R) is not            Reason (R): It is based on artificial characters.
+                                                                     (1) Both (A) & (R) are true and the (R) is the
+               the correct explanation of the (A)
+                                                                         correct explanation of the (A)
+           (3) (A) is true but (R) is false                          (2) Both (A) & (R) are true but the (R) is not
+           (4) Both (A) and (R) are false                                the correct explanation of the (A)
+                                                                     (3) (A) is true but (R) is false
+9.         Assertion (A): Binomial naming system given               (4) Both (A) and (R) are false
+           by Carolus Linnaeus is being practiced by
+                                                              13.    Assertion (A): The species is a group of
+           biologists all over the world.                            interbreeding individuals reproductively
+           Reason (R): This naming system using a two                isolated from the other species populations.
+                                                                     Reason (R): Prokaryotes cannot be kept
+           word format was found convenient.
+                                                                     under different species on the basis of
+           (1) Both (A) & (R) are true and the (R) is the            reproductive isolation.
+               correct explanation of the (A)                        (1) Both (A) & (R) are true and the (R) is the
+           (2) Both (A) & (R) are true but the (R) is not                correct explanation of the (A)
+                                                                     (2) Both (A) & (R) are true but the (R) is not
+               the correct explanation of the (A)
+                                                                         the correct explanation of the (A)
+           (3) (A) is true but (R) is false                          (3) (A) is true but (R) is false
+           (4) Both (A) and (R) are false                            (4) Both (A) and (R) are false
+16                                               Sarvam Career Institute
+The Living World                                                                                                        Biology
+14.    Assertion (A): Most of the species are               17.       Fill in the blanks and choose the correct
+       identified on the basis biological species                     option:–
+       concept.
+                                                                    Category           Mango             Housefly     Man
+       Reason (R): Interbreeding can be practically           (i)    Class        Dicotyledonae             A       Mammalia
+       used as routine criterion for identification.         (ii)    Order                 B             Diptera       C
+
+       (1) Both (A) & (R) are true and the (R) is the        (iii) Family         Anacardiaceae             D       Hominidae
+
+           correct explanation of the (A)
+                                                                            A                  B                C          D
+       (2) Both (A) & (R) are true but the (R) is not
+                                                             (1) Insecta             Sapindales           Primata     Muscidae
+           the correct explanation of the (A)                (2) Arthropoda Polymoniales Primata                      Muscidae
+       (3) (A) is true but (R) is false                      (3) Insecta             Sapindales           Mammalia Canidae
+       (4) Both (A) and (R) are false                        (4) Arthropoda Poales                        Mammalia Felidae
+
+
+15.    Assertion (A): Higher the taxonomic category,
+                                                            18.       Select the incorrect match:–
+       greater is the difficulty of determining the
+                                                                                Rank            Suffix
+       relationship to other taxa at the same level.
+       Reason (R): The higher taxonomic categories                    (1) Division              – phyta
+       are more exclusive and the lower taxonomic                     (2) Family                – phyceae
+       categories are more inclusive in nature.
+                                                                      (3) Order                 – ales
+       (1) Both (A) & (R) are true and the (R) is the
+                                                                      (4) Class                 – opsida
+           correct explanation of the (A)
+       (2) Both (A) & (R) are true but the (R) is not
+                                                            19.       Mach column-I with column-II.
+           the correct explanation of the (A)
+                                                                                Column I               Column II
+       (3) (A) is true but (R) is false
+       (4) Both (A) and (R) are false                                 (a)       Phylum         (i)     Hominidae
+
+16.    What do A, B and C represent in the given
+                                                                      (b)        Order         (ii)       Homo
+
+       scientific name ?                                              (c)        Class         (iii)     Chordata
+       Mangifera            Indica        Linn                        (d)        Genus         (iv)      Primata
+            A                 B            C
+                                                                      (e)        Family        (v)     Mammalia
+       (1) Author’s name, specific name and generic
+           name                                                       (1) a–(ii), b–(iv), c–(v), d–(iii), e–(i)
+       (2) Specific name, generic name and author's
+                                                                      (2) a–(iii), b–(v), c–(ii), d–(i), e–(iv)
+           name
+                                                                      (3) a–(i), b–(iii), c–(ii), d–(iv), e–(v)
+       (3) Generic name, specific name and author's
+           name                                                       (4) a–(iii), b–(iv), c–(v), d–(ii), e–(i)
+
+       (4) Generic name, author's name and specific
+           name
+                                               Sarvam Career Institute                                                            17
+ Biology                                                                                           The Living World
+                                        Exercise 4 (Previous Year's Questions)
+1.         Nomenclature is governed by certain               4.      Select the correctly written scientific name
+           universal rules. Which one of the following is            of Mango which was first described by
+           contrary to the rules of nomenclature?                    Carolus Linnaeus:               [NEET–2019]
+                                       [NEET-I – 2016]               (1) Mangifera indica
+           (1) Biological names can be written in any                (2) Mangifera Indica
+                                                                     (3) Mangifera indica Car. Linn.
+               language
+                                                                     (4) Mangifera indica Linn.
+           (2) The first word in a biological name
+               represents the genus name and second is       5.      Which of the following is against the rules of
+               specific epithet                                      ICBN?                           [NEET–2020]
+           (3) The names are written in latin and are                (1) Hand written scientific names should be
+                                                                         underlined.
+               italicized
+                                                                     (2) Every species should have a generic
+           (4) When written by hand, the names are to
+                                                                         name and a specific epithet.
+               be underlined
+                                                                     (3) Scientific names are in Latin and should
+2.         Match Column I with Column II for housefly                    be italicized.
+           classification and select the correct option              (4) Generic and specific names should be
+           using the codes given below:                                  written starting with small letters.
+                                          [NEET-I – 2016]    6.      Which one of the following belongs to the
+           Column-I                Column-II                         family muscidae?              [NEET–2021]
+           (a) Family              (i) Dipetera                      (1) Fire fly          (2) Grasshopper
+           (b) Order               (ii) Arthropoda                   (3) Cockroach         (4) House fly
+           (c) Class               (iii) Muscidae            7.      In the taxonomic categories which
+           (d) Phylum              (iv) Insecta                      hierarchical arrangement in ascending order
+           Codes:                                                    is correct in case of animals?
+               (a) (b) (c) (d)                                                                      [NEET–2022]
+           (1) (iii) (ii) (iv) (i)                                   (1) Kingdom  Phylum  Class  Order 
+           (2) (iv) (iii) (ii) (i)                                       Family  Genus  Species
+           (3) (iv) (ii) (i)    (iii)                                (2) Kingdom  Class  Phylum  Family 
+           (4) (iii) (i)   (iv) (ii)                                     Order  Genus  Species
+                                                                     (3) Kingdom  Order  Class  Phylum 
+3.         Study the four statements (A-D) given below
+                                                                         Family  Genus  Species
+           and select the two correct ones out of them:
+                                                                     (4) Kingdom  Order  Phylum  Class 
+                                            [NEET–2019]
+                                                                         Family  Genus  Species
+           (A) Definition of biological species was given
+               by Ernst Mayr                                 8.      'X' and 'Y' are the components of Binomial
+           (B) Photoperiod does not affect reproduction in           nomenclature. This naming system was
+                                                                     proposed by 'Z': [NEET–2023] (MANIPUR)
+               plant
+                                                                     (1) X-Generic name, Y-Specific epithet, Z-
+           (C) Binomial nomenclature system was
+                                                                         Carolus Linnaeus
+               given by R. H. Whittaker
+                                                                     (2) X-Specific epithet, Y-Generic name, Z-
+           (D) In unicellular organisms, reproduction is                 R.H. Whittaker
+               synonymous with growth                                (3) X-Specific epithet, Y-Generic name, Z-
+           The two correct statement are:                                Carolus Linnaeus
+           (1) C and D             (2) A and D                       (4) X-Generic name, Y-Specific epithet, Z-
+           (3) A and B             (4) B and C                           R.H. Whittaker
+18                                              Sarvam Career Institute
+The Living World                                                                                          Biology
+
+                                              ANSWER KEYS
+                                               Exercise 1.1
+Que.   1    2      3   4   5   6     7    8    9      10
+Ans.   4    2      1   3   4   2     4    4    2      2
+
+
+
+
+                                               Exercise 1.2
+Que.   1    2      3   4   5   6     7    8    9      10   11   12   13     14   15   16   17   18   19      20
+Ans.   2    1      2   3   4   1     4    3    3      4     1   4    1      4    1    4    3    1    3        3
+
+
+
+
+                                               Exercise 1.3
+Que.   1    2      3   4   5   6     7         Exercise 1.3
+Ans.   2    3      1   2   4   1     2
+
+
+
+
+                                               Exercise 1.4
+Que.   1    2      3   4   5   6     7    8    9      10   11   12   13     14   15   16   17   18   19      20
+Ans.   2    4      2   3   3   3     1    4    4      1    2    3    3      4    2    1    4    4    3        1
+Que.   21
+Ans.   1
+
+
+
+
+                                                   Exercise 2
+Que.   1    2      3   4   5   6     7    8    9      10   11   12   13     14   15   16   17   18   19      20
+Ans.   2    4      2   3   3   2     1    4    3      2    3    4    3      1    1    1    1    2    4        2
+
+
+
+
+                                                   Exercise 3
+Que.   1    2      3   4   5   6     7    8    9      10   11   12   13     14   15   16   17   18   19
+Ans.   1    1      4   1   1   3     1    4    1       3    2   3    2      1     1    3    1    2    4
+
+
+
+
+                                   Exercise 4 (Previous Year's Questions)
+Que.   1    2      3   4   5   6     7    8
+Ans.   1    4      2   4   4   4     1    1
+
+
+
+
+                                          Sarvam Career Institute                                                   19
+

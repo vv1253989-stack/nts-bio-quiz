@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NTS Biology Quiz</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+  .container { max-width: 700px; margin: 0 auto; }
+  header { text-align: center; color: #fff; margin-bottom: 30px; padding: 20px 0; }
+  header h1 { font-size: 28px; margin-bottom: 8px; }
+  header p { font-size: 14px; opacity: 0.9; }
+  .cards { display: grid; grid-template-columns: 1fr; gap: 15px; }
+  .card { display: block; background: #fff; padding: 22px; border-radius: 14px; text-decoration: none; color: #1a1a2e; box-shadow: 0 6px 20px rgba(0,0,0,0.15); transition: all 0.25s ease; border-left: 5px solid #4f46e5; position: relative; }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.25); }
+  .card::after { content: '→'; position: absolute; right: 22px; top: 50%; transform: translateY(-50%); font-size: 22px; color: #4f46e5; }
+  .card-icon { font-size: 28px; margin-bottom: 8px; }
+  .card-title { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+  .card-meta { font-size: 13px; color: #6b7280; }
+  .card-badge { display: inline-block; background: #eef2ff; color: #4f46e5; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-top: 8px; }
+  footer { text-align: center; color: rgba(255,255,255,0.8); font-size: 12px; margin-top: 40px; padding: 20px 0; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧬 NTS Biology Quiz</h1>
+      <p>Chapter-wise practice questions</p>
+    </header>
+    <div class="cards">
+      <a href="living-world/index.html" class="card">
+        <div class="card-icon">🌱</div>
+        <div class="card-title">The Living World</div>
+        <div class="card-meta">Chapter 1 • 7 Exercises</div>
+        <span class="card-badge">NEET + NTS</span>
+      </a>
+      <a href="biological-classification/index.html" class="card">
+        <div class="card-icon">🔬</div>
+        <div class="card-title">Biological Classification</div>
+        <div class="card-meta">Chapter 2 • 10 Exercises</div>
+        <span class="card-badge">NEET + NTS</span>
+      </a>
+    </div>
+    <footer>Made with ❤️ for NTS students</footer>
+  </div>
+</body>
+</html>
